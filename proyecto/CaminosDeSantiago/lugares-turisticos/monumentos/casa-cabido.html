@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Cabido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
+                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios Recomendados</a></li>
+                <li><a href="../../gastronomia-local/gastronomia.html">Gastronomía Local</a></li>
+                <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+                <li><a href="../../mapas-interactivos/mapas.html">Mapas</a></li>
+                <li><a href="../../consejos-utiles/consejos.html">Consejos Útiles</a></li>
+                <li><a href="../../mis-favoritos.html">Mis Favoritos</a></li>
+                <li><a href="../../extras.html">Extras Interactivos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Imagen Principal -->
+        <section class="imagen-principal">
+            <figure><img src="../../assets/images/lugares-turisticos/monumentos/casa-do-cabido/casa-cabido.png" alt="Casa do Cabido"></figure>
+            <h1>Casa do Cabido</h1>
+            <button class="favorito">&#9825;</button>
+        </section>
+
+        <!-- Información Principal -->
+        <section class="informacion">
+            <div class="descripcion">
+                <h2>Descripción</h2>
+                <p>La Casa do Cabido, ubicada en la Plaza de Platerías, es una de las muestras más refinadas del barroco compostelano. Este edificio, construido en el siglo XVII, fue diseñado con la intención de servir como telón arquitectónico, embelleciendo la plaza y creando un marco visual perfecto para la Fuente de los Caballos y la Catedral de Santiago. Actualmente, la Casa do Cabido funciona como un espacio expositivo y cultural, acogiendo pequeñas muestras temporales que enriquecen la oferta turística del casco histórico.</p>
+            </div>
+            <div class="historia">
+                <h2>Historia</h2>
+                <p>La Casa do Cabido fue construida en 1758 por orden del Cabildo de la Catedral de Santiago. Su propósito principal no era funcional, sino puramente estético: completar la perspectiva visual de la Plaza de Platerías, la única plaza cerrada de la Catedral. Su diseño se atribuye al arquitecto Clemente Fernández Sarela, quien creó una fachada simétrica y decorativa con detalles propios del barroco gallego. Aunque su interior es relativamente pequeño y no se ajusta a la grandeza de su fachada, esto se debe a que la intención era simplemente servir como ornamento arquitectónico. Desde el siglo XVIII, la Casa do Cabido ha sido testigo de la evolución de la plaza, convirtiéndose en parte fundamental de la experiencia turística de Santiago de Compostela.</p>
+            </div>
+            <div class="detalles">
+                <h2>Información</h2>
+                <ul>
+                    <li><strong>Ubicación:</strong> Plaza de Platerías, Santiago de Compostela</li>
+                    <li><strong>Horario:</strong> Lunes a Viernes, 10:00 - 19:00</li>
+                    <li><strong>Precio:</strong> Entrada gratuita</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Carrusel de Fotos y Mapa Interactivo -->
+        <section class="media">
+            <div class="carrusel">
+                <h2>Galería de Fotos</h2>
+                <div class="imagenes">
+                    <figure><img src="../../assets/images/lugares-turisticos/monumentos/casa-do-cabido/casa1.png" alt="Fachada de la Casa do Cabido"></figure>
+                    <!--<figure><img src="../../assets/images/lugares-turisticos/monumentos/casa-do-cabido/casa2.png" alt="Vista desde la plaza"></figure>
+                    <figure><img src="../../assets/images/lugares-turisticos/monumentos/casa-do-cabido/casa3.png" alt="Detalle arquitectónico"></figure>-->
+                </div>
+            </div>
+            <div class="mapa">
+                <h2>Mapa Interactivo</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.908913907969!2d-8.54556768434464!3d42.879912179156105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe4c2200f6a7%3A0x8c0f7b1d8a8e5317!2sCasa%20do%20Cabido!5e0!3m2!1ses!2ses!4v1692891208771!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Comentarios y Sugerencias -->
+    <aside>
+        <section class="sugerencias">
+            <h2>Monumentos Cercanos</h2>
+            <ul>
+                <li><a href="./catedral-de-santiago.html">Catedral de Santiago</a></li>
+                <li><a href="./monasterio-san-martin-pinario.html">Monasterio de San Martín Pinario</a></li>
+            </ul>
+            <h2>Otras Sugerencias</h2>
+            <ul>
+                <li><a href="../museos/museo-catedralicio.html">Museo Catedralicio</a></li>
+                <li><a href="../../gastronomia-local/restaurantes-recomendados/o-gato-negro.html">Restaurante O Gato Negro</a></li>
+            </ul>
+        </section>
+        <section class="comentarios">
+            <h2>Comentarios y Valoraciones</h2>
+            <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                
+                <button type="submit">Enviar comentario</button>
+            </form>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Caminos de Santiago</p>
+        <p><a href="../../about/politica.html">Política de Cookies</a> | <a href="../../about/aviso.html">Aviso Legal</a> | <a href="../../about/contacto.html">Contacto</a></p>
+    </footer>
+</body>
+</html>
+

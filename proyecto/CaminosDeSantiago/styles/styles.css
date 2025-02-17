@@ -1,0 +1,67 @@
+:root {
+    /*///////////////////////////////////////////////////////
+    COLORES
+    ///////////////////////////////////////////////////////*/
+    --russian: #6F9283;
+    --moss: #8D9F87;
+    --beige: #CDC6A5;
+    --piel: #F0DCCA;
+    --gris:#696D7D;
+    --grisclaro:#8B90A4;
+    --fondomain:#FFFAF5;
+
+    /*///////////////////////////////////////////////////////
+    FUENTES
+    ///////////////////////////////////////////////////////*/
+    --48:48px;
+    --32:32px;
+    --24:24px;
+    --16:16px;
+    --12:12px;
+    font-family: "Instrument Sans", serif;
+}
+
+/*///////////////////////////////////////////////////////
+    BODY
+    ///////////////////////////////////////////////////////*/
+body{
+    margin: 0;
+    padding:0;
+    background: var(--fondomain);
+}
+
+main{
+    margin:0;
+    padding: 0 12%;
+}
+
+/*///////////////////////////////////////////////////////
+    HEADER
+    ///////////////////////////////////////////////////////*/
+header{
+    margin: 0;
+    background: var(--russian);
+
+    ul{
+        width: 100%;
+        margin: 0;padding: 0;
+        height: fit-content;
+        display: inline-flex;
+        list-style: none;
+        gap: 0.8%;
+    }
+    a{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        height: 70px;
+        border-radius: 10px;
+        text-decoration: none;
+        color:azure;
+    }
+    a:hover{
+        color:black;
+    }
+}

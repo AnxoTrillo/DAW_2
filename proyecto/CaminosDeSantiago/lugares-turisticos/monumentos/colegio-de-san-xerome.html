@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio de San Xerome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
+                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios Recomendados</a></li>
+                <li><a href="../../gastronomia-local/gastronomia.html">Gastronomía Local</a></li>
+                <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+                <li><a href="../../mapas-interactivos/mapas.html">Mapas</a></li>
+                <li><a href="../../consejos-utiles/consejos.html">Consejos Útiles</a></li>
+                <li><a href="../../mis-favoritos.html">Mis Favoritos</a></li>
+                <li><a href="../../extras.html">Extras Interactivos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Imagen Principal -->
+        <section class="imagen-principal">
+            <figure><img src="../../assets/images/lugares-turisticos/monumentos/colegio-de-san-xerome/colegio-san-xerome.png" alt="Colegio de San Xerome"></figure>
+            <h1>Colegio de San Xerome</h1>
+            <button class="favorito">&#9825;</button>
+        </section>
+
+        <!-- Información Principal -->
+        <section class="informacion">
+            <div class="descripcion">
+                <h2>Descripción</h2>
+                <p>El Colegio de San Xerome es un edificio emblemático situado en la Praza do Obradoiro de Santiago de Compostela. Actualmente alberga el Rectorado de la Universidad de Santiago de Compostela, pero originalmente fue fundado en el siglo XV como colegio para estudiantes pobres. Su arquitectura, de estilo gótico tardío, destaca por su portada decorada con elementos escultóricos únicos.</p>
+            </div>
+            <div class="historia">
+                <h2>Historia</h2>
+                <p>El Colegio de San Xerome fue fundado en 1501 gracias al arzobispo Alonso III de Fonseca. Inicialmente estuvo ubicado en otro edificio, pero posteriormente se trasladó a su ubicación actual en la Praza do Obradoiro. Su portada gótica, trasladada del antiguo hospital de peregrinos, es uno de los elementos más destacados, con figuras que representan escenas religiosas y personajes históricos. El edificio ha sido testigo del desarrollo de la Universidad de Santiago de Compostela y sigue siendo un símbolo de su historia y tradición académica.</p>
+            </div>
+            <div class="detalles">
+                <h2>Información</h2>
+                <ul>
+                    <li><strong>Ubicación:</strong> Praza do Obradoiro, Santiago de Compostela</li>
+                    <li><strong>Horario:</strong> Exterior accesible 24/7. Interior: según eventos universitarios.</li>
+                    <li><strong>Precio:</strong> Acceso gratuito</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Carrusel de Fotos y Mapa Interactivo -->
+        <section class="media">
+            <div class="carrusel">
+                <h2>Galería de Fotos</h2>
+                <div class="imagenes">
+                    <figure><img src="../../assets/images/lugares-turisticos/monumentos/colegio-de-san-xerome/xerome1.png" alt="Portada del Colegio de San Xerome"></figure>
+                    <!--<figure><img src="../../assets/images/lugares-turisticos/monumentos/colegio-de-san-xerome/xerome2.png" alt="Vista lateral del edificio"></figure>
+                    <figure><img src="../../assets/images/lugares-turisticos/monumentos/colegio-de-san-xerome/xerome3.png" alt="Detalle de la decoración gótica"></figure>-->
+                </div>
+            </div>
+            <div class="mapa">
+                <h2>Mapa Interactivo</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9123673507664!2d-8.545689!3d42.880671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe4c1eb31b55%3A0xa112abcfe5f0e41f!2sColegio%20de%20San%20Xerome!5e0!3m2!1ses!2ses!4v1692891208771!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Comentarios y Sugerencias -->
+    <aside>
+        <section class="sugerencias">
+            <h2>Monumentos Cercanos</h2>
+            <ul>
+                <li><a href="./catedral-de-santiago.html">Catedral de Santiago de Compostela</a></li>
+                <li><a href="./hostal-reyes-catolicos.html">Hostal de los Reyes Católicos</a></li>
+            </ul>
+            <h2>Otras Sugerencias</h2>
+            <ul>
+                <li><a href="../museos/museo-do-pobo-galego.html">Museo do Pobo Galego</a></li>
+                <li><a href="../../gastronomia-local/restaurantes-recomendados/o-gato-negro.html">Restaurante O Gato Negro</a></li>
+            </ul>
+        </section>
+        <section class="comentarios">
+            <h2>Comentarios y Valoraciones</h2>
+            <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                
+                <button type="submit">Enviar comentario</button>
+            </form>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Caminos de Santiago</p>
+        <p><a href="../../about/politica.html">Política de Cookies</a> | <a href="../../about/aviso.html">Aviso Legal</a> | <a href="../../about/contacto.html">Contacto</a></p>
+    </footer>
+</body>
+</html>
