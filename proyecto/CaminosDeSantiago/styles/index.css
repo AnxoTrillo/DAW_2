@@ -3,11 +3,26 @@
     text-align: center;
 }
 
+figure{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    img{
+        margin: 0;
+        padding: 0;
+        max-height: 10vw;
+        overflow-x: hidden;
+        width: 100vw;
+    }
+}
+
+
 .index-botoneras {
     background: var(--piel);
     border-radius: 10px;
     padding: 1% 5%;
-    margin: 1% 0;
+    margin: 1% 12%;
     height: 180px;
 
     ul{
@@ -31,15 +46,17 @@
         border-radius: 10px;
         transition: transform 0.3s ease;
     }
-    .plusbutton *, .plusbutton{
+    .plusbutton{
         background: #BCC2DB;
         color: black;
-        a{
-            background: #BCC2DB;
-        }
+
     }
-    li:hover,a:hover{
+    li:hover{
         background: var(--grisclaro);
+        a{
+            color:black;
+            font-weight: bold;
+        }
     }
 
     a{

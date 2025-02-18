@@ -18,7 +18,37 @@
     --24:24px;
     --16:16px;
     --12:12px;
-    font-family: "Instrument Sans", serif;
+    font-family: "Instrument Sans", sans-serif;
+
+    --paddings:12%
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.titulo-principal{
+    text-align:center;
+    p{
+        text-align: center;
+    }
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h1{
+    font-size: clamp(12px, 3vw, 48px);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+a{
+    font-size: 16px;
+}
+
+section{
+    padding: 0 var(--paddings);
 }
 
 /*///////////////////////////////////////////////////////
@@ -32,7 +62,13 @@ body{
 
 main{
     margin:0;
-    padding: 0 12%;
+    padding: 0;
+}
+
+figure{
+    img{
+        max-height: 300px;
+    }
 }
 
 /*///////////////////////////////////////////////////////
