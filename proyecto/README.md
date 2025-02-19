@@ -7,4 +7,5 @@
 * Cambiar los footer -> cambiar anexo html lo que haya del footer y actualizarlo a los cotnenidos (es poner la misma frase al final de cada uno) -> cambiar también mapa de navegación
 * Hacer los mapas de etiquetas del anexo de los que ya estén hechos los HTML
 * Añadir restaurantes Bodega Santiago, y Bistronimo (añadirlos también a la página de restaurantes)
+* Página FAQ
 
