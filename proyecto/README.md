@@ -2,13 +2,10 @@
 * Poner bien los mapas de todas las páginas de los lugares/restaurantes (que aparezca el cosito del maps indicando el nombre exacto)
   * Monumentos
   * Museos
-  * restaurantes recomendados
-* Añadir más texto en los platos típicos
-* Poner texto en las sugerencias de espacios culturales, naturales, monumentos y museos
+  * Restaurantes recomendados
+  * Itinerarios???????? (no sé si esto luego lo podremos hacer con js mejor)
 * Cambiar los footer
 * Hacer los mapas de etiquetas del anexo de los que ya estén hechos los HTML
-* Ver que lo del botón de favoritos esté en todo (lugares, gastronomía, itinerarios, eventos, …)
-* Wireframe y manual itinerario añadir comentarios al final
-* Añadir restaurantes y borrar varios que no se utilicen en los itinerarios que no sean tan importantess
-
+* Interfaz manual itinerario y monumento (hacerlo según el wireframe que ya lo actualicé)
+* Añadir restaurantes Bodega Santiago, y Bistronimo (añadirlos también a la página de restaurantes)
 
