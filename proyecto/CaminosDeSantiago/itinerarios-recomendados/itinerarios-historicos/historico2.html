@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta de los Conventos Históricos</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares Turísticos</a></li>
+          <li><a href="../itinerarios.html">Itinerarios Recomendados</a></li>
+          <li><a href="../../gastronomia-local/gastronomia.html">Gastronomía Local</a></li>
+          <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+          <li><a href="../../mapas-interactivos/mapas.html">Mapas</a></li>
+          <li><a href="../../consejos-utiles/consejos.html">Consejos Útiles</a></li>
+          <li><a href="../../mis-favoritos/favoritos.html">Mis Favoritos</a></li>
+          <li><a href="../../extras/extras.html">Extras Interactivos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección: Imagen Destacada y Encabezado del Itinerario -->
+      <section class="itinerario-destacado">
+        <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/conventos/convento1/principal.png" alt="Ruta de los Conventos Históricos"></figure>
+        <h1>Itinerario Histórico: Ruta de los Conventos Históricos</h1>
+        <button class="favorito">&#9825;</button>
+      </section>
+
+      <!-- Sección: Descripción del Itinerario -->
+      <section class="descripcion-itinerario">
+        <p>Explora la historia religiosa de Santiago de Compostela a través de algunos de sus conventos más importantes. Este itinerario te permitirá conocer espacios de gran valor arquitectónico y cultural, todos ellos testigos de siglos de historia monástica. El recorrido incluye conventos situados en el casco antiguo y alrededores de la ciudad, con opciones de transporte público entre algunos de ellos.</p>
+      </section>
+
+      <!-- Sección: Información del Itinerario -->
+      <section class="info-itinerario">
+        <p><strong>Duración:</strong> 4 horas</p>
+        <p><strong>Dificultad:</strong> <span class="estrellas">⭐⭐⭐⭐</span> Recorrido mixto, incluye caminatas por el casco antiguo y trayectos en autobús entre algunas paradas. Se recomienda llevar calzado cómodo para caminar sobre calles empedradas y utilizar transporte público entre las distancias más largas.</p>
+        <h3>Puntos Clave del Itinerario:</h3>
+        <ul>
+          <li>Comienza el recorrido en el <a href="../../lugares-turisticos/conventos/convento-as-orfas.html" title="Ver entrada del Convento de As Orfas">Convento de As Orfas</a>.</li>
+          <li>La segunda parada es el <a href="../../lugares-turisticos/conventos/convento-belvis.html" title="Ver entrada del Convento de Belvís">Convento de Belvís</a>.</li>
+          <li>Vista al <a href="../../lugares-turisticos/conventos/convento-san-francisco.html" title="Ver entrada del Convento de San Francisco">Convento de San Francisco</a>.</li>
+          <li>Última parada en el Convento de San Pedro.</li>
+        </ul>
+      </section>
+
+      <section class="mapa-interactivo">
+        <h3>Mapa Interactivo</h3>
+        <iframe src="https://maps.google.com/maps?q=Ruta%20de%20los%20Conventos%20Santiago&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="300" allowfullscreen></iframe>
+      </section>
+
+      <section class="recomendaciones-itinerario">
+        <h3>Recomendaciones:</h3>
+        <p>Este itinerario incluye tanto caminatas por el casco antiguo como trayectos en autobús entre algunas paradas. Se recomienda el uso de calzado cómodo debido a las calles empedradas. Entre el Convento de Belvís y el Convento de San Francisco, y luego hacia el Convento de San Pedro, puedes tomar el autobús para hacer el recorrido más cómodo. Asegúrate de consultar los horarios de los autobuses de la línea número 5, que conecta varias de las paradas de este itinerario.</p>
+      </section>
+
+      <section class="galeria">
+        <h3>Galería de Imágenes:</h3>
+        <div class="imagenes">
+          <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/conventos/convento1/galeria1.png" alt="Convento de As Orfas"></figure>
+          <!--<figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/conventos/convento1/galeria2.png" alt="Convento de Belvís"></figure>
+          <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/conventos/convento1/galeria3.png" alt="Convento de San Francisco"></figure>
+          <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/conventos/convento1/galeria4.png" alt="Convento de San Pedro"></figure>-->
+        </div>
+      </section>
+    </main>
+
+    <!-- Aside: Comentarios y Valoraciones -->
+    <aside>
+      <section class="comentarios">
+        <h2>Comentarios y Valoraciones</h2>
+        <p>Déjanos tu opinión sobre este itinerario:</p>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required>
+          
+          <label for="comentario">Comentario:</label>
+          <textarea id="comentario" rows="4" required></textarea>
+          
+          <label for="valoracion">Valoración:</label>
+          <select id="valoracion">
+            <option>⭐</option>
+            <option>⭐⭐</option>
+            <option>⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐⭐</option>
+          </select>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Caminos de Santiago</p>
+      <p>
+        <a href="../../about/politica.html">Política de Cookies</a> | 
+        <a href="../../about/aviso.html">Aviso Legal</a> | 
+        <a href="../../about/contacto.html">Contacto</a>
+      </p>
+    </footer>
+  </body>
+</html>

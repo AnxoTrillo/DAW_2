@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta Monumental por el Casco Antiguo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares Turísticos</a></li>
+          <li><a href="../itinerarios.html">Itinerarios Recomendados</a></li>
+          <li><a href="../../gastronomia-local/gastronomia.html">Gastronomía Local</a></li>
+          <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+          <li><a href="../../mapas-interactivos/mapas.html">Mapas</a></li>
+          <li><a href="../../consejos-utiles/consejos.html">Consejos Útiles</a></li>
+          <li><a href="../../mis-favoritos/favoritos.html">Mis Favoritos</a></li>
+          <li><a href="../../extras/extras.html">Extras Interactivos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección: Imagen Destacada y Encabezado del Itinerario -->
+      <section class="itinerario-destacado">
+        <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/historico1/principal.png" alt="Ruta Monumental por el Casco Antiguo"></figure>
+        <h1>Itinerario Histórico: Ruta Monumental por el Casco Antiguo</h1>
+        <button class="favorito">&#9825;</button>
+      </section>
+
+      <!-- Sección: Descripción del Itinerario -->
+      <section class="descripcion-itinerario">
+        <p>Explora la historia de Santiago de Compostela a través de sus monumentos más emblemáticos. En este itinerario recorrerás las calles empedradas del casco antiguo, descubriendo la arquitectura medieval y los secretos que encierran sus edificios históricos. Desde la majestuosa Catedral hasta los antiguos monasterios y plazas llenas de historia, sumérgete en un viaje al pasado que te transportará a la época del auge del Camino de Santiago.</p>
+      </section>
+
+      <!-- Sección: Información del Itinerario -->
+      <section class="info-itinerario">
+        <p><strong>Duración:</strong> 3 horas</p>
+        <p><strong>Dificultad:</strong> <span class="estrellas">⭐⭐</span> Recorrido a pie por calles empedradas y ligeras pendientes.</p>
+        <h3>Puntos Clave del Itinerario:</h3>
+        <ul>
+          <li><a href="../../lugares-turisticos/monumentos/catedral-de-santiago.html" title="Ver entrada de la Catedral">Visita a la Catedral de Santiago</a>, el corazón del peregrinaje.</li>
+          <li><a href="../../lugares-turisticos/espacios-culturales/plaza-del-obradoiro.html" title="Ver entrada de la Plaza del Obradoiro">Recorrido por la Plaza del Obradoiro</a>, rodeada de impresionantes edificios históricos.</li>
+          <li><a href="../../lugares-turisticos/monumentos/monasterio-san-martin-pinario.html" title="Ver entrada del Monasterio de San Martín Pinario">Exploración del Monasterio de San Martín Pinario</a>, un tesoro barroco.</li>
+          <li>Paseo por la Ruta Medieval, descubriendo la historia del Camino de Santiago.</li>
+        </ul>
+      </section>
+
+      <section class="mapa-interactivo">
+        <h3>Mapa Interactivo</h3>
+        <iframe src="https://maps.google.com/maps?q=Itinerario%20Monumental%20Santiago&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="300" allowfullscreen></iframe>
+      </section>
+
+      <section class="recomendaciones-itinerario">
+        <h3>Recomendaciones:</h3>
+        <p>Se recomienda llevar calzado cómodo debido a las calles empedradas. También es aconsejable visitar los monumentos temprano para evitar aglomeraciones y disfrutar de una experiencia más tranquila. No olvides tu cámara para capturar la impresionante arquitectura de la ciudad.</p>
+      </section>
+
+      <section class="galeria">
+        <h3>Galería de Imágenes:</h3>
+        <div class="imagenes">
+          <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/historico1/galeria1.png" alt="Catedral de Santiago"></figure>
+          <!--<figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/historico1/galeria2.png" alt="Plaza del Obradoiro"></figure>
+          <figure><img src="../../assets/images/itinerarios-recomendados/itinerarios-historicos/historico1/galeria3.png" alt="Monasterio de San Martín Pinario"></figure>-->
+        </div>
+      </section>
+    </main>
+
+    <!-- Aside: Comentarios y Valoraciones -->
+    <aside>
+      <section class="comentarios">
+        <h2>Comentarios y Valoraciones</h2>
+        <p>Déjanos tu opinión sobre este itinerario:</p>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required>
+          
+          <label for="comentario">Comentario:</label>
+          <textarea id="comentario" rows="4" required></textarea>
+          
+          <label for="valoracion">Valoración:</label>
+          <select id="valoracion">
+            <option>⭐</option>
+            <option>⭐⭐</option>
+            <option>⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐⭐</option>
+          </select>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Caminos de Santiago</p>
+      <p>
+        <a href="../../about/politica.html">Política de Cookies</a> | 
+        <a href="../../about/aviso.html">Aviso Legal</a> | 
+        <a href="../../about/contacto.html">Contacto</a>
+      </p>
+    </footer>
+  </body>
+</html>
