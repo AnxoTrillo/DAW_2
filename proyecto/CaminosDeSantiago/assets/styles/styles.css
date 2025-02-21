@@ -114,7 +114,7 @@ footer{
     position: relative;
 
 
-    background: black url('../assets/images/general/catedralpng.svg') no-repeat 20% bottom;
+    background: black url('../../assets/images/general/catedralpng.svg') no-repeat 20% bottom;
     background-size: 7em;
     nav{
         padding-left: clamp(1vw,11%,50vw);
