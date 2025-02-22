@@ -9,5 +9,6 @@
 * Añadir restaurantes Bodega Santiago, y Bistronimo (añadirlos también a la página de restaurantes)
 * Página FAQ
 * En Extras que los botones no sean de tipo button (creo que Tahoces dijo algo de que no hacía falta o de que no le gustaban)
-*Que About en el footer no sea un enlace ? o sino crear una página about con enlaces a las diferentes secciones, aunque no lo veo necesario
+* Que About en el footer no sea un enlace ? o sino crear una página about con enlaces a las diferentes secciones, aunque no lo veo
+* Añadir festival / festividad interfaces eventos y en festival (menos mockup) añadir carrusel
 
