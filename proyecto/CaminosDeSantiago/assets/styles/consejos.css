@@ -1,0 +1,41 @@
+.consejos{
+    margin: 0;
+    padding: 0 5vw;
+}
+
+.tarjeta{
+    background: lightgray;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: relative;
+
+    article{
+        padding: 0;
+        margin: 0;
+        figure{
+            position: relative;
+            padding: 0 4vw;
+            margin: 0;
+            width: 20%;
+            height: 70%;
+            img{width: 100%;height: 100%;}
+        }
+        p{
+            margin-left: auto;
+        }
+    }
+    h2{
+        padding: 20px 6vw;
+        margin: 0;
+        width: 100%;
+        background: var(--moss);
+    }
+    a{
+        position: absolute;
+        top:0;
+        left: 0;
+        margin-right: auto;
+    }
+
+}
