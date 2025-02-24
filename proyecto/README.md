@@ -10,4 +10,5 @@
 * Página FAQ
 * En Extras que los botones no sean de tipo button (creo que Tahoces dijo algo de que no hacía falta o de que no le gustaban)
 * Añadir festival / festividad interfaces eventos y en festival (menos mockup) añadir carrusel
+* Acabar HTML eventos y actividades
 
