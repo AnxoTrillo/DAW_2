@@ -6,7 +6,7 @@
     --moss: #8D9F87;
     --beige: #CDC6A5;
     --piel: #F0DCCA;
-    --gris:#696D7D;
+    --gris: #696D7D;
     --grisclaro:#8B90A4;
     --fondomain:#FFFAF5;
 
@@ -33,12 +33,12 @@ p{
     }
 }
 h2{
-    font-size: 30px;
+    font-size: clamp(20px, 2vw, 30px);
     margin-bottom: 0;
     padding-bottom: 0;
 }
 h1{
-    font-size: clamp(12px, 3vw, 48px);
+    font-size: clamp(var(--24), 3vw, 40px);
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
@@ -76,12 +76,13 @@ figure{
     ///////////////////////////////////////////////////////*/
 header{
     position: fixed;
+    z-index: 1000;
     width: 100%;
     margin: 0;
     background: var(--russian);
     padding-left: 5vw;
     padding-right: 5vw;
-
+    border-bottom: solid 3px black;
     a{
         width: 100%;
         justify-content: center;
@@ -107,13 +108,27 @@ header{
             padding: 0 30px;
             background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
             background-size: 3.5em;
-            a{
-                color:var(--piel);
-                font-size: var(--24);
+            p:first-child{
+                color:black;
+                font-size: 28px;
                 font-weight: bold;
+                font-family: Consolas, serif;
+            }
+            p:last-child{
+                color:var(--piel);
+                font-size: 30px;
+                font-weight: bold;
+                font-family: "Brush Script MT", cursive;
+                font-style: italic;
             }
             a:hover{
-                color:black;
+                p:first-child{
+                    color:var(--piel);
+                }
+                p:last-child{
+                    color:goldenrod;
+                }
+
             }
         }
     }
@@ -134,6 +149,19 @@ footer{
     padding-top: 30px;
     position: relative;
 
+    p:first-child{
+        color:var(--piel);
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Consolas, serif;
+    }
+    p:nth-child(2){
+        color:var(--piel);
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Brush Script MT", cursive;
+        font-style: italic;
+    }
 
     background: black url('../../assets/images/general/catedralpng.svg') no-repeat 20% bottom;
     background-size: 7em;
