@@ -75,17 +75,13 @@ figure{
     HEADER
     ///////////////////////////////////////////////////////*/
 header{
+    position: fixed;
+    width: 100%;
     margin: 0;
     background: var(--russian);
+    padding-left: 5vw;
+    padding-right: 5vw;
 
-    ul{
-        width: 100%;
-        margin: 0;padding: 0;
-        height: fit-content;
-        display: inline-flex;
-        list-style: none;
-        gap: 0.8%;
-    }
     a{
         width: 100%;
         justify-content: center;
@@ -97,9 +93,34 @@ header{
         text-decoration: none;
         color:azure;
     }
+    ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        display: inline-flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap:clamp(0.2%,3vw,10%); /*min,bound,max*/
+        li:first-child{
+            margin-right: auto;
+            padding: 0 30px;
+            background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
+            background-size: 3.5em;
+            a{
+                color:var(--piel);
+                font-size: var(--24);
+                font-weight: bold;
+            }
+            a:hover{
+                color:black;
+            }
+        }
+    }
     a:hover{
         color:black;
     }
+
 }
 
 footer{
