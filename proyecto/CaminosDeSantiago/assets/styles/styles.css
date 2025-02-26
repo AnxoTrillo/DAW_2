@@ -27,6 +27,7 @@ p{
     text-align: justify;
 }
 .titulo-principal{
+    padding: 60px 0 0;
     text-align:center;
     p{
         text-align: center;
