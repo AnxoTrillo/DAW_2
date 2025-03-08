@@ -1,0 +1,130 @@
+.bloque {
+    background: #CCC8C4;
+    margin: 0 var(--paddings);
+    border-radius: var(--radius);
+    padding: 0;
+    border: solid black 1px;
+
+
+    nav:not(.tarjetas-favoritos nav) {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background: var(--moss);
+        display: flex;
+        justify-content: center;
+        border-radius: var(--radius) var(--radius) 0 0;
+
+        ul {
+            padding: 0;
+            width: 70%;
+            height: fit-content;
+            display: inline-flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        li {
+            margin: 0;
+            border: solid black 2px;
+            background: var(--piel);
+            width: 20%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            height: 70px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        li:hover {
+            background: var(--beige);
+
+            p {
+                font-weight: bold;
+            }
+        }
+
+    }
+
+
+    .tarjetas-favoritos{
+
+        margin: 30px 15%;
+        padding: 0;
+        width: 70%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        article{
+            position: relative;
+            box-sizing: border-box;
+            border-radius: var(--radius);
+            background: beige;
+            margin: 2% 0;
+            padding: 2.5%;
+            width: clamp(200px,30%,30%);
+            height: 400px;
+            color:azure;
+            box-shadow: 0 5px 10px #696D7D;
+
+            figure{
+                padding: 0;
+                margin: 0;
+                img:not(nav img){
+                    padding: 0;
+                    margin: 0;
+                    border-radius: var(--radius);
+                    width: 100%;
+                    height: 150px;
+                }
+            }
+
+            h3{
+                margin: 10px 0;
+                padding: 0;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                font-size: var(--16);
+            }
+
+            .iconos{
+                position: absolute;
+                bottom: 30px;
+                height: max-content;
+                width: 85%;
+                display: flex;
+                justify-content: space-between;
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                    filter: blur(10%);
+                }
+                img:hover{
+                    filter: brightness(50%);
+                }
+            }
+
+        }
+        .un-local{
+            background:#E6D585;
+        }
+        .un-lugar{
+            background:var(--beige);
+        }
+        .un-plato{
+            background:#A59D79;
+        }
+        .un-evento{
+            background:#6D5130;
+        }
+
+    }
+
+
+}

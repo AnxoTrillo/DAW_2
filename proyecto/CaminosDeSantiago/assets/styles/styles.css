@@ -20,7 +20,8 @@
     --12:12px;
     font-family: "Instrument Sans", sans-serif;
 
-    --paddings:12%
+    --paddings:12%;
+    --radius:10px;
 }
 p{
     font-size: 20px;
@@ -78,7 +79,7 @@ figure{
 header{
     position: fixed;
     z-index: 1000;
-    width: 100%;
+    width: 90%;
     margin: 0;
     background: var(--russian);
     padding-left: 5vw;

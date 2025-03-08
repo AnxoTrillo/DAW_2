@@ -21,7 +21,7 @@ figure{
 
 .index-botoneras {
     background: var(--piel);
-    border-radius: 10px;
+    border-radius: var(--radius);
     padding: 1% 5%;
     margin: 1% 12%;
     height: 180px;
@@ -50,6 +50,19 @@ figure{
     .plusbutton{
         background: #BCC2DB;
         color: black;
+        padding: 0;
+        a{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        img{
+            padding: 0;
+            margin: 0;
+            height: 70px;
+            width: 70px;
+        }
 
     }
     li:hover{

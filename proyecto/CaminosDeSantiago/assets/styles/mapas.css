@@ -1,0 +1,29 @@
+.mapa-interactivo{
+    h2{
+        text-align: center;
+        color: azure;
+        padding: 10px 0;
+    }
+    background: #526C61;
+    margin: 0 var(--paddings);
+    padding:0 30px 30px 30px;
+    border-radius: var(--radius);
+}
+
+iframe{
+    border-radius: var(--radius);
+
+}
+
+.descarga-mapas{
+    background: #BCC2DB;
+    margin: 0 var(--paddings);
+    border-radius: var(--radius);
+    padding: 0 30px 30px 30px;
+    h2{
+        padding-top: 30px;
+    }
+    a:hover{
+        color: darkblue;
+    }
+}
