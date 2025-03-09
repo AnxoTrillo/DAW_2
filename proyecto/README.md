@@ -9,7 +9,7 @@
     *       Favoritos
     Un-Lugar turistico/expo
     Un-itinerario
-    Gastronomia local/Itinerarios recomendados/Lugares Turisticos/Eventos
+    *       Gastronomia local/Itinerarios recomendados/event/lugares
     espacios-culturales/naturales/monumento/museo
     Un-espacio...
     Platos
@@ -25,6 +25,9 @@
     Consejos
     About
     Faq
+
+
+* Poner el import styles de styles.css en los css secundarios en vez de en todos los html
     
 
     
