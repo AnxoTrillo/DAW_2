@@ -20,6 +20,7 @@ figure{
 
 
 .index-botoneras {
+    box-shadow: 0 5px 10px #696D7D;
     background: var(--piel);
     border-radius: var(--radius);
     padding: 1% 5%;
@@ -52,6 +53,8 @@ figure{
         color: black;
         padding: 0;
         a{
+            display: flex;
+            align-items: center;
             padding: 0;
             margin: 0;
             height: 100%;
@@ -60,8 +63,8 @@ figure{
         img{
             padding: 0;
             margin: 0;
-            height: 70px;
-            width: 70px;
+            height: 50px;
+            width: 50px;
         }
 
     }
@@ -70,6 +73,9 @@ figure{
         a{
             color:black;
             font-weight: bold;
+        }
+        img{
+            filter:brightness(10%);
         }
     }
 
