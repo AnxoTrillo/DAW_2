@@ -4,12 +4,13 @@
     ///////////////////////////////////////////////////////*/
     --russian: #6F9283;
     --moss: #8D9F87;
-    --beige: #CDC6A5;
+    --beige: #a59f80;
     --piel: #F0DCCA;
     --gris: #696D7D;
     --grisclaro:#8B90A4;
     --fondomain:#FFFAF5;
 
+    --sombra: 0 5px 10px #696D7D;
     /*///////////////////////////////////////////////////////
     FUENTES
     ///////////////////////////////////////////////////////*/
@@ -26,6 +27,10 @@
 p{
     font-size: 20px;
     text-align: justify;
+}
+pre{
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
 }
 .titulo-principal{
     padding: 60px 0 0;
