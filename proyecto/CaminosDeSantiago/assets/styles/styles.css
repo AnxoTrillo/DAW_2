@@ -27,6 +27,10 @@ p{
     font-size: 20px;
     text-align: justify;
 }
+pre{
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
+}
 .titulo-principal{
     padding: 60px 0 0;
     text-align:center;

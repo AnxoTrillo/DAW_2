@@ -1,0 +1,68 @@
+.banner{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    figure{
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        filter: brightness(70%);
+    }
+    h1{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        color: azure;
+    }
+    button{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 100%;
+        bottom: 25px;
+        right: 5%;
+        font-size: 24px;
+        background: rgba(200,200,200,80%);
+    }
+}
+
+    .descripcion{
+        text-align: center;
+    }
+
+    .horarios{
+        padding: 0;
+        float: right;
+        margin: 0 var(--paddings);
+        background: var(--beige);
+        width: 50%;
+        height: 100%;
+    }
+    .ubicacion{
+
+        padding: 0;
+
+        background: red;
+        margin: 0 var(--paddings);
+        width: 25%;
+        height: 100%;
+        h2{
+            width: 100%;
+        }
+        iframe{
+            position: relative;
+            width: 90%;
+        }
+    }
+
+
