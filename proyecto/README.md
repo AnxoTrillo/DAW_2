@@ -23,9 +23,8 @@
     About (privacidad, cookies, aviso legal, faq)
 
 
-* Poner el import styles de styles.css en los css secundarios en vez de en todos los html
 * poner normas para ocultar el </p/> cuando se achate la pantalla
-* el puto problema de los cojones de mierda de la longitud de las tarjetas en las pestañas de eventlike.css
+* más tags en el head de descripción, autor, etc.
     
     
     
