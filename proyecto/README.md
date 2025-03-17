@@ -1,6 +1,4 @@
 # proyectoDAW1
-* Hacer los mapas de etiquetas del anexo HTML
-
 ??? Mapas de itinerarios??? JavaScript?
 
 ## CSS:
