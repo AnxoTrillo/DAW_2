@@ -1,0 +1,61 @@
+@import url("./styles.css");
+
+.titulo-principal {
+    figure, img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        filter: brightness(60%);
+        height: 200px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        bottom: 64%;
+    }
+
+    p {
+        font-weight: bold;
+    }
+}
+
+.link-compra {
+    width: 100%;
+    margin: 60px 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    a {
+        background: var(--gris);
+        width: 100%;
+        padding: 30px 60px;
+        border-radius: var(--radius);
+        box-shadow: var(--sombra);
+        color: azure;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    a:hover {
+        background: var(--grisclaro);
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.mapa-interactivo{
+    box-sizing: border-box;
+    width: 100%;
+    iframe{
+        box-shadow: var(--sombra);
+        border-radius: var(--radius);
+        padding: 0;
+        width: 100%;
+    }
+}
