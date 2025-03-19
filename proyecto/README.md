@@ -18,7 +18,7 @@
 * poner normas para ocultar el </p/> cuando se achate la pantalla
 * más tags en el head de descripción, autor, etc.
 * quitar muchas páginas e ir añadiendo imágenes para las que ya tenemos hechas (para que no se nos olvide)
-* FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> memoria
+* FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> está hecho solo hay que añadirlo a la memoria
 * Quitar restaurantes -> cuidado en platos "dónde probarlo"
 * Quitar monumentos -> cuidado en itinerarios
     
