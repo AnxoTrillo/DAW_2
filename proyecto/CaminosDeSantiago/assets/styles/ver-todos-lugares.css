@@ -54,8 +54,7 @@
     }
 }
 
-aside{
-    margin: 0 var(--paddings);
+.mas-info{
     display: flex;
     justify-content: space-between;
     .mapa-interactivo{
@@ -96,7 +95,8 @@ aside{
             a{
                 display: flex;
                 align-items: center;
-               justify-content: center;
+                justify-content: center;
+                text-align: center;
                 height: 100%;
                 width: 100%;
                 font-size: 20px;
@@ -115,6 +115,5 @@ aside{
             padding: 0 60px;
         }
     }
-
 }
 

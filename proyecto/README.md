@@ -2,29 +2,25 @@
 ??? Mapas de itinerarios??? JavaScript?
 
 ## CSS:
-    *       Index
-    *       Mapas
-    *       Favoritos
-    Un-Lugar turistico <- carrusel con bootstrap
+    Un-Lugar turistico 
     Un-itinerario
-    *       Gastronomia local/Itinerarios recomendados/event/lugares
-    *       espacios-culturales/naturales/monumento/museo/ *****ITINERARIOS TIPO (nos falta)  ---REVISAR: QUITAMOS EL ASIDE
-    Platos
+    Platos <- carrusel de tarjetas con bootstrap
     Restaurantes
     Un-plato
     restaurante
-    *       Extras
-    Festividades/exposiciones/conciertos/festivales
-    *	    Un-festival ------ QUITAR H2 SOBRE E INFO PRÁCTICA en el resto
+    Festividades/exposiciones/conciertos/festivales <- carrusel de tarjetas con bootstrap
     Una-festividad
     Un-concierto
     Una-expo
-    Consejos <- MULTICOL
     About (privacidad, cookies, aviso legal, faq)
-
+    
 
 * poner normas para ocultar el </p/> cuando se achate la pantalla
 * más tags en el head de descripción, autor, etc.
+* quitar muchas páginas e ir añadiendo imágenes para las que ya tenemos hechas (para que no se nos olvide)
+* FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> memoria
+* Quitar restaurantes -> cuidado en platos "dónde probarlo"
+* Quitar monumentos -> cuidado en itinerarios
     
     
     
