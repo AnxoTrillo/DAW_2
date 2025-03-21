@@ -21,6 +21,7 @@
 * FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> está hecho solo hay que añadirlo a la memoria
 * Quitar restaurantes -> cuidado en platos "dónde probarlo"
 * Quitar monumentos -> cuidado en itinerarios
+* Platos poner bien banner y todo eso
     
     
     
