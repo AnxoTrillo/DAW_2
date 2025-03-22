@@ -21,6 +21,7 @@
 * FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> está hecho solo hay que añadirlo a la memoria
 * Quitar monumentos -> cuidado en itinerarios
 * Grid -> un plato?
+* Arreglar en la pagina de consejos cuando se espachurre la pantalla al maximo (me parece que con ponerle una norma de "para x ancho" al salto de linea post foto se arregla)
     
     
     

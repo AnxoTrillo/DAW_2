@@ -58,16 +58,18 @@
     display: flex;
     justify-content: space-between;
     .mapa-interactivo{
+        box-sizing: border-box;
         box-shadow: 0 5px 10px #696D7D;
         border-radius: var(--radius);
-        padding: 0;
         width: 50%;
         margin: 0;
         background: var(--moss);
+        padding: 20px;
         iframe{
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
             border-radius: var(--radius);
-            width: 94%;
-            margin: 20px;
         }
     }
     .suggestions, .consejo{
@@ -112,7 +114,23 @@
             }
         }
         p{
-            padding: 0 60px;
+            max-height: 500px;
+            overflow: auto;
+            overflow-x: hidden;
+            margin: 0 10px;
+            background: red;
+        }
+        p::-webkit-scrollbar {
+            padding: 1px;
+            width: 10px;
+        }
+        p::-webkit-scrollbar-track {
+            background: #595959;
+            border-radius: 10px;
+        }
+        p::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
         }
     }
 }

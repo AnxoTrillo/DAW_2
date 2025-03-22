@@ -24,6 +24,7 @@
     --paddings:12%;
     --radius:10px;
 }
+
 p{
     font-size: 20px;
     text-align: justify;
@@ -58,6 +59,16 @@ section{
     padding: 0 var(--paddings);
 }
 
+@media (max-width: 1000px){
+    p{
+        font-size: 16px;
+    }
+    pre{
+        font-size: 16px;
+    }
+}
+
+
 /*///////////////////////////////////////////////////////
     BODY
     ///////////////////////////////////////////////////////*/
@@ -81,69 +92,225 @@ figure{
 /*///////////////////////////////////////////////////////
     HEADER
     ///////////////////////////////////////////////////////*/
-header{
-    position: fixed;
-    z-index: 1000;
-    width: 90%;
-    margin: 0;
-    background: var(--russian);
-    padding-left: 5vw;
-    padding-right: 5vw;
-    border-bottom: solid 3px black;
-    a{
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        height: 70px;
-        border-radius: 10px;
-        text-decoration: none;
-        color:azure;
-    }
-    ul{
+
+/*ANCHO MAXIMO*/
+@media (min-width: 1000px) {
+    header {
+        position: fixed;
+        box-sizing: border-box;
+        z-index: 1000;
         width: 100%;
         margin: 0;
-        padding: 0;
-        height: fit-content;
-        display: inline-flex;
-        justify-content: flex-end;
-        list-style: none;
-        gap:clamp(0.2%,3vw,10%); /*min,bound,max*/
-        li:first-child{
-            margin-right: auto;
-            padding: 0 30px;
-            background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
-            background-size: 3.5em;
-            p:first-child{
-                color:black;
-                font-size: 28px;
+        background: var(--russian);
+        padding-left: 3vw;
+        padding-right: 3vw;
+        border-bottom: solid 3px black;
+
+        a {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            height: 70px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: azure;
+        }
+
+        ul {
+
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: fit-content;
+            display: inline-flex;
+            justify-content: flex-end;
+            list-style: none;
+            gap: clamp(0.2%, 3vw, 10%); /*min,bound,max*/
+
+            li:first-child {
+                background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
+                background-size: 3.5em;
+
+                p:first-child {
+                    color: black;
+                    font-size: 28px;
+                    font-weight: bold;
+                    font-family: Consolas, serif;
+                }
+
+                p:last-child {
+                    color: var(--piel);
+                    font-size: 30px;
+                    font-weight: bold;
+                    font-family: "Brush Script MT", cursive;
+                    font-style: italic;
+                }
+
+                a:hover {
+                    p:first-child {
+                        color: var(--piel);
+                    }
+
+                    p:last-child {
+                        color: goldenrod;
+                    }
+
+                }
+            }
+        }
+
+        a:hover {
+            color: black;
+        }
+
+    }
+}
+
+/*ANCHO MEDIO*/
+@media (max-width: 1000px) and (min-width: 670px) {
+    header {
+        position: fixed;
+        z-index: 1000;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-right: 10px;
+        background: var(--russian);
+        border-bottom: solid 3px black;
+
+        a {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            height: 70px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: azure;
+            font-size: 15px;
+        }
+
+        ul {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: fit-content;
+            display: inline-flex;
+            justify-content: center;
+            list-style: none;
+            gap: 0.5%; /*min,bound,max*/
+
+            li:first-child {
+                margin-right: 10px;
+                background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
+                background-size: 3em;
+
+                p:first-child {
+                    color: black;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-family: Consolas, serif;
+                }
+
+                p:last-child {
+                    color: var(--piel);
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: "Brush Script MT", cursive;
+                    font-style: italic;
+                }
+
+                a:hover {
+                    p:first-child {
+                        color: var(--piel);
+                    }
+
+                    p:last-child {
+                        color: goldenrod;
+                    }
+
+                }
+            }
+        }
+
+        a:hover {
+            color: black;
+        }
+
+    }
+}
+
+@media (max-width: 670px){
+
+    header{
+        position: fixed;
+        z-index: 1000;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+
+        nav * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        a{
+            display: inline-flex;
+            text-decoration: none;
+            width: 100%;
+            background: blue;
+            justify-content: center;
+        }
+
+        li:first-child {
+            a {
+                height: 90px;
+                color: azure;
+                background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 80% bottom;
+                background-size: 3em;
+                border-bottom: solid 3px black;
+                align-items: center;
+            }
+
+            p:first-child {
+                display: block;
+                color: black;
+                font-size: 20px;
                 font-weight: bold;
                 font-family: Consolas, serif;
             }
-            p:last-child{
-                color:var(--piel);
-                font-size: 30px;
+
+            p:last-child {
+                color: var(--piel);
+                font-size: 22px;
                 font-weight: bold;
                 font-family: "Brush Script MT", cursive;
                 font-style: italic;
             }
-            a:hover{
-                p:first-child{
-                    color:var(--piel);
-                }
-                p:last-child{
-                    color:goldenrod;
+
+            a:hover {
+                p:first-child {
+                    color: var(--piel);
                 }
 
+                p:last-child {
+                    color: goldenrod;
+                }
             }
         }
-    }
-    a:hover{
-        color:black;
+
+
+
     }
 
+
+
 }
+
 
 footer{
     margin-top:5vh;
@@ -205,4 +372,22 @@ footer{
     h2{font-size: clamp(12px, 3vw, 24px);}
 
     .title-footer{font-weight: bold;}
+
+    @media (max-width: 1000px){
+        nav{padding-left: clamp(1vw,7%,50vw);}
+
+        ul.populares-footer{display: none;}
+        p:first-child,p:nth-child(2) {
+            font-size: 22px;
+        }
+
+    }
+
+    @media (max-width: 670px){
+        padding-left: 3%;
+        padding-right: 3%;
+        nav{padding-left: clamp(1vw,3%,50vw);}
+        ul{li,a{font-size: 15px}}
+    }
+
    }

@@ -6,50 +6,62 @@ p{
 
 .consejos{
     margin: 0;
-    padding: 0 5vw;
+}
+
+.consejos-container > figure{
+    background: var(--moss);
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: var(--radius);
+    justify-items: center;
+    img{
+        height: 100%;
+        width: 35%;
+        display: block;
+        padding: 5px 0;
+        margin: 0;
+    }
 }
 
 .consejos-container{
+    border-radius: var(--radius);
+    box-shadow: var(--sombra);
+    box-sizing: border-box;
     background: lightgray;
     padding: 0;
-    margin: 0;
-    column-count: 4;
+    margin: 30px 0;
+    column-count: 6;
+    column-gap: 0;
     position: relative;
-
-    figure{
-        padding: 0;
+    h2{
+        box-sizing: border-box;
+        border-top-right-radius: var(--radius);
+        height: 90px;
+        padding: 30px 0;
         margin: 0;
-        width: 100%;
-        break-inside: avoid;
-        img{
+        background: var(--moss);
+        width: 500%;
+    }
+    article{
+        margin: 30px;
+        column-span: all;
+        columns: 4 200px;
+        column-gap: 30px;
+        figure,img{
+            border-radius: var(--radius);
             padding: 0;
             margin: 0;
             width: 100%;
+            align-items: center;
+            break-inside: avoid;
+        }
+        figure{
+            margin-top: 50%;
+            height: 100%;
+            break-after: column;
         }
     }
-    article{
-        column-count: 3;
-        padding: 0;
-        margin: 0;
-
-        p{
-            column-span: all;
-            width: 75%;
-            margin-left: auto;
-        }
-    }
-    h2{
-        column-span: all;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        background: var(--moss);
-    }/*
-    a{
-        position: absolute;
-        top:0;
-        left: 0;
-        margin-right: auto;
-    }*/
-
+    p{margin: 0;padding: 0;}
 }
