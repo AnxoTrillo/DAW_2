@@ -17,11 +17,13 @@
         filter: brightness(70%);
         object-fit: cover;
         object-position: center;
+        max-height: 250px;
 
         img{
             width:100%;
             object-fit: cover;
             object-position: center;
+            max-height: 250px;
         }
     }
 
@@ -57,4 +59,157 @@
         white-space: pre-wrap;
         margin: 30px 0;
     }
+}
+
+.historia{
+    box-sizing: border-box;
+    background: var(--grisclaro);
+    margin: 0 var(--paddings) 3% var(--paddings);
+    width: auto;
+    align-content: center;
+    padding: 0;
+
+    border-radius: var(--radius);
+    min-height: 300px;
+    max-height: 500px;
+    height: auto;
+    box-shadow: var(--sombra);
+
+    h2 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    p {
+        margin: 15px 30px;
+        font-size: var(--16);
+    }
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.historia::-webkit-scrollbar {
+    padding: 1px;
+    background: var(--grisclaro);
+    border-radius: var(--radius);
+    width: 10px;
+}
+
+.historia::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 0 var(--paddings);
+    padding: 0;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3%;
+    width: auto;
+    flex-wrap: nowrap;
+}
+
+
+.receta, .donde-probarlo {
+    flex: 1;
+    min-height: 200px;
+    max-height: 600px;
+    overflow: auto;
+    box-shadow: var(--sombra);
+    border-radius: var(--radius);
+    margin: 0;
+
+    h2 {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+
+    p {
+        margin: 15px 30px;
+        font-size: var(--16);
+    }
+
+    article p{
+        font-size: 14px;
+    }
+}
+
+.receta {
+    flex: 2;
+    padding: 0;
+    margin: 0;
+    background: var(--beige);
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.receta::-webkit-scrollbar {
+    padding: 1px;
+    background: var(--beige);
+    border-radius: var(--radius);
+    width: 10px;
+}
+
+.receta::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.donde-probarlo{
+    flex:1;
+    padding: 0;
+    margin: 0;
+    background: var(--moss);
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+
+    h2{
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+        li{
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                padding: 5px 10px;
+                display: inline-block;
+                transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+            }
+
+            a:hover {
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                background-color: var(--russian);
+            }
+        }
+    }
+}
+
+.donde-probarlo::-webkit-scrollbar {
+    padding: 1px;
+    background: var(--moss);
+    border-radius: var(--radius);
+    width: 10px;
+}
+
+.donde-probarlo::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
 }

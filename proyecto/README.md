@@ -19,9 +19,8 @@
 * más tags en el head de descripción, autor, etc.
 * quitar muchas páginas e ir añadiendo imágenes para las que ya tenemos hechas (para que no se nos olvide)
 * FLEXIBLE GRIDS -> PÁGINA DE FAVORITOS -> está hecho solo hay que añadirlo a la memoria
-* Quitar restaurantes -> cuidado en platos "dónde probarlo"
 * Quitar monumentos -> cuidado en itinerarios
-* Platos poner bien banner y todo eso
+* Grid -> un plato?
     
     
     
