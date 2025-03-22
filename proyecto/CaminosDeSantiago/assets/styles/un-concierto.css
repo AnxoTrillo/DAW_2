@@ -6,8 +6,11 @@
         padding: 0;
         width: 100%;
         overflow: hidden;
-        filter: brightness(60%);
+        filter: brightness(70%);
         height: 200px;
+        object-fit: cover;
+        object-position: center;
+        max-height: 250px;
     }
 
     h1 {

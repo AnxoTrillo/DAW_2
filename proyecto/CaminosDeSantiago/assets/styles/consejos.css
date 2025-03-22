@@ -58,7 +58,7 @@ p{
             break-inside: avoid;
         }
         figure{
-            margin-top: 50%;
+            margin: 25% 0;
             height: 100%;
             break-after: column;
         }
