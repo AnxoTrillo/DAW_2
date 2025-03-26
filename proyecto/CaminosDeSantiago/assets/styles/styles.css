@@ -106,7 +106,7 @@ header{
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    background-color: var(--russian);
+    border-bottom: 3px solid black;
     nav * {
         box-sizing: border-box;
         padding: 0;
@@ -114,13 +114,13 @@ header{
         align-items: center;
     }
     nav{
-        height: 90px;
+        height: 60px;
         width: 100%;
     }
     ul{
         height: 100%;
-        background-color: red;
         display: grid;
+        gap:10px;
         list-style: none;
         a{
             text-decoration: none;
@@ -131,11 +131,12 @@ header{
             font-weight: bold;
             color: azure;
         }
-        li{
-            background-color: blue;
-        }
+
         li:first-child {
+            align-content: center;
+            text-align: center;
             p:first-child {
+                transition: color 0.3s ease;
                 display: inline;
                 color: black;
                 font-size: 25px;
@@ -144,6 +145,7 @@ header{
             }
 
             p:last-child {
+                transition: color 0.3s ease;
                 display: inline;
                 color: var(--piel);
                 font-size: 28px;
@@ -160,82 +162,88 @@ header{
 }
 
 header{
-
+    .hamburger {
+        display: none;
+    }
     @media (min-width: 1000px){
+        background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 20% bottom;
+        background-size: 3.5em;
         ul{
             grid-template-columns: repeat(11,1fr);
             li:first-child{
                 grid-column: span 3;
-                align-content: center;
-                background-color: yellow;
-                text-align: center;
             }
         }
     }
-    @media (min-width: 670px) and (max-width:1000px){
+    @media (min-width: 800px) and (max-width:1000px){
+        background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 15% bottom;
+        background-size: 3.5em;
         ul{
+            padding: 0 30px;
             grid-template-columns: repeat(9,1fr);
-            p:first-child {font-size: 20px;}
-            p:last-child {font-size: 23px;}
+            li:first-child{
+                p:first-child {font-size: 18px;}
+                p:last-child {font-size: 20px;}
+            }
         }
     }
-    @media (max-width: 670px){
+    @media (max-width: 800px){
+
+        nav{
+            height: fit-content;
+        }
         li{
             text-align: center;
-
         }
         li:first-child{
-            background-color:var(--russian);
-            height: 90px;
+            height: 100%;
+            background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 65% bottom;
+            background-size: 3.5em;
+            border-bottom: 3px solid black;
             align-content: center;
+            p:first-child {font-size: 5px;}
+            p:last-child {font-size: 5px;}
         }
-
+        li:not(:first-child){
+            padding: 2px 0;
+        }
         ul{
-            grid-template-rows: repeat(9,1fr);
+            grid-template-rows: 70px repeat(8,auto);
+            gap: 0;
+            background: rgba(165, 159, 128, 0.5);
+            backdrop-filter: blur(10px);
         }
-        p:first-child {font-size: 20px;}
-        p:last-child {font-size: 23px;}
-    }
 
-}
-
-
-
-@media (min-width: 670px) {
-    .hamburger {
-        display: none;
-    }
-}
-
-@media (max-width: 670px) {
-    .hamburger {
-        border-radius: var(--radius);
-        border: 2px solid black;
-        height: 50px;
-        width: 50px;
-        z-index: 1001;
-        position: absolute;
-        left: 10%;
-        top: 10px;
-        display: flex;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: center;
-        padding: 5px;
-        margin: 0;
-        p{
-            border-radius: 3px;
-            margin:3px 0;
-            background-color: black;
-            height: 5px;
-            transition: background-color 0.3s ease;
+        .hamburger {
+            display: flex;
+            border-radius: var(--radius);
+            border: 2px solid black;
+            height: 50px;
+            width: 50px;
+            z-index: 1001;
+            position: absolute;
+            left: 15%;
+            top: 10px;
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5px;
+            margin: 0;
+            p{
+                border-radius: 3px;
+                margin:3px 0;
+                background-color: black;
+                height: 5px;
+                transition: background-color 0.3s ease;
+            }
+            transition: border-color 0.3s ease;
         }
-        transition: border-color 0.3s ease;
+        .hamburger:hover{
+            border-color: lightgray;
+            p{background-color: lightgray}
+        }
     }
-    .hamburger:hover{
-        border-color: lightgray;
-        p{background-color: lightgray}
-    }
+
 }
 
 
