@@ -11,10 +11,21 @@
     figure {
         box-sizing: border-box;
         overflow: hidden;
+        object-fit: cover;
+        object-position: center;
+        max-height: 250px;
         padding: 0;
         margin: 0;
         width: 100%;
         filter: brightness(70%);
+
+        img{
+            width:100%;
+            object-fit: cover;
+            object-position: top;
+            max-height: 250px;
+            filter: brightness(70%);
+        }
     }
 
     h1 {
@@ -173,8 +184,8 @@
         align-items: center;
     }
     figure,img{
-        max-height: 100px;
-        max-width: 200px;
+        max-height: 80px;
+        max-width: 150px;
         height: fit-content;
         width: fit-content;
         margin: 0 20px;
