@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platos Típicos</title>
-    <link rel="stylesheet" href="../../assets/styles/styles.css">
 
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/platos.css">
+
 </head>
 <body>
 <header>
@@ -29,65 +29,193 @@
     <main>
         <section class="titulo-principal">
             <h1>Platos Típicos</h1>
-            <pre>La gastronomía gallega es famosa por sus productos frescos y recetas tradicionales. Descubre los platos más emblemáticos de Santiago de Compostela, una ciudad con una rica herencia culinaria que te invita a saborear lo mejor de su tradición gastronómica.</pre>
+            <p>La gastronomía gallega es famosa por sus productos frescos y recetas tradicionales. Descubre los platos más emblemáticos de Santiago de Compostela, una ciudad con una rica herencia culinaria que te invita a saborear lo mejor de su tradición gastronómica.</p>
         </section>
 
-        <section class="tarjetas">
-            <!-- Tarjetas de Platos Típicos -->
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/pulpo.webp" alt="Pulpo á feira"></figure>
-                <h2>Pulpo á feira</h2>
-                <p>El pulpo á feira es uno de los platos más representativos de Galicia. Se cocina de manera sencilla, pero su sabor es inconfundible. El pulpo se hierve y se sirve con pimentón, sal gruesa y un chorrito de aceite de oliva. Se acompaña tradicionalmente con cachelos (patatas cocidas).</p>
-                <a href="./pulpo.html" class="more-info">Más información</a>
-            </div>
+        <section class="carrusel">
+            <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/caldo.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/churrasco.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/empanada.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/lacon.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/merluza.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/pulpo.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/tortilla.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/zorza.webp" alt="..."></figure>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/empanada.webp" alt="Empanada galega"></figure>
-                <h2>Empanada galega</h2>
-                <p>Una masa rellena de diversos ingredientes como atún, carne, mariscos o verduras, que se hornea hasta obtener un color dorado perfecto. Es un plato que se sirve tanto en celebraciones como en el día a día en Galicia.</p>
-                <a href="./empanada.html" class="more-info">Más información</a>
-            </div>
+                    </div>
 
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/lacon.webp" alt="Lacón con grelos"></figure>
-                <h2>Lacón con grelos</h2>
-                <p>El lacón es carne de cerdo curada que se acompaña con grelos (un tipo de nabo gallego) y patatas. Este plato es típico del invierno gallego, y se sirve en muchas festividades como el Carnaval.</p>
-                <a href="./lacon.html" class="more-info">Más información</a>
-            </div>
+                </div>
 
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/caldo.webp" alt="Caldo gallego"></figure>
-                <h2>Caldo gallego</h2>
-                <p>Una sopa caliente y reconfortante que combina grelos, patatas, chorizo y habas. Es uno de los platos más tradicionales y emblemáticos de Galicia, especialmente popular en los meses más fríos.</p>
-                <a href="./caldo.html" class="more-info">Más información</a>
-            </div>
 
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/merluza.webp" alt="Merluza a la gallega"></figure>
-                <h2>Merluza a la gallega</h2>
-                <p>Un pescado muy característico de la costa gallega, preparado de forma sencilla con patatas, ajo, pimentón y aceite de oliva. La merluza a la gallega es un plato que refleja la frescura y calidad de los productos del mar.</p>
-                <a href="./merluza.html" class="more-info">Más información</a>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/zorza.webp" alt="Zorza con cachelos"></figure>
-                <h2>Zorza con cachelos</h2>
-                <p>Carne de cerdo marinada con ajo, pimentón y aceite, acompañada de patatas cocidas. Es un plato típico que se disfruta especialmente en festividades y reuniones familiares.</p>
-                <a href="./zorza.html" class="more-info">Más información</a>
-            </div>
-
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/churrasco.webp" alt="Churrasco gallego"></figure>
-                <h2>Churrasco gallego</h2>
-                <p>Costillas de cerdo o ternera a la brasa, acompañadas de pimientos y patatas. Es uno de los platos más populares para las parrilladas y fiestas en Galicia.</p>
-                <a href="./churrasco.html" class="more-info">Más información</a>
-            </div>
-
-            <div class="card">
-                <figure><img src="../../assets/images/gastronomia/platos/tarjetas/tortilla.webp" alt="Tortilla de Betanzos"></figure>
-                <h2>Tortilla de Betanzos</h2>
-                <p>Una tortilla de patata jugosa y poco cuajada, típica de Betanzos, que se ha ganado el cariño de los gallegos por su sabor único y su textura perfecta.</p>
-                <a href="./tortilla.html" class="more-info">Más información</a>
+            <div id="carouselExampleSmallScreen" class="carousel slide d-sm-none" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/caldo.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/churrasco.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/empanada.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/lacon.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/merluza.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/pulpo.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/tortilla.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/gastronomia/platos/tarjetas/zorza.webp" alt="..."></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
 
@@ -134,5 +262,10 @@
         </nav>
         <h3>&copy; 2025 Caminos de Santiago</h3>
     </footer>
+<script src="../../assets/javascript/platos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+<script src="../../assets/javascript/platos.js"></script>
 </body>
 </html>
