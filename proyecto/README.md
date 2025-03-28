@@ -23,5 +23,5 @@
 * Bootstrap 3:49
     
     
-    
+* METODOS DE ACCESO AL DOM YA PUESTOS (queryselectorall, getelementsbyclassname, )
 

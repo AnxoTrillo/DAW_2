@@ -69,4 +69,7 @@
     .extra-contenido:hover{
         background: radial-gradient(circle,#0B2600,black);
     }
+    iframe{
+        border-radius: var(--radius);
+    }
 }
