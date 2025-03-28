@@ -26,13 +26,13 @@
 }
 
 p {
-    font-size: 20px;
-    text-align: justify;
+    font-size: 20px; !important;
+    text-align: justify; !important;
 }
 
 pre {
-    font-size: 20px;
-    font-family: "Instrument Sans", sans-serif;
+    font-size: 20px; !important;
+    font-family: "Instrument Sans", sans-serif; !important;
 }
 
 .titulo-principal {
@@ -51,10 +51,10 @@ h2 {
 }
 
 h1 {
-    font-size: clamp(var(--24), 3vw, 40px);
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-align: center;
+    font-size: clamp(var(--24), 3vw, 40px); !important;
+    margin-bottom: 0; !important;
+    padding-bottom: 0; !important;
+    text-align: center; !important;
 }
 
 a {
