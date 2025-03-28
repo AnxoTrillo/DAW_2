@@ -18,7 +18,7 @@ for (const lielm of botones_li) {
                document.querySelector('iframe').src="http://slither.com/io"
                break;
            case "Extra 5":
-               document.querySelector('iframe').src="https://www.agar.io/"
+               document.querySelector('iframe').src="https://www.agar.io/#ffa"
                break;
            default:
                document.querySelector('iframe').src="https://playpager.com/embed/checkers/index.html"
