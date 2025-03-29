@@ -3,13 +3,32 @@
 
 .carrusel {
     .card {
+        border-radius: var(--radius);
+        box-shadow: 0 5px 10px #696D7D;
+        background-color: var(--fondomain);
+        border: 5px solid var(--gris);
+    }
+
+    .card-text{
+        line-height: 1.2;
+    }
+    .card-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .btn{
+        margin: 0;
+        padding: 3px;
+        background-color: #BCC2DB;
+        color: #0B2600;
         border: none;
-        border-radius: 0;
-        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     }
 
     .carousel-inner {
-        padding: 1em;
+        padding: 2em;
+        background-color: var(--grisclaro);
+        border-radius: var(--radius);
+        margin-bottom: 30px;
     }
 
     .carousel-control-prev, .carousel-control-next {
@@ -26,7 +45,7 @@
         }
     }
 
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 567px) {
         .cards-wrapper {
             display: flex;
         }
@@ -36,41 +55,75 @@
             width: calc(100% / 3);
         }
 
+        .card-text{
+            font-size: var(--16);
+        }
+
         figure {
             height: 22vw;
         }
+
     }
 
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 567px) {
         .card:not(:first-child) {
             display: none;
         }
 
         figure {
-            height: 70vw;
+            max-height: 28vw;
+            border-radius: var(--radius);
+            padding:0;
+            width: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+        .card{
+            height: 60vw;
+            border-radius: var(--radius);
+        }
+        .card-text{
+            font-size: 14px;
         }
     }
 
 
     figure {
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
         width: 100%;
+        border-radius: var(--radius);
+
 
         img {
             max-width: 100%;
             height: 100%;
             object-fit: cover;
+            border-radius: var(--radius);
         }
     }
 
 }
 
-.titulo-principal {
-    padding: 80px 0 0;
+*{
+    font-family: "Instrument Sans", sans-serif;
 }
-/*CAMBIO PA Q PUEDA PUSHEARSE*/
+.titulo-principal {
+    padding: 75px 0 0;
+    h1{
+        font-weight: 600;
+        padding: 15px
+    }
+    p{
+        margin: 0 30px 15px 30px;
+    }
+}
+
 header{
-    line-height: 1;
+    line-height: 1.15;
 }
 footer{
     height: 140px;
@@ -78,110 +131,12 @@ footer{
         line-height: 1;
     }
 }
-/*
-footer {
-    margin-top: 5vh;
-    height: 120px;
-    display: flex;
-    color: var(--piel);
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 30px;
-    position: relative;
 
-    p:first-child {
-        color: var(--piel);
-        font-size: 28px;
-        font-weight: bold;
-        font-family: Consolas, serif;
+.historia-gastronomica{
+    p{
+        font-size: var(--16);
+        text-align: center;
     }
+}
 
-    p:nth-child(2) {
-        color: var(--piel);
-        font-size: 28px;
-        font-weight: bold;
-        font-family: "Brush Script MT", cursive;
-        font-style: italic;
-    }
 
-    background: black url('../../assets/images/general/catedralpng.svg') no-repeat 20% bottom;
-    background-size: 7em;
-
-    nav {
-        padding-left: clamp(1vw, 11%, 50vw);
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    ul {
-        border-left: solid 2px azure;
-        margin: 0;
-        padding: 0;
-        height: max-content;
-        display: block;
-        list-style: none;
-
-        li {
-            margin-left: 3px;
-            line-height: 1;
-        }
-    }
-
-    h3 {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 0 10px 5px 0;
-        margin: 0;
-        font-size: 15px;
-        color: grey;
-    }
-
-    a {
-        text-decoration: none;
-        color: var(--piel);
-    }
-
-    a:hover {
-        color: azure;
-    }
-
-    h2 {
-        font-size: clamp(12px, 3vw, 24px);
-    }
-
-    .title-footer {
-        font-weight: bold;
-    }
-
-    @media (max-width: 1000px) {
-        nav {
-            padding-left: clamp(1vw, 7%, 50vw);
-        }
-
-        ul.populares-footer {
-            display: none;
-        }
-
-        p:first-child, p:nth-child(2) {
-            font-size: 22px;
-        }
-
-    }
-
-    @media (max-width: 670px) {
-        padding-left: 3%;
-        padding-right: 3%;
-        nav {
-            padding-left: clamp(1vw, 3%, 50vw);
-        }
-
-        ul {
-            li, a {
-                font-size: 15px
-            }
-        }
-    }
-
-}*/

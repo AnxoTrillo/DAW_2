@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let carousel = null;
-    if(screen.width > 567) {
+    if(screen.width > 800) {
         carousel = document.getElementById("carouselExample");
 
     }
