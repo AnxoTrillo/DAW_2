@@ -1,10 +1,18 @@
 
 
 
-const mult=document.querySelectorAll(".consejos figure");
+const mult=document.querySelectorAll(".consejos figure:not(article figure)");
 const tabs=document.getElementsByClassName("consejos-container");
 
 mult.forEach((multicol,index) => {
+
+    multicol.firstElementChild.addEventListener("mouseenter",function () {
+        multicol.firstElementChild.style.filter='brightness(0.7)';
+    })
+    multicol.firstElementChild.addEventListener("mouseleave",function () {
+        multicol.firstElementChild.style.filter='brightness(1)';
+    })
+
     multicol.addEventListener('click', function () {
 
         const tab=tabs[index/2];
