@@ -71,5 +71,7 @@
     }
     iframe{
         border-radius: var(--radius);
+        display: none;
     }
+
 }
