@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festividades</title>
 
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/platos.css" onload="this.media='all'">
 </head>
 <body>
     <header>
@@ -31,42 +31,114 @@
             <p>Santiago de Compostela, más conocida por su historia y riqueza cultural, es también un punto de encuentro para los amantes de la música y los festivales. A lo largo del año, la ciudad se convierte en el epicentro de una vibrante oferta de eventos musicales y culturales que atraen tanto a locales como a turistas. Desde grandes festivales de música internacional hasta cine, electrónica y otros géneros..</p>
         </section>
 
-        <section class="tarjetas">
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festivales/cineuropa/cineuropa_tarjeta.webp" alt="Foto de Cineuropa"></figure>
-                <h4>Cineuropa</h4>
-                <p>Durante este evento, se proyectan películas de autor, documentales y cortometrajes, convirtiéndose en un punto de encuentro para los cinéfilos y profesionales del sector.</p>
-                <nav class="iconos">
-                    <figure><a href="./cineuropa.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+        <section class="carrusel">
+            <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festivales/cineuropa/cineuropa_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column d-flex flex-column">
+                                    <h5 class="card-title">Cineuropa</h5>
+                                    <p class="card-text">Festival de cine en Santiago de Compostela, especializado en cine independiente, europeo y de autor, con proyecciones, estrenos y actividades culturales.</p>
+                                    <a href="cineuropa.html" class="btn btn-primary d-flex mt-auto justify-content-center d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/son_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">O Son do Camiño</h5>
+                                    <p class="card-text">Festival de música en Santiago de Compostela, con una variada programación de pop, rock, indie y electrónica, celebrado en el Monte do Gozo, que también ofrece actividades culturales, gastronómicas y zonas de descanso.</p>
+                                    <a href="o-son-do-caminho.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festivales/resurrection/resurrection_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Resurrection Fest</h5>
+                                    <p class="card-text">Festival de música extrema en Viveiro, Galicia, centrado en metal, hardcore y punk, con bandas internacionales, varios escenarios, actividades paralelas, zonas de acampada y eventos como exhibiciones de deportes extremos y meet & greets con las bandas.</p>
+                                    <a href="resurrection.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festivales/wos-x-son/wos_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">WOS X Son Estrella Galicia</h5>
+                                    <p class="card-text">Festival multidisciplinar en Santiago de Compostela que combina música, arte y pensamiento, con una programación de conciertos, conferencias, proyecciones y experiencias sonoras en diversos espacios de la ciudad, dando a Santiago de Compostela un fin de semana lleno de cultura.</p>
+                                    <a href="wos-x-son.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/son_tarjeta.webp" alt="Foto de O Son do Camiño"></figure>
-                <h4>O Son do Camiño</h4>
-                <p>O Son do Camiño es un festival de música que se celebra cada verano en Santiago de Compostela, con un cartel lleno de artistas nacionales e internacionales de distintos géneros, desde pop hasta música electrónica.</p>
-                <nav class="iconos">
-                    <figure><a href="./o-son-do-caminho.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festivales/resurrection/resurrection_tarjeta.webp" alt="Foto del Resurrection Fest"></figure>
-                <h4>Resurrection Fest</h4>
-                <p>Resurrection Fest es un festival de música rock y metal que se celebra en Viveiro, cerca de Santiago, y es uno de los más relevantes de España en su género.</p>
-                <nav class="iconos">
-                    <figure><a href="./resurrection.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="carouselExampleSmallScreen" class="carousel slide d-sm-none" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festivales/cineuropa/cineuropa_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Cineuropa</h5>
+                                <p class="card-text">Festival de cine en Santiago de Compostela, especializado en cine independiente, europeo y de autor.</p>
+                                <a href="cineuropa.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/son_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">O Son do Camiño</h5>
+                                <p class="card-text">Festival con una variada programación de pop, rock, indie y electrónica, celebrado en el Monte do Gozo.</p>
+                                <a href="o-son-do-caminho.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festivales/resurrection/resurrection_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Resurrection Fest</h5>
+                                <p class="card-text">Festival de música extrema en Viveiro,centrado en metal, hardcore y punk.</p>
+                                <a href="resurrection.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festivales/wos-x-son/wos_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">WOS x Son Estrella Galicia</h5>
+                                <p class="card-text">Festival multidisciplinar en Santiago de Compostela que combina música, arte y pensamiento.</p>
+                                <a href="wos-x-son.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festivales/wos-x-son/wos_tarjeta.webp" alt="Foto del WOS x Son Estrella Galicia"></figure>
-                <h4>WOS x Son Estrella Galicia</h4>
-                <p>Este evento destaca por su propuesta vanguardista, mezclando géneros como el indie, electrónica, y la música experimental, ofreciendo una experiencia única en Santiago.</p>
-                <nav class="iconos">
-                    <figure><a href="./wos-x-son.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
 
         <section id="calendario">
@@ -111,5 +183,10 @@
         </nav>
         <h3>&copy; 2025 Caminos de Santiago</h3>
     </footer>
+    <script src="../../assets/javascript/platos.js"></script>
+    <script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+    <script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <script src="../../assets/javascript/platos.js"></script>
 </body>
 </html>

@@ -4,11 +4,9 @@
 ## CSS:
     Un-Lugar turistico 
     Un-itinerario
-    Platos <- carrusel de tarjetas con bootstrap
     Restaurantes
     Un-plato
     restaurante
-    Festividades/exposiciones/conciertos/festivales <- carrusel de tarjetas con bootstrap
     Una-festividad
     Un-concierto
     Una-expo
@@ -19,9 +17,9 @@
 * más tags en el head de descripción, autor, etc.
 * Quitar monumentos -> cuidado en itinerarios
 * Nueva carpeta imágenes FALTA: restaurantes (carruseles y restaurantes.html), gastronomia.html, itinerarios recomendados, lugares turísticos, favoritos
-* Arreglar en la pagina de consejos cuando se espachurre la pantalla al maximo (me parece que con ponerle una norma de "para x ancho" al salto de linea post foto se arregla)
-* Bootstrap 3:49
+* Carruseles de fotos -> intentar hacer sin bootstrap porque va a joder todas las páginas el css (igual se puede sin improtar el css y solo la js(?))
+* Calendario en las páginas de eventos (conciertos, festivales, festividades y exposiciones)
     
     
-* METODOS DE ACCESO AL DOM YA PUESTOS (queryselectorall, getelementsbyclassname, )
+* METODOS DE ACCESO AL DOM YA PUESTOS (queryselectorall, getelementsbyclassname, ) -> en extras y platos
 

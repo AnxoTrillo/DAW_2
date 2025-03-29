@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exposiciones</title>
 
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/platos.css" onload="this.media='all'">
 </head>
 <body>
     <header>
@@ -31,46 +31,114 @@
             <p>Santiago de Compostela es un punto de encuentro para el arte y la cultura, con exposiciones que van desde muestras de artistas locales hasta exhibiciones de renombre internacional. Museos, galerías y espacios culturales de la ciudad ofrecen una programación variada que abarca desde arte contemporáneo hasta exposiciones históricas, haciendo de cada visita una experiencia enriquecedora.</p>
         </section>
 
-        <section class="tarjetas">
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/exposiciones/mandala_tarjeta.webp" alt="Foto de la exposición Mandala"></figure>
-                <h4>Exposición Mandala (Arc en ciel)</h4>
-                <p>CGAC (Centro Galego de Arte Contemporánea)</p>
-                <p>18/10/2024 - 07/11/2025</p>
-                <nav class="iconos">
-                    <figure><a href="./mandala.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+        <section class="carrusel">
+            <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/exposiciones/mandala_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column d-flex flex-column">
+                                    <h5 class="card-title">Mandala (Arc en ciel)</h5>
+                                    <p class="card-text">Desde el 18 de octubre de 2024 al 07 de septiembre de 2025 en el CGAC (Centro Galego de Arte Contemporánea).</p>
+                                    <a href="mandala.html" class="btn btn-primary d-flex mt-auto justify-content-center d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/exposiciones/otras-historias_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Otras Historias Posibles</h5>
+                                    <p class="card-text">Desde el 28 de mayo de 2024 hasta el 26 de enero de 2025 en la Ciudad de la Cultura de Galicia.</p>
+                                    <a href="otras-historias.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/exposiciones/tattoo_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Tattoo (Arte bajo la piel)</h5>
+                                    <p class="card-text">Desde el 29 de octubre de 2024 hasta el 20 de abril de 2025 en la Ciudad de la Cultura de Galicia.</p>
+                                    <a href="tattoo.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/exposiciones/vinhetas_tarjeta.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">O Camiño en Viñetas</h5>
+                                    <p class="card-text">Desde el 08 de noviembre de 2024 hasta el 17 de enero de 2025 en el Museo de las Peregrinaciones y de Santiago.</p>
+                                    <a href="vinhetas.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/exposiciones/otras-historias_tarjeta.webp" alt="Foto de la exposición Otras Historias Posibles"></figure>
-                <h4>Exposición Otras Historias Posibles</h4>
-                <p>Cidade da Cultura de Galicia</p>
-                <p>28/05/2024 - 26/01/2025</p>
-                <nav class="iconos">
-                    <figure><a href="./otras-historias.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/exposiciones/tattoo_tarjeta.webp" alt="Foto de la exposición Tattoo"></figure>
-                <h4>Exposición Tattoo (Arte bajo la piel)</h4>
-                <p>Cidade da Cultura de Galicia</p>
-                <p>19/10/2024 - 20/04/2025</p>
-                <nav class="iconos">
-                    <figure><a href="./tattoo.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="carouselExampleSmallScreen" class="carousel slide d-sm-none" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/exposiciones/mandala_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Mandala (Arc en ciel)</h5>
+                                <p class="card-text">Desde el 18 de octubre de 2024 al 07 de septiembre de 2025 en el CGAC (Centro Galego de Arte Contemporánea).</p>
+                                <a href="mandala.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/exposiciones/otras-historias_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Otras Historias Posibles</h5>
+                                <p class="card-text">Desde el 28 de mayo de 2024 hasta el 26 de enero de 2025 en la Ciudad de la Cultura de Galicia.</p>
+                                <a href="otras-historias.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/exposiciones/tattoo_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Tattoo (Arte bajo la piel)</h5>
+                                <p class="card-text">Desde el 29 de octubre de 2024 hasta el 20 de abril de 2025 en la Ciudad de la Cultura de Galicia.</p>
+                                <a href="tattoo.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/exposiciones/vinhetas_tarjeta.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">O Camiño en Viñetas</h5>
+                                <p class="card-text">Desde el 08 de noviembre de 2024 hasta el 17 de enero de 2025 en el Museo de las Peregrinaciones y de Santiago.</p>
+                                <a href="vinhetas.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/exposiciones/vinhetas_tarjeta.webp" alt="Foto de la exposición O Camiño en Viñetas"></figure>
-                <h4>Exposición O Camiño en Viñetas</h4>
-                <p>Museo de las Peregrinaciones y de Santiago</p>
-                <p>08/11/2024 - 17/01/2025</p>
-                <nav class="iconos">
-                    <figure><a href="./vinhetas.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
 
         <section id="calendario">
@@ -115,5 +183,10 @@
         </nav>
         <h3>&copy; 2025 Caminos de Santiago</h3>
     </footer>
+    <script src="../../assets/javascript/platos.js"></script>
+    <script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+    <script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <script src="../../assets/javascript/platos.js"></script>
 </body>
 </html>

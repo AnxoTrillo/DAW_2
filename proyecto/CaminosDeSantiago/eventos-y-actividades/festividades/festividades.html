@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festividades</title>
 
-    <script src="calendar.js" ></script>
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/platos.css" onload="this.media='all'">
 </head>
 <body>
     <header>
@@ -32,51 +31,132 @@
             <p>Santiago de Compostela es una ciudad llena de historia y tradiciones, con festividades que reflejan su identidad cultural. Desde celebraciones religiosas hasta eventos gastronómicos y carnavales, aquí encontrarás una guía completa de las principales fiestas de la ciudad.</p>
         </section>
 
-        <section class="tarjetas">
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel1.webp" alt="Foto de la noche de San Juan"></figure>
-                <h4>Noite de S. Xoán</h4>
-                <p>El 23 de junio, Santiago se ilumina con hogueras y el olor a sardinas asadas inunda las calles.</p>
-                <nav class="iconos">
-                    <figure><a href="./san-juan.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+        <section class="carrusel">
+            <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festividades/apostol/carrusel3.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column d-flex flex-column">
+                                    <h5 class="card-title">Apóstol Santiago</h5>
+                                    <p class="card-text">Cada 25 de julio, Santiago de Compostela vive su festividad más emblemática, en honor a su patrón, el Apóstol Santiago. Durante varios días, la ciudad se llena de conciertos, espectáculos y actividades culturales.</p>
+                                    <a href="apostol.html" class="btn btn-primary d-flex mt-auto justify-content-center d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festividades/ascension/carrusel1.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Fiestas de la Ascensión</h5>
+                                    <p class="card-text">Una de las celebraciones más importantes de Santiago de Compostela, después del Día del Apóstol. Durante varios días, la ciudad se llena de actividades como conciertos, ferias, mercados y competiciones.</p>
+                                    <a href="ascension.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festividades/entroido/carrusel3.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Entroido</h5>
+                                    <p class="card-text">Carnaval con un marcado carácter tradicional, donde se pueden ver desfiles de comparsas, concursos de disfraces y personajes típicos de carnaval gallego.</p>
+                                    <a href="entroido.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festividades/magosto/carrusel3.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Magosto</h5>
+                                    <p class="card-text">El Magosto es una de las fiestas más queridas del otoño en Galicia, celebrada en noviembre. Esta festividad gira en torno a la castaña asada y el vino nuevo, en una tradición que une a amigos y familiares alrededor del fuego.</p>
+                                    <a href="magosto.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel1.webp" alt="..."></figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Noche de San Juan</h5>
+                                    <p class="card-text">La Noche de San Juan, celebrada el 23 de junio, es una de las festividades más especiales en Santiago de Compostela. Conocida por sus hogueras y rituales ancestrales, esta noche es un momento de purificación y alegría.</p>
+                                    <a href="magosto.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festividades/ascension/carrusel1.webp" alt="Foto de las fiestas de la Ascensión"></figure>
-                <h4>Fiestas de la Ascensión</h4>
-                <p>Durante varios días, la ciudad se llena de actividades como conciertos al aire libre, ferias de atracciones, mercados tradicionales y competiciones ecuestres.</p>
-                <nav class="iconos">
-                    <figure><a href="./ascension.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festividades/apostol/carrusel3.webp" alt="Foto del Apóstol"></figure>
-                <h4>Fiesta del Apóstol Santiago</h4>
-                <p>Cada 25 de julio, Santiago de Compostela vive su festividad más emblemática, en honor a su patrón, el Apóstol Santiago. Uno de los momentos más esperados es el espectáculo de fuegos artificiales sobre la Plaza del Obradoiro.</p>
-                <nav class="iconos">
-                    <figure><a href="./apostol.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="carouselExampleSmallScreen" class="carousel slide d-sm-none" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festividades/apostol/carrusel3.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Apóstol Santiago</h5>
+                                <p class="card-text">Festividad más emblemática de Santiago de Compostela, en honor a su patrón, el Apóstol Santiago.</p>
+                                <a href="apostol.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festividades/ascension/carrusel1.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Fiestas de la Ascensión</h5>
+                                <p class="card-text">Una de las celebraciones más importantes de Santiago de Compostela, después del Día del Apóstol.</p>
+                                <a href="ascension.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festividades/entroido/carrusel3.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Entroido</h5>
+                                <p class="card-text">Carnaval con un marcado carácter tradicional, donde se pueden ver desfiles, concursos y personajes típicos.</p>
+                                <a href="entroido.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festividades/magosto/carrusel3.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Magosto</h5>
+                                <p class="card-text">Una de las fiestas más queridas del otoño en Galicia, celebrada en noviembre.</p>
+                                <a href="magosto.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel1.webp" alt="..."></figure>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Noche de San Juan</h5>
+                                <p class="card-text">Celebrada el 23 de junio, es una de las festividades más especiales en Santiago.</p>
+                                <a href="san-juan.html" class="btn btn-primary d-flex mt-auto justify-content-center">Ver más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festividades/magosto/carrusel1.webp" alt="Foto del Magosto"></figure>
-                <h4>Magosto</h4>
-                <p>Celebrada en noviembre, esta festividad gira en torno a la castaña asada y el vino nuevo, en una tradición que une a amigos y familiares alrededor del fuego.</p>
-                <nav class="iconos">
-                    <figure><a href="./magosto.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
-
-            <article class="tarjeta">
-                <figure><img src="../../assets/images/eventos/festividades/entroido/carrusel3.webp" alt="Foto del Entroido"></figure>
-                <h4>Entroido</h4>
-                <p>El Entroido o Carnaval Gallego tiene un marcado carácter tradicional, donde se pueden ver desfiles de comparsas, concursos de disfraces y personajes típicos del carnaval gallego, además de ser una fiesta gastronómica.</p>
-                <nav class="iconos">
-                    <figure><a href="./entroido.html"><img src="../../assets/images/general/pluscircle.svg" alt="Ver más"></a></figure>
-                </nav>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSmallScreen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
 
         <section id="calendario">
@@ -121,5 +201,10 @@
         </nav>
         <h3>&copy; 2025 Caminos de Santiago</h3>
     </footer>
+    <script src="../../assets/javascript/platos.js"></script>
+    <script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+    <script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <script src="../../assets/javascript/platos.js"></script>
 </body>
 </html>
