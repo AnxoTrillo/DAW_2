@@ -46,6 +46,7 @@ p{
     }
     article{
         margin: 30px;
+        margin-top: 15px;
         column-span: all;
         columns: 4 200px;
         column-gap: 30px;
@@ -62,9 +63,13 @@ p{
             height: 100%;
             @media (max-width: 670px) {
                 break-after: unset;
+                margin: 0;
+                margin-bottom: 10px;
             }
             @media (min-width: 670px) {
                 break-after: column ;
+                margin: 0;
+                margin-bottom: 10px;
             }
 
         }
