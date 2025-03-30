@@ -25,48 +25,24 @@ figure{
     border-radius: var(--radius);
     padding: 1% 5%;
     margin: 1% 12%;
-    height: 180px;
-
+    height: auto;
     ul{
         width: 100%;
-        margin: 0;padding: 0;
-        height: fit-content;
-        display: inline-flex;
-        list-style: none;
-        gap: 0.8%;
-    }
-
-    li{
-        border:solid black 2px;
-        background: var(--gris);
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        height: 70px;
-        border-radius: 10px;
-        transition: transform 0.3s ease;
-    }
-    .plusbutton{
-        background: #BCC2DB;
-        color: black;
         padding: 0;
-        a{
-            display: flex;
-            align-items: center;
-            padding: 0;
-            margin: 0;
-            height: 100%;
-            width: 100%;
-        }
-        img{
-            padding: 0;
-            margin: 0;
-            height: 50px;
-            width: 50px;
-        }
-
+        margin: 0 0 10px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 1%;
+    }
+    li{
+        padding: 0;
+        display: inline-block;
+        background: var(--gris);
+        border:solid black 2px;
+        border-radius: var(--radius);
+        transition: transform 0.3s ease;
+        height: 70px;
     }
     li:hover{
         background: var(--grisclaro);
@@ -78,17 +54,48 @@ figure{
             filter:brightness(10%);
         }
     }
-
     a{
+        display: block;
+        height: 100%;
         text-decoration: none;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        height: 30%;
-        padding: 10%;
-        width: 100%;
         color:azure;
+        text-align: center;
+        align-content: center;
     }
+    .plusbutton{
+        background: #BCC2DB;
+        color: black;
+        padding: 0;
+        margin: 0;
+        a{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        img{
+            display: block;
+            padding: 0;
+            margin: 0;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+@media (max-width: 800px){
 
-
+    section:nth-of-type(3){
+        ul{
+            grid-template-columns: 1fr 1fr;
+            column-gap: 1%;
+            row-gap: 1%;
+        }
+        li{
+            height: 50px;
+        }
+    }
 }

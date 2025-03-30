@@ -13,9 +13,10 @@ mult.forEach((multicol,index) => {
         multicol.firstElementChild.style.filter='brightness(1)';
     })
 
+
     multicol.addEventListener('click', function () {
 
-        const tab=tabs[index/2];
+        const tab=tabs[index];
         const elm =multicol.nextElementSibling.nextElementSibling;
         multicol.firstElementChild.style.transition=" transform 0.2s"
         if(elm.style.display==="none"){

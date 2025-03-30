@@ -3,7 +3,7 @@
 
 .carrusel {
     .card {
-        border-radius: var(--radius);
+        border-radius: 20px;
         box-shadow: 0 5px 10px #696D7D;
         background-color: var(--fondomain);
         border: 5px solid var(--gris);
@@ -27,7 +27,7 @@
     .carousel-inner {
         padding: 2em;
         background-color: var(--grisclaro);
-        border-radius: var(--radius);
+        border-radius: 20px;
         margin-bottom: 30px;
     }
 
@@ -35,7 +35,7 @@
         background-color: #e1e1e1;
         width: 6vh;
         height: 6vh;
-        border-radius: 50%;
+        border-radius: 20px;
         top: 50%;
         transform: translateY(-50%);
 
@@ -82,7 +82,7 @@
 
         figure {
             max-height: 28vw;
-            border-radius: var(--radius);
+            border-radius: 20px;
             padding:0;
             width: 100%;
             img{
@@ -95,7 +95,7 @@
         }
         .card{
             height: 60vw;
-            border-radius: var(--radius);
+            border-radius: 20px;
         }
         .card-text{
             font-size: 14px;
@@ -107,7 +107,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        border-radius: var(--radius);
+        border-radius: 20px;
 
 
         img {

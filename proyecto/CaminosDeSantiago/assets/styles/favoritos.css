@@ -9,7 +9,14 @@
 
 
     nav:not(.tarjetas-favoritos nav) {
-        padding: 0;
+        box-sizing: border-box;
+        padding: 0 11.5vw;
+        @media (max-width:800px){
+            padding: 0 9vw;
+            p{
+                margin-top: 20px;
+            }
+        }
         margin: 0;
         width: 100%;
         background: var(--moss);
@@ -19,7 +26,7 @@
 
         ul {
             padding: 0;
-            width: 70%;
+            width: 100%;
             height: fit-content;
             display: inline-flex;
             justify-content: space-between;
@@ -30,14 +37,17 @@
             margin: 0;
             border: solid black 2px;
             background: var(--piel);
-            width: 20%;
+            width: 22%;
             justify-content: center;
             text-align: center;
             align-items: center;
-            display: flex;
-            height: 70px;
+            display: block;
+            height: 60px;
             border-radius: 10px;
             transition: transform 0.3s ease;
+            p{
+                text-align: center;
+            }
         }
 
         li:hover {
@@ -53,66 +63,65 @@
 
     .tarjetas-favoritos{
 
-        margin: 30px 15%;
-        padding: 0;
-        width: 70%;
-        display: inline-flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 30px;
+        width: 100%;
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        @media (max-width: 1000px){grid-template-columns: 1fr 1fr;}
+        @media (max-width: 600px){grid-template-columns: 1fr;}
 
-        article{
+        article {
             position: relative;
             box-sizing: border-box;
             border-radius: var(--radius);
-            background: beige;
-            margin: 2% 0;
-            padding: 2.5%;
-            width: clamp(200px,30%,30%);
-            height: 400px;
-            color:azure;
+            padding: 5px 20px;
+            color: azure;
             box-shadow: 0 5px 10px #696D7D;
 
             figure{
-                padding: 0;
+                padding: 20px 0 0 0;
                 margin: 0;
+
                 img:not(nav img){
                     padding: 0;
                     margin: 0;
                     border-radius: var(--radius);
                     width: 100%;
                     height: 150px;
+                    object-fit: cover;
+                    object-position: top;
                 }
             }
-
-            h3{
-                margin: 10px 0;
-                padding: 0;
-            }
-            p{
-                margin: 0;
+            h3{margin: 10px 0;}
+            p{margin: 0 0 80px 0;
                 padding: 0;
                 font-size: var(--16);
+                @media (max-width: 600px){
+                    font-size: 14px;
+                }
             }
 
             .iconos{
                 position: absolute;
-                bottom: 30px;
-                height: max-content;
-                width: 85%;
-                display: flex;
+                box-sizing: border-box;
+                bottom: 10px;
+                display: inline-flex;
                 justify-content: space-between;
-
+                width: 90%;
                 img{
+                    padding: 0 5px;
                     width: 60px;
                     height: 60px;
-                    filter: blur(10%);
                 }
                 img:hover{
                     filter: brightness(50%);
                 }
             }
-
         }
+
         .un-local{
             background:#E6D585;
         }

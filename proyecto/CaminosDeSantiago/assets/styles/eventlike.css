@@ -32,72 +32,145 @@ section:not(.titulo-principal){
     }
 }
 
-div{
-    width: 100%;
-    height: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    gap:5%;
-}
-
-article{
-    box-shadow: 0 5px 10px #696D7D;
-
-    border-radius: var(--radius);
-    background: dimgrey;
-    padding: 20px;
-    height:100%;
-    width: 100%;
-    color:azure;
-    position: relative;
-    h4{
-        margin: 10px 0;
-        padding: 0;
-        font-size: 20px;
-    }
-    p {
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-        font-size: var(--16);
-        height: clamp(100px,150px,900px);
-        overflow-y: auto;
-        overflow-x: hidden;
+    div {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 5%;
     }
 
-    p::-webkit-scrollbar {
-        padding: 1px;
-        width: 10px;
-    }
-    p::-webkit-scrollbar-track {
-        background: #595959;
-        border-radius: 10px;
-    }
-    p::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 10px;
-    }
+    article {
+        box-shadow: 0 5px 10px #696D7D;
+        border-radius: var(--radius);
+        background: dimgrey;
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        color: azure;
+        position: relative;
+
+        h4 {
+            margin: 10px 0;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        p {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: var(--16);
+            height: clamp(100px, 150px, 900px);
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        p::-webkit-scrollbar {
+            padding: 1px;
+            width: 10px;
+        }
+
+        p::-webkit-scrollbar-track {
+            background: #595959;
+            border-radius: 10px;
+        }
+
+        p::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
 
 
-    nav{
-        width: 92%;
-        float: right;
-        bottom: 20px;
-        justify-content: flex-start;
+        nav {
+            width: 92%;
+            float: right;
+            bottom: 20px;
+            justify-content: flex-start;
 
-        img{
+            img {
+                display: flex;
+                filter: brightness(50%);
+            }
+
+            img:hover {
+                filter: brightness(10%);
+            }
+
+        }
+
+        a {
             display: flex;
-            filter:brightness(50%);
+            padding: 0;
+            margin: 0;
+            justify-content: flex-end;
         }
-        img:hover{
-            filter:brightness(10%);
-        }
+    }
 
+
+
+@media (max-width: 800px) {
+
+    section:not(.titulo-principal){
+        padding: 5px 5% 30px 5%;
+        a{
+            margin-top: 5px;
+        }
     }
-    a{
-        display: flex;
-        padding: 0;
-        margin: 0;
-        justify-content: flex-end;
+        div {
+        display: block;
     }
+
+
+    article{
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        height: fit-content;
+
+        h4{
+            text-align: center;
+        }
+        p {
+            font-size: 14px;
+            height: fit-content;
+            max-height: 100px;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            float: none;
+        }
+        a{
+            justify-content: center;
+        }
+        figure:not(nav figure){
+            border-radius: var(--radius);
+            width: 100%;
+            height: 150px;
+            background-color: #202020;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img{
+                max-height: 150%; /* Image keeps its height */
+                max-width: 150%; /* Prevents it from overflowing */
+                object-fit: contain;
+            }
+        }
+        nav {
+            width: 100%;
+            img {
+                max-width: 50px;
+                max-height: 50px;
+            }
+        }
+    }
+
+
+
+
 }

@@ -7,6 +7,13 @@ section:not(.titulo-principal){
     border-radius: var(--radius);
 }
 
+section:not(.titulo-principal, .botones, .preguntas, .contactar),.pregunta,.contactar a{
+    box-shadow: 0 5px 10px #696D7D;
+}
+
+
+
+
 .contacto, .cookies, .legislacion, .utilizacion{
     background-color: var(--grisclaro);
 }
@@ -220,25 +227,27 @@ section:not(.titulo-principal){
     margin: 0;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 .gestion li {
+    background-color: var(--gris);
+    border-radius: 5px;
     flex: 1;
     text-align: center;
+    align-content: center;
+    transition: background 0.3s;
 }
 
 .gestion a {
     display: block;
     text-decoration: none;
-    background-color: var(--gris);
     color: white;
     padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
 }
 
-.gestion a:hover {
+.gestion li:hover {
     background-color: black;
 }
 
