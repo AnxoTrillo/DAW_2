@@ -16,6 +16,9 @@ p{
     margin: 0;
     border-top-left-radius: var(--radius);
     justify-items: center;
+    :hover{
+        cursor: pointer;
+    }
     img{
         height: 100%;
         width: 35%;

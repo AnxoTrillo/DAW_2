@@ -10,7 +10,6 @@
     Una-festividad
     Un-concierto
     Una-expo
-    About (privacidad, cookies, aviso legal, faq)
     
 
 * poner normas para ocultar el </p/> cuando se achate la pantalla

@@ -1,0 +1,276 @@
+@import "styles.css";
+
+
+section:not(.titulo-principal){
+    margin: 30px var(--paddings);
+    padding: 5px 50px;
+    border-radius: var(--radius);
+}
+
+.contacto, .cookies, .legislacion, .utilizacion{
+    background-color: var(--grisclaro);
+}
+
+.propiedad-intelectual, .tipos, .gestion, .consentimiento{
+    background-color: var(--beige);
+}
+
+.responsabilidad{
+    background-color: var(--moss);
+}
+
+.enlaces{
+    background-color: var(--beige);
+}
+
+.proteccion-datos{
+    background-color: var(--grisclaro);
+}
+
+.formulario{
+    background-color: var(--beige);
+
+    form{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        gap: 10px;
+        max-width: 700px;
+        margin: auto;
+        align-items: center;
+    }
+    label {
+        font-weight: 600;
+        text-align: left;
+    }
+    input, textarea, button {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 15px;
+    }
+    textarea {
+        height: 90px;
+        resize: vertical;
+    }
+
+    label[for="nombre"] {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    label[for="email"]{
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+    label[for="asunto"]{
+        grid-column: 1 / 2;
+        grid-row: 3;
+    }
+    label[for="mensaje"]{
+        grid-column: 1 / 2;
+        grid-row: 4;
+    }
+    label:has(input[name="privacidad"]) {
+        grid-column: 1 / 5;
+        grid-row: 8;
+        padding-bottom: 15px;
+        input:hover{
+            cursor: pointer;
+        }
+    }
+
+
+    input {
+        grid-column: 2 / 4;
+        #nombre{
+            grid-row: 1;
+        }
+        #email{
+            grid-row: 2;
+        }
+        #asunto{
+            grid-row: 3;
+        }
+    }
+
+    button {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        background-color: var(--gris);
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: black;
+    }
+
+    textarea {
+        grid-column: 2 / 5;
+        grid-row: 4 / 7;
+    }
+}
+
+@media (max-width: 670px){
+    .formulario form{
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+
+
+        label[for="nombre"] {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+        label[for="email"]{
+            grid-column: 1 / 2;
+            grid-row: 3;
+        }
+        label[for="asunto"]{
+            grid-column: 1 / 2;
+            grid-row: 5;
+        }
+        label[for="mensaje"]{
+            grid-column: 1 / 2;
+            grid-row: 7;
+        }
+        label:has(input[name="privacidad"]) {
+            grid-column: 1 / 5;
+            grid-row: 12;
+            font-size: 12px;
+            a{
+                font-size: 12px;
+            }
+            input{
+                margin-right: 5px;
+            }
+
+        }
+
+        input {
+            grid-column: 1 / 4;
+            #nombre{
+                grid-row: 2;
+            }
+            #email{
+                grid-row: 4;
+            }
+            #asunto{
+                grid-row: 8;
+            }
+        }
+
+        button {
+            grid-column: 4 / 5;
+            grid-row: 5 / 8;
+            background-color: var(--gris);
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        textarea {
+            grid-column: 1 / 5;
+            grid-row: 8 / 12;
+        }
+    }
+}
+
+.preguntas {
+    article:not(:first-child) {
+        margin: 30px 0;
+    }
+    article:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.pregunta{
+    background-color: var(--grisclaro);
+    border-radius: var(--radius);
+    padding: 15px;
+}
+
+.contactar{
+    text-align: center;
+    a{
+        font-size: var(--24);
+        padding: 20px;
+        border-radius: var(--radius);
+        display: inline-block;
+        background-color: var(--beige);
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: var(--russian);
+    }
+
+}
+
+.gestion ul {
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gestion li {
+    flex: 1;
+    text-align: center;
+}
+
+.gestion a {
+    display: block;
+    text-decoration: none;
+    background-color: var(--gris);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.gestion a:hover {
+    background-color: black;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    text-align: center;
+    button{
+        padding: 10px;
+        font-size: var(--16);
+        border-radius: var(--radius);
+        width: 50%;
+
+
+    }
+    button:hover{
+        background-color: var(--grisclaro);
+        cursor: pointer;
+        font-weight: bold;
+    }
+    p {
+        text-align: center;
+        font-size: var(--16);
+        color: #555;
+        margin: 12px 0;
+        padding: 0;
+    }
+}
+
+
