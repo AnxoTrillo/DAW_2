@@ -137,7 +137,7 @@
             overflow: auto;
             overflow-x: hidden;
             margin: 0 10px;
-            background: red;
+            /*background: red;*/
         }
         p::-webkit-scrollbar {
             padding: 1px;
