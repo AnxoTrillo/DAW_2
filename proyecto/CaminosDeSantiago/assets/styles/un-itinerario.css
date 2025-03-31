@@ -1,0 +1,325 @@
+@import "styles.css";
+
+.itinerario-destacado {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+
+    figure {
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        filter: brightness(70%);
+        object-fit: cover;
+        object-position: center;
+        max-height: 250px;
+
+        img{
+            width:100%;
+            object-fit: cover;
+            object-position: center;
+            max-height: 250px;
+            filter: brightness(80%);
+        }
+    }
+
+    h1{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        color: azure;
+    }
+
+    button {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 100%;
+        bottom: 25px;
+        right: 5%;
+        font-size: 24px;
+        background: rgba(200, 200, 200, 80%);
+    }
+}
+
+.descripcion-itinerario p{
+    text-align: center;
+}
+
+.info-itinerario {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    align-items: start;
+
+    article{
+        border-radius: var(--radius);
+        box-shadow: 0 5px 10px #696D7D;
+        box-sizing: border-box;
+        padding: 10px;
+        height: 100%;
+
+        h3, p{
+            margin: 10px;
+        }
+        p{
+            font-size: var(--16);
+        }
+
+    }
+}
+
+.duracion {
+    grid-column: 1;
+    background-color: var(--moss);
+
+}
+
+.dificultad{
+    grid-column: 2;
+    background-color: var(--beige);
+    .estrellas{
+        display: inline-block;
+        margin-left: 10px;
+        padding: 3px;
+        border-radius: 50px;
+        border: 2px solid var(--gris);
+    }
+}
+
+.puntos-clave {
+    grid-column: 1;
+    background-color: var(--russian);
+    li{
+        margin-bottom: 10px;
+        a{
+            color: black;
+        }
+    }
+}
+
+.mapa-interactivo {
+    grid-column: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.mapa-interactivo iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+}
+
+.recomendaciones-itinerario{
+    padding: 15px var(--paddings);
+}
+
+
+#carouselExample{
+    margin: 0 var(--paddings);
+    align-items: center;
+    .carousel-inner{
+        border-radius: var(--radius);
+    }
+
+    img{
+        width: 100%;
+        height: 30vw;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+        border-radius: 50%; /* Forma circular */
+        padding: 15px;
+    }
+
+}
+
+.comentarios{
+    grid-column: 1 / -1;
+    box-sizing: border-box;
+    background: var(--gris);
+    margin: 3% var(--paddings);
+    padding: 0 0 2% 0;
+    border-radius: var(--radius);
+    height: auto;
+    box-shadow: var(--sombra);
+    align-content: center;
+
+    h2{
+        margin-left: 30px;
+    }
+    p{
+        margin: 15px 15px 15px 30px;
+        font-size: var(--16);
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        gap: 10px;
+        max-width: 700px;
+        margin: auto;
+        align-items: center;
+    }
+
+    label {
+        font-weight: 600;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    input, textarea, button {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 15px;
+    }
+
+    textarea {
+        height: 90px;
+        resize: vertical;
+    }
+
+    label[for="nombre"] {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    input {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    button {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        background-color: var(--grisclaro);
+        color: black;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    label[for="comentario"] {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    textarea {
+        grid-column: 2 / 5;
+        grid-row: 2 / 5;
+    }
+}
+
+@media (max-width: 670px) {
+    .comentarios form {
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+
+        input#nombre, textarea{
+            margin-left: 30px;
+        }
+
+        label[for="nombre"] {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+
+        input {
+            grid-column: 1 / 4;
+            grid-row: 2;
+        }
+
+        label[for="comentario"] {
+            grid-column: 1 / 2;
+            grid-row: 3;
+        }
+
+        textarea {
+            grid-column: 1 / 5;
+            grid-row: 4 / 6;
+        }
+
+        button {
+            grid-column: 4 / 5;
+            grid-row: 2;
+            background-color: var(--grisclaro);
+            color: black;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    }
+}
+
+*{
+    font-family: "Instrument Sans", sans-serif;
+}
+.titulo-principal {
+    padding: 75px 0 0;
+    h1{
+        font-weight: 600;
+        padding: 15px
+    }
+    p{
+        margin: 0 30px 15px 30px;
+    }
+}
+
+header{
+    line-height: 1.15;
+}
+footer{
+    height: 140px;
+    ul li{
+        line-height: 1;
+    }
+}
+
+.descripcion-itinerario{
+    margin: 30px 0;
+}
+
+h3{
+    font-size: 21px;
+}
+
+.recomendaciones-itinerario{
+    margin: 15px 0;
+}
+
+.comentarios h2{
+    margin-top: 15px;
+}

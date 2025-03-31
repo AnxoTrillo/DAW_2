@@ -3,7 +3,7 @@
 
 ## CSS:
     Un-Lugar turistico 
-    Un-itinerario
+    ***** Un-itinerario -> acabar (cambiar alguna imagen y decorar el carrusel)
     Restaurantes
     Un-plato
     restaurante
