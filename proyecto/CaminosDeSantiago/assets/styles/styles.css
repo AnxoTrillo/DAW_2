@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Brush Script Std';
+    src: url('../fonts/BrushScriptStd.woff2') format('woff2'),
+    url('../fonts/BrushScriptStd.woff') format('woff'),
+    url('../fonts/BrushScriptStd.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 :root {
     /*///////////////////////////////////////////////////////
     COLORES
@@ -23,6 +34,8 @@
 
     --paddings: 12%;
     --radius: 10px;
+
+
 }
 
 p {
@@ -141,7 +154,7 @@ header{
                 color: black;
                 font-size: 25px;
                 font-weight: bold;
-                font-family: Consolas, serif;
+                font-family: Consolas, sans-serif;
             }
 
             p:last-child {
@@ -150,7 +163,7 @@ header{
                 color: var(--piel);
                 font-size: 28px;
                 font-weight: bold;
-                font-family: "Brush Script MT", cursive;
+                font-family: "Brush Script Std", cursive;
                 font-style: italic;
             }
             a:hover {
@@ -222,7 +235,7 @@ header{
             width: 50px;
             z-index: 1001;
             position: absolute;
-            left: 15%;
+            left: 13%;
             top: 10px;
             box-sizing: border-box;
             flex-direction: column;
@@ -267,14 +280,14 @@ footer {
         color: var(--piel);
         font-size: 28px;
         font-weight: bold;
-        font-family: Consolas, serif;
+        font-family: Consolas, sans-serif;
     }
 
     p:nth-child(2) {
         color: var(--piel);
         font-size: 28px;
         font-weight: bold;
-        font-family: "Brush Script MT", cursive;
+        font-family: "Brush Script Std", cursive;
         font-style: italic;
     }
 
@@ -352,7 +365,7 @@ footer {
 
         ul {
             li, a {
-                font-size: 15px
+                font-size: 14px
             }
         }
     }
