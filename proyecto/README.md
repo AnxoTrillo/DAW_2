@@ -9,7 +9,6 @@
     restaurante
     Una-festividad
     Un-concierto
-    Una-expo
     
 
 * poner normas para ocultar el </p/> cuando se achate la pantalla

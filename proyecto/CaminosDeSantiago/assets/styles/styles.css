@@ -145,9 +145,11 @@ header{
             color: azure;
         }
 
-        li:first-child {
+        li{
             align-content: center;
             text-align: center;
+        }
+        li:first-child {
             p:first-child {
                 transition: color 0.3s ease;
                 display: inline;
