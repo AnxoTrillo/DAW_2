@@ -96,8 +96,10 @@
         width: 40%;
         border-radius: var(--radius);
         background: var(--beige);
+        padding: 0 10px;
         h2{
             text-align: center;
+            margin-bottom: 10px;
         }
         ul{
             list-style: none;

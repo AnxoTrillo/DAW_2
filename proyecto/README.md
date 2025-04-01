@@ -2,8 +2,7 @@
 ??? Mapas de itinerarios??? JavaScript?
 
 ## CSS:
-    Un-Lugar turistico 
-    ***** Un-itinerario -> acabar (cambiar alguna imagen y decorar el carrusel)
+    Un-Lugar turistico
     Restaurantes
     Un-plato
     restaurante
@@ -13,7 +12,6 @@
 
 * poner normas para ocultar el </p/> cuando se achate la pantalla
 * más tags en el head de descripción, autor, etc.
-* Carruseles de fotos -> intentar hacer sin bootstrap porque va a joder todas las páginas el css (igual se puede sin improtar el css y solo la js(?))
 * Calendario en las páginas de eventos (conciertos, festivales, festividades y exposiciones)
 * Mapas en páginas de itinerarios gastronómicos, históricos, naturales ????????
 * Mapas en páginas de espacios culturales, naturales, monumnentos, museos ??????
