@@ -7,51 +7,64 @@ let lugares = document.querySelector(".filtrar-lugares");
 
 function tarjetamode(mode){
     let tarjetas =document.querySelectorAll(".tarjetas-favoritos article");
+    let tarjetanula=null;
+    let mostrados=0;
     for (const tarjeta of tarjetas) {
+        if(tarjeta.className==="vacia"){tarjetanula=tarjeta}
         switch (mode) {
             case "eventos":{
-                if(tarjeta.className!=="un-evento"){
+                if(!(tarjeta.className==="un-evento" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
                     if(checkfavorito(tarjeta.querySelector("h3").textContent)===true){
                         tarjeta.style.display="block";
+                        if(tarjeta.className!=="vacia"){mostrados++;}
                     }
                 }
             }
                 break;
             case "locales":{
-                if(!(tarjeta.className==="un-local")){
+                if(!(tarjeta.className==="un-local" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
                     if(checkfavorito(tarjeta.querySelector("h3").textContent)===true){
                         tarjeta.style.display="block";
+                        if(tarjeta.className!=="vacia"){mostrados++;}
                     }                }
             }
                 break;
             case "platos":{
-                if(!(tarjeta.className==="un-plato")){
+                if(!(tarjeta.className==="un-plato" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
                     if(checkfavorito(tarjeta.querySelector("h3").textContent)===true){
                         tarjeta.style.display="block";
+                        if(tarjeta.className!=="vacia"){mostrados++;}
                     }                }
             }
                 break;
             case "lugares":{
-                if(!(tarjeta.className==="un-lugar" || tarjeta.className==="un-itinerario")){
+                if(!(tarjeta.className==="un-lugar" || tarjeta.className==="un-itinerario" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
                     if(checkfavorito(tarjeta.querySelector("h3").textContent)===true){
                         tarjeta.style.display="block";
+                        if(tarjeta.className!=="vacia"){mostrados++;}
                     }                }
             }
                 break;
             default:
                 if(checkfavorito(tarjeta.querySelector("h3").textContent)===true){
                     tarjeta.style.display="block";
+                    if(tarjeta.className!=="vacia"){mostrados++;}
                 }
                 break;
         }
+    }
+    if(mostrados===0){
+        tarjeta_nula(tarjetanula,"block");
+    }else{
+        tarjeta_nula(tarjetanula,"none");
     }
 }
 
@@ -90,17 +103,10 @@ platos.addEventListener("click",function (){
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    //funcion de xml
-    loadDoc();
-    //listeners de los basureros
-    let trashbuttons=document.querySelectorAll(".iconos figure img");
-    for (const trashbutton of trashbuttons) {
-        trashbutton.addEventListener("click",function(){
-            alert(trashbutton.parentElement.parentElement.parentElement.children[1].textContent);
-        });
-    }
-});
 
+    loadDoc();
+
+});
 
 
 function loadDoc() {
@@ -119,20 +125,13 @@ function alertador(texto){
     alert(texto);
 }
 function eliminador(texto){
-    togglefavorito(texto);
-    location.reload();
-}
-
-function checknames(xmlDoc,abuscar){
-    let shower = xmlDoc.getElementsByTagName("nombre")
-
-    for (let j = 0; j < shower.length; j++) {
-        let nombreTexto = shower[j].textContent.trim();
-        if (nombreTexto === abuscar) {
-            return true;
-        }
+    if(texto!=="Vacío"){
+        togglefavorito(texto);
+        location.reload();
     }
 }
+
+
 function myFunction(xml) {
 
     let xmlDoc = xml.responseXML;
@@ -146,8 +145,6 @@ function myFunction(xml) {
         let titulo = tarjetas[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue;
         let descripcion = tarjetas[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue;
         let enlaceplus = tarjetas[i].getElementsByTagName("enlaceplus")[0].childNodes[0].nodeValue;
-
-        //if(checkfavorito(titulo)){
 
             let insertar = "";
             insertar += "<article class=" + clase + ">" +
@@ -164,15 +161,27 @@ function myFunction(xml) {
 
 
     }
+    let activas=0;
+    let tarjetanula=null;
     for (const tarjeta of document.querySelectorAll(".tarjetas-favoritos article")) {
         let titulo=tarjeta.querySelector("h3").textContent;
+        if(titulo==="Vacío"){tarjetanula=tarjeta}
         if(checkfavorito(titulo)===false){
             tarjeta.style.display="none";
+        }else{
+            if(titulo!=="Vacío"){activas++;}
         }
+    }
+    if(activas===0){
+        tarjeta_nula(tarjetanula,"block");
+    }else{
+        tarjeta_nula(tarjetanula,"none");
     }
 }
 
-
+function tarjeta_nula(tarjeta,state){
+    tarjeta.style.display=state;
+}
 
 function checkfavorito(titulo){
     let favs=getfavoritos();

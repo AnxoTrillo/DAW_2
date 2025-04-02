@@ -1175,14 +1175,14 @@
     <TARJETA>
         <class>vacia</class>
         <imagen>
-            <src>"../assets/images/itinerarios/naturales/natural2/principal.png"</src>
+            <src>"../assets/images/general/heart.svg"</src>
             <alt>"Imagen de botón de like"</alt>
         </imagen>
         <titulo>Vacío</titulo>
         <descripcion>
             ¿Todavía no tienes favoritos? Prueba a pulsar el botón de "me gusta" en un plato, evento, lugar o itinerario y luego vuelve aquí.
         </descripcion>
-        <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural2.html"
+        <enlaceplus>
         </enlaceplus>
     </TARJETA>
 
