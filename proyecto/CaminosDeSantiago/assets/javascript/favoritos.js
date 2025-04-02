@@ -6,13 +6,19 @@ let platos = document.querySelector(".filtrar-platos");
 let lugares = document.querySelector(".filtrar-lugares");
 
 function tarjetamode(mode){
+
     let tarjetas =document.querySelectorAll(".tarjetas-favoritos article");
     let tarjetanula=null;
     let mostrados=0;
+    eventos.style.backgroundColor="var(--piel)";
+    locales.style.backgroundColor="var(--piel)";
+    platos.style.backgroundColor="var(--piel)";
+    lugares.style.backgroundColor="var(--piel)";
     for (const tarjeta of tarjetas) {
         if(tarjeta.className==="vacia"){tarjetanula=tarjeta}
         switch (mode) {
             case "eventos":{
+                eventos.style.backgroundColor="rgb(180,160,142)";
                 if(!(tarjeta.className==="un-evento" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
@@ -24,6 +30,7 @@ function tarjetamode(mode){
             }
                 break;
             case "locales":{
+                locales.style.backgroundColor="rgb(180,160,142)";
                 if(!(tarjeta.className==="un-local" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
@@ -34,6 +41,7 @@ function tarjetamode(mode){
             }
                 break;
             case "platos":{
+                platos.style.backgroundColor="rgb(180,160,142)";
                 if(!(tarjeta.className==="un-plato" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
@@ -44,6 +52,7 @@ function tarjetamode(mode){
             }
                 break;
             case "lugares":{
+                lugares.style.backgroundColor="rgb(180,160,142)";
                 if(!(tarjeta.className==="un-lugar" || tarjeta.className==="un-itinerario" || tarjeta.className==="vacia")){
                     tarjeta.style.display="none";
                 }else{
@@ -121,9 +130,7 @@ function loadDoc() {
     xhttp.send();
 
 }
-function alertador(texto){
-    alert(texto);
-}
+
 function eliminador(texto){
     if(texto!=="Vacío"){
         togglefavorito(texto);
@@ -211,7 +218,3 @@ function togglefavorito(titulo) {
 
     setfavoritos(favs);
 }
-
-
-
-
