@@ -1,6 +1,3 @@
-
-
-
 const mult=document.querySelectorAll(".consejos figure:not(article figure)");
 const tabs=document.getElementsByClassName("consejos-container");
 
