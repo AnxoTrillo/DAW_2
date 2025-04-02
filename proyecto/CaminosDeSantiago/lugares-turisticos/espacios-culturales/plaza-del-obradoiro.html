@@ -1,127 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta name="author" content="Candela Rodríguez Besada, Anxo Trillo Santamaría">
+	<meta name="description" content="Proyecto 1. Guía turística de Santiago de Compostela.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, noarchive">
-<title>Plaza del Obradoiro</title>
-
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <meta name="robots" content="noindex, noarchive">
+    <title>Plaza del Obradoiro</title>
 </head>
 <body>
-    <header>
-        <nav>
+<header>
+    <nav>
+        <ul>
+            <li class="logo-header"><a href="../../index.html"><p>Caminos</p>
+                <p>DeSantiago</p></a></li>
+            <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
+            <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
+            <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
+            <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+            <li><a href="../../mapas/mapas.html">Mapas</a></li>
+            <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
+            <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
+            <li><a href="../../extras/extras.html">Extras</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="imagen-principal">
+        <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/principal.png"
+                     alt="Plaza del Obradoiro"></figure>
+        <h1>Plaza del Obradoiro</h1>
+        <button class="favorito">&#9825;</button>
+    </section>
+
+    <section class="informacion">
+        <div class="descripcion">
+            <h2>Descripción</h2>
+            <p>La Plaza del Obradoiro es el corazón de Santiago de Compostela, un espacio cargado de simbolismo e
+                historia. Es conocida mundialmente como el punto final del Camino de Santiago, donde miles de peregrinos
+                llegan cada año tras recorrer kilómetros de rutas que convergen en esta ciudad. Su nombre, "Obradoiro",
+                proviene del taller de canteros que trabajaban en la construcción de la majestuosa fachada barroca de la
+                Catedral, que domina la plaza y es su principal protagonista.</p>
+            <p>Rodeada por algunos de los edificios más emblemáticos de Santiago, la plaza combina diferentes estilos
+                arquitectónicos que reflejan siglos de historia. En el lado occidental se encuentra el Pazo de Raxoi, un
+                elegante edificio neoclásico que actualmente alberga el Ayuntamiento y el gobierno autonómico. Al norte,
+                el Hostal dos Reis Católicos, fundado en 1499 como hospital para los peregrinos, es un impresionante
+                ejemplo de arquitectura plateresca y uno de los hoteles más antiguos del mundo. Por el este, el Colegio
+                de San Xerome, de estilo renacentista, completa este conjunto monumental.</p>
+        </div>
+        <div class="historia">
+            <h2>Historia</h2>
+            <p>La historia de la Plaza del Obradoiro está íntimamente ligada a la construcción y desarrollo de la
+                Catedral de Santiago, que comenzó en el siglo XI para albergar los restos del Apóstol Santiago. En sus
+                primeros años, el espacio donde hoy se encuentra la plaza era un área de trabajo y construcción, de ahí
+                su nombre, "Obradoiro" (taller en gallego), en referencia a los canteros y artesanos que trabajaban en
+                la Catedral.</p>
+            <p>Durante la Edad Media, la plaza evolucionó desde un lugar de trabajo a un espacio de tránsito y acogida
+                para los peregrinos que llegaban a la ciudad. Con la construcción del Hostal dos Reis Católicos a
+                finales del siglo XV, la plaza comenzó a adquirir su configuración actual como un lugar de hospitalidad
+                y reunión. En el siglo XVIII, la plaza se completó con la construcción del Pazo de Raxoi, obra del
+                arquitecto Carlos Lemaur, que añadió un toque de simetría y majestuosidad al conjunto.</p>
+            <p>A lo largo de los siglos, la plaza ha sido testigo de innumerables momentos históricos, desde grandes
+                celebraciones religiosas hasta actos oficiales. Su pavimento actual, de losas de granito, fue diseñado
+                para reflejar la monumentalidad del entorno, destacando el eje central que conecta a los peregrinos con
+                la Catedral.</p>
+        </div>
+        <div class="detalles">
+            <h2>Información</h2>
             <ul>
-                <li class="logo-header"><a href="../../index.html"><p>Caminos</p><p>DeSantiago</p></a></li>
-                <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
-                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
-                <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
-                <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
-                <li><a href="../../mapas/mapas.html">Mapas</a></li>
-                <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
-                <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
-                <li><a href="../../extras/extras.html">Extras</a></li>
+                <li><strong>Ubicación:</strong> Plaza del Obradoiro, Santiago de Compostela</li>
+                <li><strong>Horario:</strong> Abierta 24 horas</li>
+                <li><strong>Precio:</strong> Acceso gratuito</li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </section>
 
-    <main>
-        <section class="imagen-principal">
-            <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/principal.png" alt="Plaza del Obradoiro"></figure>
-            <h1>Plaza del Obradoiro</h1>
-            <button class="favorito">&#9825;</button>
-        </section>
+    <section class="media">
+        <div class="carrusel">
+            <h2>Galería de Fotos</h2>
+            <div class="imagenes">
+                <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel1.webp"
+                             alt="Plaza del Obradoiro 1"></figure>
+                <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel2.webp"
+                             alt="Plaza del Obradoiro 2"></figure>
+                <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel3.webp"
+                             alt="Plaza del Obradoiro 3"></figure>
+            </div>
+        </div>
+        <div class="mapa">
+            <h2>Mapa Interactivo</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.0037764764784!2d-8.545634!3d42.880586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe46f1b7e0e7%3A0x2bd04b9aabc1d503!2sPraza%20do%20Obradoiro!5e0!3m2!1ses!2ses!4v1692893658112!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
 
-        <section class="informacion">
-            <div class="descripcion">
-                <h2>Descripción</h2>
-                <p>La Plaza del Obradoiro es el corazón de Santiago de Compostela, un espacio cargado de simbolismo e historia. Es conocida mundialmente como el punto final del Camino de Santiago, donde miles de peregrinos llegan cada año tras recorrer kilómetros de rutas que convergen en esta ciudad. Su nombre, "Obradoiro", proviene del taller de canteros que trabajaban en la construcción de la majestuosa fachada barroca de la Catedral, que domina la plaza y es su principal protagonista.</p>
-                <p>Rodeada por algunos de los edificios más emblemáticos de Santiago, la plaza combina diferentes estilos arquitectónicos que reflejan siglos de historia. En el lado occidental se encuentra el Pazo de Raxoi, un elegante edificio neoclásico que actualmente alberga el Ayuntamiento y el gobierno autonómico. Al norte, el Hostal dos Reis Católicos, fundado en 1499 como hospital para los peregrinos, es un impresionante ejemplo de arquitectura plateresca y uno de los hoteles más antiguos del mundo. Por el este, el Colegio de San Xerome, de estilo renacentista, completa este conjunto monumental.</p>
-            </div>
-            <div class="historia">
-                <h2>Historia</h2>
-                <p>La historia de la Plaza del Obradoiro está íntimamente ligada a la construcción y desarrollo de la Catedral de Santiago, que comenzó en el siglo XI para albergar los restos del Apóstol Santiago. En sus primeros años, el espacio donde hoy se encuentra la plaza era un área de trabajo y construcción, de ahí su nombre, "Obradoiro" (taller en gallego), en referencia a los canteros y artesanos que trabajaban en la Catedral.</p>
-                <p>Durante la Edad Media, la plaza evolucionó desde un lugar de trabajo a un espacio de tránsito y acogida para los peregrinos que llegaban a la ciudad. Con la construcción del Hostal dos Reis Católicos a finales del siglo XV, la plaza comenzó a adquirir su configuración actual como un lugar de hospitalidad y reunión. En el siglo XVIII, la plaza se completó con la construcción del Pazo de Raxoi, obra del arquitecto Carlos Lemaur, que añadió un toque de simetría y majestuosidad al conjunto.</p>
-                <p>A lo largo de los siglos, la plaza ha sido testigo de innumerables momentos históricos, desde grandes celebraciones religiosas hasta actos oficiales. Su pavimento actual, de losas de granito, fue diseñado para reflejar la monumentalidad del entorno, destacando el eje central que conecta a los peregrinos con la Catedral.</p>
-            </div>
-            <div class="detalles">
-                <h2>Información</h2>
-                <ul>
-                    <li><strong>Ubicación:</strong> Plaza del Obradoiro, Santiago de Compostela</li>
-                    <li><strong>Horario:</strong> Abierta 24 horas</li>
-                    <li><strong>Precio:</strong> Acceso gratuito</li>
-                </ul>
-            </div>
-        </section>
+    <section class="sugerencias">
+        <p>Te recomendamos que, al visitar la Plaza del Obradoiro, te tomes un tiempo para admirar la majestuosa
+            Catedral de Santiago, cuyo imponente fachada barroca te dejará sin palabras. Es el lugar más emblemático de
+            la ciudad, por lo que es ideal para tomar fotos y absorber la atmósfera histórica que la rodea. Aprovecha
+            para sentarte en sus bancos y disfrutar de las vistas, o pasear por los alrededores, donde encontrarás
+            edificios históricos como el Palacio de Rajoy y el Hostal dos Reis Católicos. No dudes en dejarte llevar por
+            la magia del lugar, especialmente al atardecer, cuando la plaza cobra una luz especial.</p>
+    </section>
+    <section class="comentarios">
+        <h2>Comentarios y Valoraciones</h2>
+        <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-        <section class="media">
-            <div class="carrusel">
-                <h2>Galería de Fotos</h2>
-                <div class="imagenes">
-                    <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel1.webp" alt="Plaza del Obradoiro 1"></figure>
-                    <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel2.webp" alt="Plaza del Obradoiro 2"></figure>
-                    <figure><img src="../../assets/images/lugares/espacios-culturales/obradoiro/carrusel3.webp" alt="Plaza del Obradoiro 3"></figure>
-                </div>
-            </div>
-            <div class="mapa">
-                <h2>Mapa Interactivo</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.0037764764784!2d-8.545634!3d42.880586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe46f1b7e0e7%3A0x2bd04b9aabc1d503!2sPraza%20do%20Obradoiro!5e0!3m2!1ses!2ses!4v1692893658112!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
 
-        <section class="sugerencias">
-            <p>Te recomendamos que, al visitar la Plaza del Obradoiro, te tomes un tiempo para admirar la majestuosa Catedral de Santiago, cuyo imponente fachada barroca te dejará sin palabras. Es el lugar más emblemático de la ciudad, por lo que es ideal para tomar fotos y absorber la atmósfera histórica que la rodea. Aprovecha para sentarte en sus bancos y disfrutar de las vistas, o pasear por los alrededores, donde encontrarás edificios históricos como el Palacio de Rajoy y el Hostal dos Reis Católicos. No dudes en dejarte llevar por la magia del lugar, especialmente al atardecer, cuando la plaza cobra una luz especial.</p>
-        </section>
-        <section class="comentarios">
-            <h2>Comentarios y Valoraciones</h2>
-            <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
-            <form action="#" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario" name="comentario" rows="4" required></textarea>
-                
-                <button type="submit">Enviar comentario</button>
-            </form>
-        </section>
-        
-    </main>
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </section>
 
-    <footer>
-        <p>Caminos</p><p>DeSantiago</p>
-        <nav>
-            <ul>
-                <li class="title-footer"><a href="../../index.html">Inicio</a></li>
-                <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares</a></li>
-                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
-                <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
-                <li><a href="../../eventos-y-actividades/eventos.html">Eventos</a></li>
-            </ul>
-            <ul>
-                <li class="title-footer"><a href="../../index.html">Inicio</a></li>
-                <li><a href="../../mapas/mapas.html">Mapas</a></li>
-                <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
-                <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
-                <li><a href="../../extras/extras.html">Extras</a></li>
-            </ul>
-            <ul class="populares-footer">
+</main>
+
+<footer>
+    <p>Caminos</p>
+    <p>DeSantiago</p>
+    <nav>
+        <ul>
+            <li class="title-footer"><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares</a></li>
+            <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
+            <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
+            <li><a href="../../eventos-y-actividades/eventos.html">Eventos</a></li>
+        </ul>
+        <ul>
+            <li class="title-footer"><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../mapas/mapas.html">Mapas</a></li>
+            <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
+            <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
+            <li><a href="../../extras/extras.html">Extras</a></li>
+        </ul>
+        <ul class="populares-footer">
             <li class="title-footer">Popular</li>
-                <li><a href="../../gastronomia-local/restaurantes-recomendados/la-tita.html">Bar La Tita</a></li>
-                <li><a href="../../gastronomia-local/platos-tipicos/pulpo.html">Pulpo á feira</a></li>
-                <li><a href="../../eventos-y-actividades/festividades/san-juan.html">Noite de S. Xoán</a></li>
-                <li><a href="../../eventos-y-actividades/festivales/o-son-do-caminho.html">O Son do Camiño</a></li>
-            </ul> 
-            <ul>
-                <li class="title-footer">About</li>
-                <li><a href="../../about/politica.html">Cookies</a></li>
-                <li><a href="../../about/aviso.html">Aviso Legal</a></li>
-                <li><a href="../../about/contacto.html">Contacto</a></li>
-                <li><a href="../../about/faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-        <h3>&copy; 2025 Caminos de Santiago</h3>
-    </footer>
+            <li><a href="../../gastronomia-local/restaurantes-recomendados/la-tita.html">Bar La Tita</a></li>
+            <li><a href="../../gastronomia-local/platos-tipicos/pulpo.html">Pulpo á feira</a></li>
+            <li><a href="../../eventos-y-actividades/festividades/san-juan.html">Noite de S. Xoán</a></li>
+            <li><a href="../../eventos-y-actividades/festivales/o-son-do-caminho.html">O Son do Camiño</a></li>
+        </ul>
+        <ul>
+            <li class="title-footer">About</li>
+            <li><a href="../../about/politica.html">Cookies</a></li>
+            <li><a href="../../about/aviso.html">Aviso Legal</a></li>
+            <li><a href="../../about/contacto.html">Contacto</a></li>
+            <li><a href="../../about/faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <h3>&copy; 2025 Caminos de Santiago</h3>
+</footer>
+<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+<script src="../../assets/javascript/jquery/hamburger.js"></script>
 </body>
 </html>

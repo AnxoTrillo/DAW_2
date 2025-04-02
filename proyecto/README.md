@@ -6,7 +6,7 @@
     Restaurantes
     Un-restaurante
     Una-festividad
-    Un-concierto
+    CARRUSELES DE FOTOS EN Festivales
     
 
 * poner normas para ocultar el </p/> cuando se achate la pantalla

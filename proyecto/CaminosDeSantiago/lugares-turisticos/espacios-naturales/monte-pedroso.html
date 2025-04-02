@@ -1,132 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta name="author" content="Candela Rodríguez Besada, Anxo Trillo Santamaría">
+	<meta name="description" content="Proyecto 1. Guía turística de Santiago de Compostela.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, noarchive">
-<title>Monte Pedroso</title>
-
-<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
-<script src="../../assets/javascript/jquery/hamburger.js" ></script>
+    <meta name="robots" content="noindex, noarchive">
+    <title>Monte Pedroso</title>
 </head>
 <body>
-    <!-- Menú de Navegación -->
-    <header>
-        <nav>
+<header>
+    <nav>
+        <ul>
+            <li class="logo-header"><a href="../../index.html"><p>Caminos</p>
+                <p>DeSantiago</p></a></li>
+            <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
+            <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
+            <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
+            <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
+            <li><a href="../../mapas/mapas.html">Mapas</a></li>
+            <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
+            <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
+            <li><a href="../../extras/extras.html">Extras</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Imagen Principal -->
+    <section class="imagen-principal">
+        <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/principal.png" alt="Monte Pedroso">
+        </figure>
+        <h1>Monte Pedroso</h1>
+        <button class="favorito">&#9825;</button>
+    </section>
+
+    <!-- Información Principal -->
+    <section class="informacion">
+        <div class="descripcion">
+            <h2>Descripción</h2>
+            <p>El Monte Pedroso es uno de los puntos más altos de la ciudad de Santiago de Compostela, ideal para
+                aquellos que buscan escapar del bullicio urbano y disfrutar de la naturaleza. A tan solo unos minutos
+                del centro de la ciudad, este monte ofrece rutas de senderismo de diferentes niveles de dificultad, con
+                paisajes que combinan bosques de pinos, praderas y vistas espectaculares de la ciudad y sus alrededores.
+                Es un lugar perfecto para practicar deportes al aire libre, hacer un picnic o simplemente relajarse
+                mientras se contempla el horizonte gallego.</p>
+        </div>
+        <div class="curiosidades">
+            <h2>Curiosidades</h2>
             <ul>
-                <li class="logo-header"><a href="../../index.html"><p>Caminos</p><p>DeSantiago</p></a></li>
-                <li><a href="../lugares-turisticos.html">Lugares Turísticos</a></li>
-                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
-                <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
-                <li><a href="../../eventos-y-actividades/eventos.html">Eventos y Actividades</a></li>
-                <li><a href="../../mapas/mapas.html">Mapas</a></li>
-                <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
-                <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
-                <li><a href="../../extras/extras.html">Extras</a></li>
+                <li>En la cima del Monte Pedroso se encuentra un mirador que permite disfrutar de una vista panorámica
+                    de 360 grados de la ciudad de Santiago y sus alrededores.
+                </li>
+                <li>En el monte se han encontrado restos arqueológicos que demuestran la importancia de este lugar en la
+                    Edad de Hierro.
+                </li>
+                <li>Es un lugar tradicionalmente utilizado para las celebracioens de la "Fiesta de la Rama", una
+                    festividad popular en la que los habitantes de la ciudad suben al monte con ramas de árboles.
+                </li>
+                <li>En el Monte Pedroso también se encuentran varias rutas de senderismo que forman parte de la Red de
+                    Senderos de Galicia, lo que lo convierte en un destino ideal para los amantes del trekking y el
+                    contacto con la naturaleza.
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Imagen Principal -->
-        <section class="imagen-principal">
-            <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/principal.png" alt="Monte Pedroso"></figure>
-            <h1>Monte Pedroso</h1>
-            <button class="favorito">&#9825;</button>
-        </section>
-
-        <!-- Información Principal -->
-        <section class="informacion">
-            <div class="descripcion">
-                <h2>Descripción</h2>
-                <p>El Monte Pedroso es uno de los puntos más altos de la ciudad de Santiago de Compostela, ideal para aquellos que buscan escapar del bullicio urbano y disfrutar de la naturaleza. A tan solo unos minutos del centro de la ciudad, este monte ofrece rutas de senderismo de diferentes niveles de dificultad, con paisajes que combinan bosques de pinos, praderas y vistas espectaculares de la ciudad y sus alrededores. Es un lugar perfecto para practicar deportes al aire libre, hacer un picnic o simplemente relajarse mientras se contempla el horizonte gallego.</p>
-            </div>
-            <div class="curiosidades">
-                <h2>Curiosidades</h2>
-                <ul>
-                    <li>En la cima del Monte Pedroso se encuentra un mirador que permite disfrutar de una vista panorámica de 360 grados de la ciudad de Santiago y sus alrededores.</li>
-                    <li>En el monte se han encontrado restos arqueológicos que demuestran la importancia de este lugar en la Edad de Hierro.</li>
-                    <li>Es un lugar tradicionalmente utilizado para las celebracioens de la "Fiesta de la Rama", una festividad popular en la que los habitantes de la ciudad suben al monte con ramas de árboles.</li>
-                    <li>En el Monte Pedroso también se encuentran varias rutas de senderismo que forman parte de la Red de Senderos de Galicia, lo que lo convierte en un destino ideal para los amantes del trekking y el contacto con la naturaleza.</li>
-                </ul>
-            </div>
-            <div class="detalles">
-                <h2>Información</h2>
-                <ul>
-                    <li><strong>Ubicación:</strong>Monte Pedroso, 2, 15898, A Coruña</li>
-                    <li><strong>Horario:</strong> Abierto las 24 horas</li>
-                    <li><strong>Precio:</strong> Entrada gratuita</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Carrusel de Fotos y Mapa Interactivo -->
-        <section class="media">
-            <div class="carrusel">
-                <h2>Galería de Fotos</h2>
-                <div class="imagenes">
-                    <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel1.webp" alt="Monte Pedroso 1"></figure>
-                    <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel2.webp" alt="Monte Pedroso 2"></figure>
-                    <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel3.webp" alt="Monte Pedroso 3"></figure>
-                </div>
-            </div>
-            <div class="mapa">
-                <h2>Mapa Interactivo</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23375.38350335474!2d-8.56666670000001!3d42.916666199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efea155e38cb5%3A0x5e01fff7901eb5ca!2sMonte%20Pedroso!5e0!3m2!1ses!2ses!4v1739746508192!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
-        </section>
-
-        <section class="sugerencias">
-            <p>Te recomendamos que, al visitar el Monte Pedroso, disfrutes de las vistas panorámicas que ofrece de Santiago de Compostela. Aunque está un poco alejado del centro, el esfuerzo merece la pena, ya que desde su cima podrás ver la ciudad en su totalidad, con la Catedral y otros puntos emblemáticos en el horizonte. Es un lugar perfecto para hacer senderismo y disfrutar de la naturaleza, lejos del bullicio urbano. Además, podrás aprovechar para respirar aire fresco y relajarte en un entorno tranquilo, ideal para desconectar. Si tienes tiempo, explora los caminos cercanos y adéntrate en el bosque, un perfecto refugio natural.</p>
-        </section>
-        <section class="comentarios">
-            <h2>Comentarios y Valoraciones</h2>
-            <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
-            <form action="#" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario" name="comentario" rows="4" required></textarea>
-                
-                <button type="submit">Enviar comentario</button>
-            </form>
-        </section>
-        
-    </main>
-
-    <footer>
-        <p>Caminos</p><p>DeSantiago</p>
-        <nav>
+        </div>
+        <div class="detalles">
+            <h2>Información</h2>
             <ul>
-                <li class="title-footer"><a href="../../index.html">Inicio</a></li>
-                <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares</a></li>
-                <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
-                <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
-                <li><a href="../../eventos-y-actividades/eventos.html">Eventos</a></li>
+                <li><strong>Ubicación:</strong>Monte Pedroso, 2, 15898, A Coruña</li>
+                <li><strong>Horario:</strong> Abierto las 24 horas</li>
+                <li><strong>Precio:</strong> Entrada gratuita</li>
             </ul>
-            <ul>
-                <li class="title-footer"><a href="../../index.html">Inicio</a></li>
-                <li><a href="../../mapas/mapas.html">Mapas</a></li>
-                <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
-                <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
-                <li><a href="../../extras/extras.html">Extras</a></li>
-            </ul>
-            <ul class="populares-footer">
+        </div>
+    </section>
+
+    <!-- Carrusel de Fotos y Mapa Interactivo -->
+    <section class="media">
+        <div class="carrusel">
+            <h2>Galería de Fotos</h2>
+            <div class="imagenes">
+                <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel1.webp"
+                             alt="Monte Pedroso 1"></figure>
+                <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel2.webp"
+                             alt="Monte Pedroso 2"></figure>
+                <figure><img src="../../assets/images/lugares/espacios-naturales/pedroso/carrusel3.webp"
+                             alt="Monte Pedroso 3"></figure>
+            </div>
+        </div>
+        <div class="mapa">
+            <h2>Mapa Interactivo</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23375.38350335474!2d-8.56666670000001!3d42.916666199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efea155e38cb5%3A0x5e01fff7901eb5ca!2sMonte%20Pedroso!5e0!3m2!1ses!2ses!4v1739746508192!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="sugerencias">
+        <p>Te recomendamos que, al visitar el Monte Pedroso, disfrutes de las vistas panorámicas que ofrece de Santiago
+            de Compostela. Aunque está un poco alejado del centro, el esfuerzo merece la pena, ya que desde su cima
+            podrás ver la ciudad en su totalidad, con la Catedral y otros puntos emblemáticos en el horizonte. Es un
+            lugar perfecto para hacer senderismo y disfrutar de la naturaleza, lejos del bullicio urbano. Además, podrás
+            aprovechar para respirar aire fresco y relajarte en un entorno tranquilo, ideal para desconectar. Si tienes
+            tiempo, explora los caminos cercanos y adéntrate en el bosque, un perfecto refugio natural.</p>
+    </section>
+    <section class="comentarios">
+        <h2>Comentarios y Valoraciones</h2>
+        <p>No hay comentarios aún. ¡Sé el primero en opinar!</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>Caminos</p>
+    <p>DeSantiago</p>
+    <nav>
+        <ul>
+            <li class="title-footer"><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../lugares-turisticos/lugares-turisticos.html">Lugares</a></li>
+            <li><a href="../../itinerarios-recomendados/itinerarios.html">Itinerarios</a></li>
+            <li><a href="../../gastronomia-local/gastronomia-local.html">Gastronomía</a></li>
+            <li><a href="../../eventos-y-actividades/eventos.html">Eventos</a></li>
+        </ul>
+        <ul>
+            <li class="title-footer"><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../mapas/mapas.html">Mapas</a></li>
+            <li><a href="../../consejos-utiles/consejos.html">Consejos</a></li>
+            <li><a href="../../mis-favoritos/favoritos.html">Favoritos</a></li>
+            <li><a href="../../extras/extras.html">Extras</a></li>
+        </ul>
+        <ul class="populares-footer">
             <li class="title-footer">Popular</li>
-                <li><a href="../../gastronomia-local/restaurantes-recomendados/la-tita.html">Bar La Tita</a></li>
-                <li><a href="../../gastronomia-local/platos-tipicos/pulpo.html">Pulpo á feira</a></li>
-                <li><a href="../../eventos-y-actividades/festividades/san-juan.html">Noite de S. Xoán</a></li>
-                <li><a href="../../eventos-y-actividades/festivales/o-son-do-caminho.html">O Son do Camiño</a></li>
-            </ul> 
-            <ul>
-                <li class="title-footer">About</li>
-                <li><a href="../../about/politica.html">Cookies</a></li>
-                <li><a href="../../about/aviso.html">Aviso Legal</a></li>
-                <li><a href="../../about/contacto.html">Contacto</a></li>
-                <li><a href="../../about/faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-        <h3>&copy; 2025 Caminos de Santiago</h3>
-    </footer>
+            <li><a href="../../gastronomia-local/restaurantes-recomendados/la-tita.html">Bar La Tita</a></li>
+            <li><a href="../../gastronomia-local/platos-tipicos/pulpo.html">Pulpo á feira</a></li>
+            <li><a href="../../eventos-y-actividades/festividades/san-juan.html">Noite de S. Xoán</a></li>
+            <li><a href="../../eventos-y-actividades/festivales/o-son-do-caminho.html">O Son do Camiño</a></li>
+        </ul>
+        <ul>
+            <li class="title-footer">About</li>
+            <li><a href="../../about/politica.html">Cookies</a></li>
+            <li><a href="../../about/aviso.html">Aviso Legal</a></li>
+            <li><a href="../../about/contacto.html">Contacto</a></li>
+            <li><a href="../../about/faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <h3>&copy; 2025 Caminos de Santiago</h3>
+</footer>
+<script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
+<script src="../../assets/javascript/jquery/hamburger.js"></script>
 </body>
 </html>
