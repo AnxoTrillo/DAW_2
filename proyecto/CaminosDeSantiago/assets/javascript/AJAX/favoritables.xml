@@ -1052,6 +1052,141 @@
     </TARJETA>
 
 
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/gastronomicos/gastronomico1/principal.png"</src>
+            <alt>"Imagen de Ruta de los Sabores del Mar"</alt>
+        </imagen>
+        <titulo>Itinerario Gastronómico: Ruta de los Sabores del Mar</titulo>
+        <descripcion>
+            Descubre la esencia de la cocina marina en Santiago de Compostela con este itinerario diseñado para los
+            amantes del marisco. Recorrerás locales emblemáticos donde el pulpo, los percebes y otros manjares del
+            océano se fusionan con la tradición gallega. Sumérgete en una experiencia culinaria que combina historia y
+            modernidad en cada plato. Además, disfrutarás de un ambiente acogedor, en el que los sabores del Atlántico
+            se mezclan con la hospitalidad gallega. Este recorrido no solo te llevará a probar recetas icónicas, sino
+            que también te permitirá conocer más sobre los ingredientes y técnicas de la gastronomía local.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico1.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/gastronomicos/gastronomico2/principal.png"</src>
+            <alt>"Imagen de Ruta de los Sabores del Campo"</alt>
+        </imagen>
+        <titulo>Itinerario Gastronómico: Ruta de los Sabores del Campo</titulo>
+        <descripcion>
+            Explora la tradición rural de Santiago de Compostela a través de una ruta que celebra los sabores auténticos
+            del campo. Este itinerario te llevará a descubrir locales y mesones donde se preparan platos robustos y
+            llenos de carácter, utilizando ingredientes frescos de la tierra. Sumérgete en la cultura gastronómica local
+            y disfruta de una experiencia culinaria que une historia y autenticidad.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico2.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/gastronomicos/gastronomico3/principal.png"</src>
+            <alt>"Imagen de Ruta de la Cocina de Autor"</alt>
+        </imagen>
+        <titulo>Itinerario Gastronómico: Ruta de la Cocina de Autor</titulo>
+        <descripcion>
+            Explora la vanguardia culinaria en Santiago de Compostela con este itinerario que destaca la cocina de autor.
+            Descubre restaurantes y locales donde chefs innovadores reinterpretan la tradición gallega con creatividad.
+            Cada parada ofrece una experiencia única, fusionando técnicas modernas con ingredientes locales. Sumérgete
+            en una ruta exclusiva para los paladares más exigentes.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico3.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/historicos/historico1/principal.png"</src>
+            <alt>"Imagen de Ruta Monumental por el Casco Antiguo"</alt>
+        </imagen>
+        <titulo>Itinerario Histórico: Ruta por el Casco Antiguo</titulo>
+        <descripcion>
+            Explora la historia de Santiago de Compostela a través de sus monumentos más emblemáticos. En este itinerario
+            recorrerás las calles empedradas del casco antiguo, descubriendo la arquitectura medieval y los secretos que
+            encierran sus edificios históricos. Desde la majestuosa Catedral hasta los antiguos monasterios y plazas
+            llenas de historia, sumérgete en un viaje al pasado que te transportará a la época del auge del Camino de
+            Santiago.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-historicos/historico1.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/historicos/historico2/principal.png"</src>
+            <alt>"Imagen de Ruta de los Conventos Históricos"</alt>
+        </imagen>
+        <titulo>Itinerario Histórico: Ruta de los Conventos Históricos</titulo>
+        <descripcion>
+            Explora la historia religiosa de Santiago de Compostela a través de algunos de sus conventos más importantes.
+            Este itinerario te permitirá conocer espacios de gran valor arquitectónico y cultural, todos ellos testigos
+            de siglos de historia monástica. El recorrido incluye conventos situados en el casco antiguo y alrededores
+            de la ciudad, con opciones de transporte público entre algunos de ellos.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-historicos/historico2.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/naturales/natural1/principal.png"</src>
+            <alt>"Imagen de Senderismo entre Montes y Parques de Santiago"</alt>
+        </imagen>
+        <titulo>Itinerario Natural: Senderismo entre Montes y Parques</titulo>
+        <descripcion>
+            Este itinerario combina el disfrute de la naturaleza en dos de los parques más emblemáticos de Santiago, con
+            la energía de la subida al Monte Pedroso. Disfruta de vistas panorámicas, flora autóctona y un ambiente
+            relajante a lo largo del recorrido.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural1.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>un-itinerario</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/naturales/natural2/principal.png"</src>
+            <alt>"Imagen de Relajación y Naturaleza en los Parques Urbanos"</alt>
+        </imagen>
+        <titulo>Itinerario Natural: Relajación en los Parques Urbanos</titulo>
+        <descripcion>
+            Si buscas una caminata tranquila, este itinerario a través de los parques urbanos de Santiago te permitirá
+            disfrutar del entorno natural sin alejarte demasiado de la ciudad. Perfecto para desconectar, respirar aire
+            fresco y admirar hermosos jardines y espacios verdes.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural2.html"
+        </enlaceplus>
+    </TARJETA>
+
+    <TARJETA>
+        <class>vacia</class>
+        <imagen>
+            <src>"../assets/images/itinerarios/naturales/natural2/principal.png"</src>
+            <alt>"Imagen de botón de like"</alt>
+        </imagen>
+        <titulo>Vacío</titulo>
+        <descripcion>
+            ¿Todavía no tienes favoritos? Prueba a pulsar el botón de "me gusta" en un plato, evento, lugar o itinerario y luego vuelve aquí.
+        </descripcion>
+        <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural2.html"
+        </enlaceplus>
+    </TARJETA>
+
+
 
 
     <showables>

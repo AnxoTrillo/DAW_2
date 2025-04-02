@@ -74,6 +74,7 @@
         @media (max-width: 600px){grid-template-columns: 1fr;}
 
         article {
+            display: block;
             position: relative;
             box-sizing: border-box;
             border-radius: var(--radius);
@@ -95,7 +96,7 @@
                     object-position: top;
                 }
             }
-            h3{margin: 10px 0;}
+            h3{margin: 10px 0;text-align: center}
             p{margin: 0 0 80px 0;
                 padding: 0;
                 font-size: var(--16);
@@ -133,6 +134,9 @@
         }
         .un-evento{
             background:#6D5130;
+        }
+        .un-itinerario{
+            background:#585549;
         }
 
     }
