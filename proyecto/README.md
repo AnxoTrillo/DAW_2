@@ -4,8 +4,7 @@
 ## CSS:
     Un-Lugar turistico
     Restaurantes
-    Un-plato
-    restaurante
+    Un-restaurante
     Una-festividad
     Un-concierto
     
