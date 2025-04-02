@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, noarchive">
     <title>Magosto</title>
-    <link rel="stylesheet" href="../../assets/styles/festividad.css">
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/una-festividad.css">
 </head>
 <body>
     <header>
@@ -30,41 +31,52 @@
         <section class="titulo-principal">
             <h1>Magosto</h1><p>El Magosto es una de las fiestas más queridas del otoño en Galicia, celebrada en noviembre. Esta festividad gira en torno a la castaña asada y el vino nuevo, en una tradición que une a amigos y familiares alrededor del fuego. En Santiago, es común ver celebraciones en plazas y parques, con música tradicional y actividades para todas las edades. Es una ocasión perfecta para disfrutar del folclore gallego en un ambiente cálido y acogedor.</p>
         </section>
-        
-        <section class="actividades">
-            <h2>Actividades Destacadas</h2>
-            <ul>
-                <li><strong>Asado de castañas:</strong> Disfruta del aroma y sabor de las castañas recién asadas en las plazas de Santiago.</li>
-                <li><strong>Música y bailes tradicionales:</strong> Bandas de gaitas y grupos de danzas llenan las calles de ambiente festivo.</li>
-                <li><strong>Cuentacuentos y leyendas:</strong> Relatos populares sobre la tradición del Magosto y sus raíces celtas.</li>
-                <li><strong>Rutas de senderismo:</strong> Excursiones organizadas para disfrutar del paisaje otoñal de Galicia.</li>
-            </ul>
-        </section>
-        
-        <section class="lugares">
-            <h2>¿Dónde disfrutar de la fiesta?</h2>
-            <p>El Magosto se celebra en distintos puntos de Santiago de Compostela, pero los lugares más emblemáticos son:</p>
-            <ol>
-                <li><strong>Parque de la Alameda:</strong> Donde se organizan asados de castañas y actuaciones musicales.</li>
-                <li><strong>Monte Pedroso:</strong> Punto de encuentro para senderismo y reuniones al aire libre.</li>
-                <li><strong>Plaza de O Toural:</strong> Lugar de conciertos y mercados de productos otoñales.</li>
-            </ol>
-        </section>
-        
-        <section class="galeria">
 
-            <div class="imagenes"><figure><img src="../../assets/images/eventos/festividades/magosto/carrusel1.webp" alt="Magosto Carrusel 1"></figure>
-                <figure><img src="../../assets/images/eventos/festividades/magosto/carrusel2.webp" alt="Magosto Carrusel 1"></figure>
-                <figure><img src="../../assets/images/eventos/festividades/magosto/carrusel3.webp" alt="Magosto Carrusel 1"></figure>
-            </div>
+        <section class="contenedor">
+            <article class="actividades">
+                <h2>Actividades Destacadas</h2>
+                <ul>
+                    <li><strong>Asado de castañas:</strong> Disfruta del aroma y sabor de las castañas recién asadas en las plazas de Santiago.</li>
+                    <li><strong>Música y bailes tradicionales:</strong> Bandas de gaitas y grupos de danzas llenan las calles de ambiente festivo.</li>
+                    <li><strong>Cuentacuentos y leyendas:</strong> Relatos populares sobre la tradición del Magosto y sus raíces celtas.</li>
+                    <li><strong>Rutas de senderismo:</strong> Excursiones organizadas para disfrutar del paisaje otoñal de Galicia.</li>
+                </ul>
+            </article>
+
+            <article class="lugares">
+                <h2>¿Dónde disfrutar de la fiesta?</h2>
+                <ol>
+                    <li><strong>Parque de la Alameda:</strong> Donde se organizan asados de castañas y actuaciones musicales.</li>
+                    <li><strong>Monte Pedroso:</strong> Punto de encuentro para senderismo y reuniones al aire libre.</li>
+                    <li><strong>Plaza de O Toural:</strong> Lugar de conciertos y mercados de productos otoñales.</li>
+                </ol>
+            </article>
         </section>
-        
-        <section class="mapa-interactivo">
-            <h2>Mapa de Eventos</h2>
-            <div id="map-container">
-                <!-- Aquí se insertará el mapa interactivo con JavaScript -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../assets/images/eventos/festividades/magosto/carrusel1.png"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/images/eventos/festividades/magosto/carrusel2.png"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/images/eventos/festividades/magosto/carrusel3.png"
+                         class="d-block w-100" alt="...">
+                </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         
         <section class="comentarios">
             <h2>Comentarios y Valoraciones</h2>
@@ -115,6 +127,7 @@
     </nav>
     <h3>&copy; 2025 Caminos de Santiago</h3>
 </footer>
+<script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
 <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
 <script src="../../assets/javascript/jquery/hamburger.js"></script>
 </body>

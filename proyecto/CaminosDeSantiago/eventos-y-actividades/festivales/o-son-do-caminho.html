@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, noarchive">
     <title>O Son do Camiño</title>
-
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/styles/un-evento.css">
-
-
 </head>
 <body>
 <header>
@@ -72,17 +70,30 @@
         <a href="https://osondocamino.es/" target="_blank" class="boton-comprar">Comprar Entradas</a>
     </article>
 
-    <section class="carrusel-fotos">
-        <h2>Imágenes</h2>
-        <div class="imagenes">
-            <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel1.webp"
-                         alt="O Son do Camiño Carrusel 1"></figure>
-            <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel2.webp"
-                         alt="O Son do Camiño Carrusel 2"></figure>
-            <figure><img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel3.webp"
-                         alt="O Son do Camiño Carrusel 3"></figure>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel1.png"
+                     class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel2.png"
+                     class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/eventos/festivales/o-son-do-caminho/carrusel3.png"
+                     class="d-block w-100" alt="...">
+            </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <section class="patrocinadores">
         <div class="logos">
@@ -137,5 +148,6 @@
 </footer>
 <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
 <script src="../../assets/javascript/jquery/hamburger.js"></script>
+<script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
 </body>
 </html>

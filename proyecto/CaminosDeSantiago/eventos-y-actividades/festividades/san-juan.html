@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, noarchive">
     <title>Noche de San Juan</title>
-    <link rel="stylesheet" href="../../assets/styles/festividad.css">
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/styles/una-festividad.css">
 </head>
 <body>
     <header>
@@ -30,41 +31,54 @@
         <section class="titulo-principal">
             <h1>Noite de San Xoán</h1><p>La Noche de San Juan, celebrada el 23 de junio, es una de las festividades más especiales en Santiago de Compostela. Conocida por sus hogueras y rituales ancestrales, esta noche es un momento de purificación y alegría. </p>
         </section>
-        
-        <section class="tradiciones">
-            <h2>Tradiciones y Rituales</h2>
-            <ul>
-                <li><strong>Hogueras:</strong> Se encienden en plazas y barrios para quemar lo viejo y atraer buena suerte.</li>
-                <li><strong>Saltar la hoguera:</strong> Un ritual que se cree que purifica y protege contra la mala suerte.</li>
-                <li><strong>Baño de hierbas:</strong> Se dejan hierbas aromáticas en agua durante la noche para lavarse la cara al amanecer.</li>
-                <li><strong>Sardinas asadas:</strong> Un plato tradicional que no puede faltar en la celebración.</li>
-            </ul>
-        </section>
-        
-        <section class="lugares">
-            <h2>¿Dónde celebrar la Noche de San Juan?</h2>
-            <p>En Santiago, algunos de los lugares más populares para vivir esta festividad son:</p>
-            <ol>
-                <li><strong>La Alameda:</strong> Un punto central con hogueras y música en vivo.</li>
-                <li><strong>Barrio de San Pedro:</strong> Celebraciones con ambiente tradicional y actividades culturales.</li>
-                <li><strong>Playa Fluvial de Chaián:</strong> Una opción perfecta para disfrutar de la noche junto al agua.</li>
-            </ol>
-        </section>
-        
-        <section class="galeria">
 
-            <div class="imagenes"><figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel1.webp" alt="San Juan Carrusel 1"></figure>
-                <figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel2.webp" alt="San Juan Carrusel 2"></figure>
-                <figure><img src="../../assets/images/eventos/festividades/sanjuan/carrusel3.webp" alt="San Juan Carrusel 3"></figure>
-            </div>
+        <section class="contenedor">
+            <article class="actividades">
+                <h2>Actividades Destacadas</h2>
+                <ul>
+                    <li><strong>Hogueras:</strong> Se encienden en plazas y barrios para quemar lo viejo y atraer buena suerte.</li>
+                    <li><strong>Saltar la hoguera:</strong> Un ritual que se cree que purifica y protege contra la mala suerte.</li>
+                    <li><strong>Baño de hierbas:</strong> Se dejan hierbas aromáticas en agua durante la noche para lavarse la cara al amanecer.</li>
+                    <li><strong>Sardinas asadas:</strong> Un plato tradicional que no puede faltar en la celebración.</li>
+                </ul>
+            </article>
+
+            <article class="lugares">
+                <h2>¿Dónde celebrar la Noche de San Juan?</h2>
+                <ol>
+                    <li><strong>La Alameda:</strong> Un punto central con hogueras y música en vivo.</li>
+                    <li><strong>Barrio de San Pedro:</strong> Celebraciones con ambiente tradicional y actividades culturales.</li>
+                    <li><strong>Playa Fluvial de Chaián:</strong> Una opción perfecta para disfrutar de la noche junto al agua.</li>
+                </ol>
+            </article>
         </section>
-        
-        <section class="mapa-interactivo">
-            <h2>Mapa de Zonas de Celebración</h2>
-            <div class="map-container">
-                <!-- Aquí se insertará el mapa interactivo con JavaScript -->
+
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../assets/images/eventos/festividades/sanjuan/carrusel1.png"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/images/eventos/festividades/sanjuan/carrusel2.png"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/images/eventos/festividades/sanjuan/carrusel3.png"
+                         class="d-block w-100" alt="...">
+                </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
          
         <section class="comentarios">
             <h2>Comentarios y Valoraciones</h2>
@@ -115,6 +129,7 @@
     </nav>
     <h3>&copy; 2025 Caminos de Santiago</h3>
 </footer>
+<script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
 <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
 <script src="../../assets/javascript/jquery/hamburger.js"></script>
 </body>

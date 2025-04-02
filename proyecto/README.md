@@ -1,13 +1,7 @@
-# proyectoDAW1
-??? Mapas de itinerarios??? JavaScript?
-
 ## CSS:
     Un-Lugar turistico
     Restaurantes
     Un-restaurante
-    Una-festividad
-    CARRUSELES DE FOTOS EN Festivales
-    
 
 * Calendario en las páginas de eventos (conciertos, festivales, festividades y exposiciones)
 * Mapas en páginas de itinerarios gastronómicos, históricos, naturales ????????
