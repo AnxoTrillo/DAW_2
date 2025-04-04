@@ -1,0 +1,275 @@
+@import "styles.css";
+
+.banner-restaurante {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+
+    figure {
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        filter: brightness(70%);
+        object-fit: cover;
+        object-position: center;
+        max-height: 250px;
+
+        img{
+            width:100%;
+            object-fit: cover;
+            object-position: center;
+            max-height: 250px;
+            filter: brightness(80%);
+        }
+    }
+
+    h1{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        color: azure;
+    }
+
+    button {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 100%;
+        bottom: 25px;
+        right: 5%;
+        font-size: 24px;
+        background: rgba(200, 200, 200, 80%);
+    }
+}
+
+.descripcion-restaurante{
+    p, h3, ul{
+        text-align: center;
+    }
+    ul{
+        margin-top: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li{
+        margin-top: 7px;
+    }
+    h3{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    a{
+        color: black;
+    }
+}
+
+.pagina-oficial{
+
+    margin: 50px 0;
+    p{
+        text-align: center;
+    }
+    a{
+        border-right: var(--radius);
+        box-shadow: var(--sombra);
+        padding: 20px ;
+        margin: auto;
+        display: block;
+        color: white;
+        font-size: var(--24);
+        background-color: var(--gris);
+        text-decoration: none;
+        text-align: center;
+        width: 50vw;
+    }
+}
+
+.contenedor {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+
+
+    .contacto, .mapa{
+        border-radius: var(--radius);
+        min-height: 280px;
+        box-shadow: var(--sombra);
+    }
+
+    .contacto {
+        width: 40%;
+        padding: 10px;
+        flex: 1;
+        h2{
+            margin-left: 20px;
+        }
+        background:  var(--beige);
+        li, a{
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: black;
+        }
+    }
+
+    .mapa {
+        flex: 2;
+        margin:0;
+        padding:0;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+        .contacto, .mapa {
+            flex: none;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mapa iframe{
+            height: 350px;
+        }
+    }
+}
+
+
+.comentarios{
+    box-sizing: border-box;
+    background: var(--gris);
+    margin: 3% var(--paddings);
+    padding: 0 0 2% 0;
+    border-radius: var(--radius);
+    height: auto;
+    box-shadow: var(--sombra);
+    align-content: center;
+
+    h2{
+        margin-left: 30px;
+    }
+    p{
+        margin: 15px 15px 15px 30px;
+        font-size: var(--16);
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        gap: 10px;
+        max-width: 700px;
+        margin: auto;
+        align-items: center;
+    }
+
+    label {
+        font-weight: 600;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    input, textarea, button {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 15px;
+    }
+
+    textarea {
+        height: 90px;
+        resize: vertical;
+    }
+
+    label[for="nombre"] {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    input {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    button {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        background-color: var(--grisclaro);
+        color: black;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    label[for="comentario"] {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    textarea {
+        grid-column: 2 / 5;
+        grid-row: 2 / 5;
+    }
+}
+
+@media (max-width: 670px) {
+    .comentarios form {
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+
+        input#nombre, textarea{
+            margin-left: 30px;
+        }
+
+        label[for="nombre"] {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+
+        input {
+            grid-column: 1 / 4;
+            grid-row: 2;
+        }
+
+        label[for="comentario"] {
+            grid-column: 1 / 2;
+            grid-row: 3;
+        }
+
+        textarea {
+            grid-column: 1 / 5;
+            grid-row: 4 / 6;
+        }
+
+        button {
+            grid-column: 4 / 5;
+            grid-row: 2;
+            background-color: var(--grisclaro);
+            color: black;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    }
+}
