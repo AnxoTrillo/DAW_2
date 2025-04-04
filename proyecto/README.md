@@ -13,6 +13,9 @@
     Fase 1: consejos, botones carrusel de tarjetas, extras
     Fase 2: decir que cambiamos cosas en los anteriores (let, const, for ...), cookies (arrow), hamburguer (jquery)
     Fase 3: json y xml
+
+
+
 * Poner el botón de like en conciertos y exposiciones, chequear que funciona likearlo todo
 * poner el script en todas las paginas con botones
 * comprobar y espachurrar todas las páginas
