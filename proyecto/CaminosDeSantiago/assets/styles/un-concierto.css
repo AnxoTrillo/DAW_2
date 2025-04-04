@@ -1,6 +1,7 @@
 @import url("./styles.css");
 
 .titulo-principal {
+    position: relative;
     figure, img {
         margin: 0;
         padding: 0;
@@ -18,11 +19,24 @@
         width: 100%;
         text-align: center;
         color: azure;
-        bottom: 64%;
+        top: 58%;
     }
 
     p {
         font-weight: bold;
+    }
+
+    button {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 100%;
+        bottom: 70px;
+        right: 5%;
+        font-size: 24px;
+        background: rgba(200, 200, 200, 80%);
     }
 }
 
