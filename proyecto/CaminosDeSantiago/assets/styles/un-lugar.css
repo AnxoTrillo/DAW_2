@@ -1,0 +1,99 @@
+@import "styles.css";
+
+
+.imagen-principal {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    figure, img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        filter: brightness(70%);
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        max-height: 250px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        top: 58%;
+    }
+
+    button {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 100%;
+        bottom: 20px;
+        right: 5%;
+        font-size: 24px;
+        background: rgba(200, 200, 200, 80%);
+    }
+}
+
+.informacion{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    .descripcion{
+        box-shadow: var(--sombra);
+        border-radius: var(--radius);
+        padding: 20px;
+        background-color: var(--beige);
+        grid-column: span 12;
+    }
+    .historia{
+        box-shadow: var(--sombra);
+        border-radius: var(--radius);
+        padding: 20px;
+        background-color: var(--moss);
+        grid-column: span 8;
+        p:nth-child(3){
+            display: none;
+        }
+    }
+    .detalles{
+        box-shadow: var(--sombra);
+        border-radius: var(--radius);
+        padding: 20px;
+        background-color: var(--gris);
+        grid-column: span 4;
+    }
+}
+
+.media{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    .carrusel{
+        box-shadow: var(--sombra);
+        h2{
+            display: none;
+        }
+        border-radius: var(--radius);
+        grid-column: span 4;
+        background-color: var(--grisclaro);
+    }
+    .mapa{
+        h2{
+            display: none;
+        }
+        grid-column: span 7/-1;
+        iframe{
+            box-shadow: var(--sombra);
+            border-radius: var(--radius);
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

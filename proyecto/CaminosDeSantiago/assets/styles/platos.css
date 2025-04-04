@@ -21,10 +21,10 @@
         padding: 3px;
         background-color: #BCC2DB;
         color: #0B2600;
-        border: none;
     }
 
     .carousel-inner {
+        box-shadow: var(--sombra);
         padding: 2em;
         background-color: var(--grisclaro);
         border-radius: 20px;
@@ -36,6 +36,7 @@
         width: 6vh;
         height: 6vh;
         border-radius: 20px;
+        border: 3px solid azure;
         top: 50%;
         transform: translateY(-50%);
 
@@ -64,6 +65,7 @@
         figure {
             height: 22vw;
             width: 100%;
+            align-items: center;
             img{
                 height: 100%;
                 width: 100%;

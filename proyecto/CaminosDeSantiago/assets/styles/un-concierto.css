@@ -46,10 +46,13 @@
     box-sizing: border-box;
     text-align: center;
 
-    a {
+    a{
         background: var(--gris);
         width: 100%;
         padding: 30px 60px;
+        @media (max-width: 800px) {
+            padding: 30px 40px;
+        }
         border-radius: var(--radius);
         box-shadow: var(--sombra);
         color: azure;

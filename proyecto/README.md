@@ -14,6 +14,7 @@
     Fase 3: json y xml
 
 
-
-* comprobar y espachurrar todas las páginas
-* ponerle el botón de like a las paginas que no lo tienen aun
+* comprobar y espachurrar todas las páginas:
+  * hechas las de mapas, favs, extras, conciertos, fests, festivales
+  * hechas las de platos, index
+* ASEGURARSE DE ARREGLAR EL CSS DE ITINERARIOS

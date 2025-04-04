@@ -1,5 +1,6 @@
 @import "styles.css";
 
+
 .contenedor{
     display: flex;
     justify-content: space-between;
@@ -21,19 +22,35 @@
 }
 
 .actividades{
+    box-shadow: var(--sombra);
     width: 55%;
     background-color: var(--beige);
 }
 
 .lugares{
+    box-shadow: var(--sombra);
     width: 40%;
     background-color: var(--moss);
+}
+
+@media (max-width: 800px){
+    .actividades{
+        box-shadow: var(--sombra);
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lugares{
+        box-shadow: var(--sombra);
+        width: 100%;
+    }
 }
 
 #carouselExample{
     margin: 0 var(--paddings);
     align-items: center;
     .carousel-inner{
+        box-shadow: var(--sombra);
         border-radius: var(--radius);
     }
 
@@ -56,6 +73,7 @@
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
+        border:2px solid grey;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 20px;
