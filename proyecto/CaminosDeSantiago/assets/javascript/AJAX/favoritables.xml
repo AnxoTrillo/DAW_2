@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MAIN>
-
-    <!---->
-
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/abastos/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/abastos/carrusel1.png"</src>
             <alt>"Imagen de Mercado de Abastos"</alt>
         </imagen>
         <titulo>Mercado de Abastos</titulo>
         <descripcion>
             El Mercado de Abastos es uno de los lugares más auténticos y vibrantes de Santiago de Compostela, un espacio
             donde tradición, cultura y gastronomía se unen para ofrecer una experiencia única tanto a locales como a
-            visitantes. Este mercado es el segundo lugar más visitado de la ciudad, después de la Catedral, y se ha
-            convertido en un punto de referencia no solo para la compra de productos frescos, sino también como un lugar
-            para degustar y disfrutar de la esencia gallega.
+            visitantes.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/mercado-de-abastos.html"
         </enlaceplus>
@@ -24,15 +19,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/toural/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/toural/carrusel1.png"</src>
             <alt>"Imagen de O Toural"</alt>
         </imagen>
         <titulo>O Toural</titulo>
         <descripcion>
             La Plaza de O Toural es uno de los espacios más icónicos y representativos del casco histórico de Santiago
             de Compostela. Este lugar, que combina la historia con la vida cotidiana de la ciudad, ha sido desde tiempos
-            remotos un punto de encuentro para los compostelanos. Su ubicación estratégica, a las puertas del casco
-            antiguo y cerca de la emblemática Rúa do Franco, la convierte en un lugar lleno de vida y actividad.
+            remotos un punto de encuentro para los compostelanos.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/o-toural.html"
         </enlaceplus>
@@ -41,16 +35,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/abastos/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/abastos/carrusel1.png"</src>
             <alt>"Imagen de Plaza de Abastos"</alt>
         </imagen>
         <titulo>Plaza de Abastos</titulo>
         <descripcion>
             La Plaza de Abastos es uno de los lugares más vibrantes y auténticos de Santiago de Compostela, y no es solo
             un mercado, sino un punto de encuentro para locales y visitantes. Ubicada en el corazón del casco histórico,
-            este mercado es el segundo lugar más visitado de la ciudad después de la Catedral. Su arquitectura,
-            compuesta por pabellones de granito, le da un carácter histórico que refuerza su importancia como un símbolo
-            del patrimonio cultural gallego.
+            este mercado es el segundo lugar más visitado de la ciudad después de la Catedral.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/plaza-de-abastos.html"
         </enlaceplus>
@@ -59,13 +51,12 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/cervantes/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/cervantes/carrusel1.png"</src>
             <alt>"Imagen de Plaza de Cervantes"</alt>
         </imagen>
         <titulo>Plaza de Cervantes</titulo>
         <descripcion>
-            La Plaza de Cervantes es uno de los espacios más emblemáticos de Santiago de Compostela, situada en el
-            corazón del casco histórico de la ciudad. Esta plaza, rodeada de edificios históricos, destaca por su
+            Esta plaza, rodeada de edificios históricos, destaca por su
             ambiente tranquilo y su belleza arquitectónica. Es el lugar perfecto para disfrutar de un paseo relajado y
             admirar la historia de la ciudad.
         </descripcion>
@@ -76,7 +67,7 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/quintana/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/quintana/carrusel1.png"</src>
             <alt>"Imagen de Plaza de la Quintana"</alt>
         </imagen>
         <titulo>Plaza de la Quintana</titulo>
@@ -92,15 +83,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/platerias/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/platerias/carrusel1.png"</src>
             <alt>"Imagen de Plaza de Platerías"</alt>
         </imagen>
         <titulo>Plaza de Platerías</titulo>
         <descripcion>
             La Plaza de Platerías es una de las cuatro plazas que rodean la Catedral de Santiago de Compostela y destaca
             por su belleza y simbolismo histórico. Su elemento central es la Fuente de los Caballos, una fuente barroca
-            del siglo XIX que representa a cuatro caballos con figuras mitológicas y símbolos relacionados con el agua y
-            la fertilidad.
+            del siglo XIX.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/plaza-de-platerias.html"
         </enlaceplus>
@@ -109,16 +99,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/obradoiro/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/obradoiro/carrusel1.png"</src>
             <alt>"Imagen de Plaza del Obradoiro"</alt>
         </imagen>
         <titulo>Plaza del Obradoiro</titulo>
         <descripcion>
             La Plaza del Obradoiro es el corazón de Santiago de Compostela, un espacio cargado de simbolismo e historia.
             Es conocida mundialmente como el punto final del Camino de Santiago, donde miles de peregrinos llegan cada
-            año tras recorrer kilómetros de rutas que convergen en esta ciudad. Su nombre, "Obradoiro", proviene del
-            taller de canteros que trabajaban en la construcción de la majestuosa fachada barroca de la Catedral, que
-            domina la plaza y es su principal protagonista.
+            año tras recorrer kilómetros de rutas que convergen en esta ciudad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/plaza-del-obradoiro.html"
         </enlaceplus>
@@ -127,16 +115,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-culturales/plaza-roja/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-culturales/plaza-roja/carrusel1.png"</src>
             <alt>"Imagen de Plaza Roja"</alt>
         </imagen>
         <titulo>Plaza Roja</titulo>
         <descripcion>
             La Plaza Roja, conocida también como "Praza Roxa", es un espacio contemporáneo situado en el Ensanche de
             Santiago de Compostela. Es un punto de encuentro popular para locales y estudiantes debido a su céntrica
-            ubicación y su diseño funcional. Aunque el nombre pueda recordar a otras plazas con ese título, la Plaza
-            Roja de Santiago se caracteriza por su entorno urbano y moderno, siendo un reflejo del crecimiento de la
-            ciudad más allá del casco histórico.
+            ubicación y su diseño funcional.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-culturales/plaza-roja.html"
         </enlaceplus>
@@ -145,17 +131,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/pedroso/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/pedroso/carrusel1.png"</src>
             <alt>"Imagen de Monte Pedroso"</alt>
         </imagen>
         <titulo>Monte Pedroso</titulo>
         <descripcion>
             El Monte Pedroso es uno de los puntos más altos de la ciudad de Santiago de Compostela, ideal para aquellos
-            que buscan escapar del bullicio urbano y disfrutar de la naturaleza. A tan solo unos minutos del centro de
-            la ciudad, este monte ofrece rutas de senderismo de diferentes niveles de dificultad, con paisajes que
-            combinan bosques de pinos, praderas y vistas espectaculares de la ciudad y sus alrededores. Es un lugar
-            perfecto para practicar deportes al aire libre, hacer un picnic o simplemente relajarse mientras se
-            contempla el horizonte gallego.
+            que buscan escapar del bullicio urbano y disfrutar de la naturaleza.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/monte-pedroso.html"
         </enlaceplus>
@@ -164,19 +146,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/alameda/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/alameda/carrusel1.png"</src>
             <alt>"Imagen de Parque de la Alameda"</alt>
         </imagen>
         <titulo>Parque de la Alameda</titulo>
         <descripcion>
             El Parque de la Alameda es uno de los espacios verdes más emblemáticos de Santiago de Compostela, conocido
-            por su tranquilizante ambiente natural y sus vistas espectaculares de la Catedral de Santiago. Este parque,
-            situado en pleno corazón de la ciudad, combina la belleza de jardines históricos, paseos arborizados y
-            esculturas que adornan su paisaje, como las famosas "Marías", dos figuras de hierro que se han convertido en
-            un símbolo de la ciudad. Es el lugar ideal para un paseo relajante, disfrutar de la flora local y tomar
-            fotografías panorámicas de la Catedral desde diferentes ángulos. Además, el parque alberga una amplia
-            variedad de árboles y plantas, lo que lo convierte en un refugio perfecto para quienes buscan un poco de paz
-            en la ciudad.
+            por su tranquilizante ambiente natural y sus vistas espectaculares de la Catedral de Santiago.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/parque-alameda.html"
         </enlaceplus>
@@ -185,17 +161,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/belvis/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/belvis/carrusel1.png"</src>
             <alt>"Imagen de Parque de Belvís"</alt>
         </imagen>
         <titulo>Parque de Belvís</titulo>
         <descripcion>
             El Parque de Belvís es uno de los espacios verdes más tranquilos y pintorescos de Santiago de Compostela.
             Situado cerca del casco histórico, este parque combina amplias praderas, senderos sinuosos y vistas
-            espectaculares de la ciudad. Su diseño, que respeta las pendientes naturales del terreno, lo convierte en un
-            lugar perfecto para un paseo relajado o para disfrutar de un picnic al aire libre. El parque también es
-            conocido por albergar restos arqueológicos y por su proximidad al convento de Belvís, un rincón histórico de
-            gran valor cultural.
+            espectaculares de la ciudad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/parque-de-belvis.html"
         </enlaceplus>
@@ -204,16 +177,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/bonaval/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/bonaval/carrusel1.png"</src>
             <alt>"Imagen de Parque de Bonaval"</alt>
         </imagen>
         <titulo>Parque de Bonaval</titulo>
         <descripcion>
             El Parque de Bonaval, diseñado por el arquitecto Álvaro Siza, es un oasis de tranquilidad en pleno casco
             histórico de Santiago de Compostela. Este espacio combina naturaleza, historia y modernidad, al estar
-            ubicado en los terrenos del antiguo convento de Santo Domingo de Bonaval. Sus amplias zonas verdes, rodeadas
-            de muros históricos y caminos serpenteantes, ofrecen un lugar perfecto para pasear, relajarse o disfrutar de
-            las vistas panorámicas de la ciudad y el valle del Sar.
+            ubicado en los terrenos del antiguo convento de Santo Domingo de Bonaval.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/parque-de-bonaval.html"
         </enlaceplus>
@@ -222,15 +193,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/granell/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/granell/carrusel1.png"</src>
             <alt>"Imagen de Parque Eugenio Granell"</alt>
         </imagen>
         <titulo>Parque Eugenio Granell</titulo>
         <descripcion>
             El Parque Eugenio Granell es uno de los espacios verdes más grandes y dinámicos de Santiago de Compostela.
             Este extenso parque cuenta con amplias áreas para caminar, correr, practicar deportes o simplemente
-            relajarse rodeado de naturaleza. Ubicado en el ensanche de la ciudad, es un punto de encuentro para locales
-            y visitantes, gracias a su fácil acceso y su variada oferta de actividades al aire libe.
+            relajarse rodeado de naturaleza.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/parque-eugenio-granell.html"
         </enlaceplus>
@@ -239,16 +209,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/espacios-naturales/sar/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/espacios-naturales/sar/carrusel1.png"</src>
             <alt>"Imagen de Río Sar"</alt>
         </imagen>
         <titulo>Río Sar</titulo>
         <descripcion>
             El Río Sar, que da nombre a la comarca de Santiago de Compostela, es un espacio natural de gran belleza que
             recorre la ciudad y sus alrededores. Este río atraviesa una serie de zonas verdes y parques, proporcionando
-            un entorno perfecto para paseos tranquilos, rutas de senderismo y actividades al aire libre. Su curso
-            serpenteante y sus riberas repletas de vegetación autóctona lo convierten en un lugar ideal para disfrutar
-            de la naturaleza y la serenidad a pocos pasos de la ciudad.
+            un entorno perfecto para paseos tranquilos, rutas de senderismo y actividades al aire libre.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/espacios-naturales/rio-sar.html"
         </enlaceplus>
@@ -257,16 +225,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/catedral/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/catedral/carrusel1.png"</src>
             <alt>"Imagen de Catedral de Santiago"</alt>
         </imagen>
         <titulo>Catedral de Santiago</titulo>
         <descripcion>
             La Catedral de Santiago de Compostela es uno de los monumentos más emblemáticos de España y el destino final
-            de miles de peregrinos que recorren el Camino de Santiago cada año. Este impresionante templo es una obra
-            maestra que combina estilos arquitectónicos románico, gótico y barroco, destacando tanto por su grandeza
-            como por su profundo simbolismo espiritual. Además de ser un centro de culto religioso, la Catedral es un
-            referente cultural e histórico que ha marcado la identidad de Galicia y de toda Europa.
+            de miles de peregrinos que recorren el Camino de Santiago cada año.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/catedral-de-santiago.html"
         </enlaceplus>
@@ -275,7 +240,7 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/orfas/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/orfas/carrusel1.png"</src>
             <alt>"Imagen de Convento de las Orfas"</alt>
         </imagen>
         <titulo>Convento de las Orfas</titulo>
@@ -291,16 +256,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/belvis/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/belvis/carrusel1.png"</src>
             <alt>"Imagen de Convento de Belvís"</alt>
         </imagen>
         <titulo>Convento de Belvís</titulo>
         <descripcion>
             El Convento de Belvís, situado en una colina que ofrece vistas panorámicas de Santiago de Compostela, es un
-            lugar emblemático de la ciudad, conocido por su atmósfera serena, sus jardines y su claustro. Su
-            arquitectura de estilo renacentista y su ubicación en un entorno natural lo convierten en un punto de
-            referencia para quienes buscan paz y reflexión en la ciudad. En el interior, los visitantes pueden disfrutar
-            de una impresionante colección de arte sacro, que refleja la rica historia del convento.
+            lugar emblemático de la ciudad, conocido por su atmósfera serena, sus jardines y su claustro.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/convento-de-belvis.html"
         </enlaceplus>
@@ -309,16 +271,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/sanfrancisco/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/sanfrancisco/carrusel1.png"</src>
             <alt>"Imagen de Convento de San Francisco"</alt>
         </imagen>
         <titulo>Convento de San Francisco</titulo>
         <descripcion>
             El Convento de San Francisco es uno de los principales puntos de interés histórico y cultural de Santiago de
-            Compostela, ubicado en una zona tranquila de la ciudad. Su iglesia, de estilo barroco, es conocida por su
-            impresionante fachada y su altar mayor, que alberga una serie de detalles artísticos y escultóricos de gran
-            valor. El convento, además de su función religiosa, es un centro cultural que acoge un museo dedicado a la
-            historia franciscana, donde los visitantes pueden conocer más sobre la tradición y el legado de la orden.
+            Compostela, ubicado en una zona tranquila de la ciudad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/convento-san-francisco.html"
         </enlaceplus>
@@ -327,7 +286,7 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/hostalreyes/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/hostalreyes/carrusel1.png"</src>
             <alt>"Imagen de Hostal de los Reyes Católicos"</alt>
         </imagen>
         <titulo>Hostal de los Reyes Católicos</titulo>
@@ -335,10 +294,7 @@
             El Hostal de los Reyes Católicos, situado en la majestuosa Plaza del Obradoiro, es uno de los edificios más
             representativos de Santiago de Compostela. Su construcción comenzó en 1499 por orden de los Reyes Católicos,
             con el fin de albergar y asistir a los peregrinos que llegaban a la ciudad como parte del Camino de
-            Santiago. La imponente fachada plateresca del edificio, junto con su interior decorado con elegancia,
-            convierten a este lugar en un referente arquitectónico de la ciudad. Actualmente, el Hostal de los Reyes
-            Católicos funciona como un Parador de lujo, ofreciendo a sus huéspedes la posibilidad de disfrutar de un
-            ambiente histórico y confortable.
+            Santiago.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/hostal-reyes-catolicos.html"
         </enlaceplus>
@@ -347,17 +303,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/pinario/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/pinario/carrusel1.png"</src>
             <alt>"Imagen de Monasterio de San Martín Pinario"</alt>
         </imagen>
         <titulo>Monasterio de San Martín Pinario</titulo>
         <descripcion>
             El Monasterio de San Martín Pinario es uno de los conjuntos arquitectónicos más imponentes y relevantes de
-            Santiago de Compostela, siendo el segundo más grande de la ciudad tras la Catedral. Su construcción comenzó
-            en el siglo XVI por la orden de los benedictinos, y a lo largo de los siglos ha ido combinando diversos
-            estilos arquitectónicos, entre los que destacan el renacentista y el barroco. El monasterio es conocido por
-            su majestuosa fachada, sus claustros y la impresionante iglesia, que alberga detalles artísticos y
-            escultóricos de gran valor.
+            Santiago de Compostela, siendo el segundo más grande de la ciudad tras la Catedral.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/monasterio-san-martin-pinario.html"
         </enlaceplus>
@@ -366,18 +318,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/fonseca/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/fonseca/carrusel1.png"</src>
             <alt>"Imagen de Pazo de Fonseca"</alt>
         </imagen>
         <titulo>Pazo de Fonseca</titulo>
         <descripcion>
             El Pazo de Fonseca es uno de los edificios más emblemáticos y antiguos de Santiago de Compostela,
-            destacándose tanto por su valor histórico como arquitectónico. Construido en el siglo XVI por el arzobispo
-            Alonso de Fonseca, su arquitectura combina elementos del Renacimiento con detalles del estilo plateresco, lo
-            que le confiere una gran majestuosidad. El edificio es conocido por su impresionante fachada y su elegante
-            patio interior, que han sido cuidadosamente preservados a lo largo de los siglos. Actualmente, alberga la
-            Biblioteca de la Universidad de Santiago de Compostela, siendo un lugar tanto de estudio como de admiración
-            arquitectónica.
+            destacándose tanto por su valor histórico como arquitectónico.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/pazo-de-fonseca.html"
         </enlaceplus>
@@ -386,18 +333,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/raxoi/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/raxoi/carrusel1.png"</src>
             <alt>"Imagen de Pazo de Raxoi"</alt>
         </imagen>
         <titulo>Pazo de Raxoi</titulo>
         <descripcion>
             El Pazo de Raxoi es uno de los edificios más emblemáticos de Santiago de Compostela, situado en la Plaza del
             Obradoiro, justo frente a la Catedral. Este majestuoso edificio de estilo neoclásico fue construido en el
-            siglo XVIII y es una de las mejores muestras de la arquitectura civil de esa época en la ciudad. Su elegante
-            fachada y sus detalles arquitectónicos hacen de él un lugar destacado, no solo por su belleza, sino también
-            por su importancia institucional. Actualmente, alberga la sede del Ayuntamiento de Santiago de Compostela y
-            la Presidencia de la Xunta de Galicia, siendo un centro de la actividad política y administrativa de la
-            región.
+            siglo XVIII y es una de las mejores muestras de la arquitectura civil de esa época en la ciudad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/pazo-de-raxoi.html"
         </enlaceplus>
@@ -406,14 +349,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/monumentos/bonaval/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/monumentos/bonaval/carrusel1.png"</src>
             <alt>"Imagen de Santo Domingo de Bonaval"</alt>
         </imagen>
         <titulo>Santo Domingo de Bonaval</titulo>
         <descripcion>
             Santo Domingo de Bonaval es un emblemático convento situado en Santiago de Compostela, que actualmente
-            alberga el Museo do Pobo Galego y el Panteón de Gallegos Ilustres. Este lugar combina historia, arte y
-            cultura en un entorno único.
+            alberga el Museo do Pobo Galego y el Panteón de Gallegos Ilustres.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/monumentos/santo-domingo-bonaval.html"
         </enlaceplus>
@@ -422,17 +364,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/cgac/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/cgac/carrusel1.png"</src>
             <alt>"Imagen de Centro de Arte Contemporánea"</alt>
         </imagen>
         <titulo>Centro de Arte Contemporánea</titulo>
         <descripcion>
             El Centro de Arte Contemporáneo de Santiago de Compostela (MACSA) es uno de los principales espacios
             dedicados al arte contemporáneo en la ciudad, y un referente cultural tanto a nivel gallego como
-            internacional. Inaugurado en 1995, su edificio fue diseñado por el arquitecto portugués Álvaro Siza Vieira,
-            un destacado nombre de la arquitectura moderna. El centro se centra en la exhibición de arte contemporáneo,
-            con un enfoque en las tendencias más actuales del panorama artístico, mostrando obras tanto de artistas
-            gallegos como de renombre internacional.
+            internacional.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/dentro-de-arte-contemporaneo.html"
         </enlaceplus>
@@ -441,16 +380,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/cidade-cultura/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/cidade-cultura/carrusel1.png"</src>
             <alt>"Imagen de Cidade da Cultura"</alt>
         </imagen>
         <titulo>Cidade da Cultura</titulo>
         <descripcion>
             La Cidade da Cultura de Galicia es un complejo arquitectónico y cultural situado en el monte Gaiás, en las
-            afueras de Santiago de Compostela. Diseñada por el arquitecto estadounidense Peter Eisenman, la Ciudad de la
-            Cultura es una de las obras más emblemáticas de la arquitectura contemporánea en Galicia y un símbolo de la
-            modernidad en la región. Inaugurada en 2011, la Ciudad alberga varios espacios dedicados a la cultura, el
-            arte, la música, la literatura y la ciencia, incluyendo museos, auditorios y bibliotecas.
+            afueras de Santiago de Compostela.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/cidade-da-cultura.html"
         </enlaceplus>
@@ -459,16 +395,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/catedralicio/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/catedralicio/carrusel1.png"</src>
             <alt>"Imagen de Museo Catedralicio"</alt>
         </imagen>
         <titulo>Museo Catedralicio</titulo>
         <descripcion>
             El Museo Catedralicio de Santiago de Compostela es uno de los museos más importantes de la ciudad, dedicado
             a preservar y exponer la rica herencia artística, histórica y religiosa asociada a la Catedral de Santiago
-            de Compostela. Situado en el interior de la propia Catedral, en la zona del Claustro, el museo alberga una
-            impresionante colección de arte sacro, documentos históricos y piezas arqueológicas que reflejan la
-            evolución de este emblemático monumento y su influencia en la historia de la ciudad y de Galicia.
+            de Compostela.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/museo-catedralicio.html"
         </enlaceplus>
@@ -477,15 +411,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/historia-natural/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/historia-natural/carrusel1.png"</src>
             <alt>"Imagen de Museo de Historia Natural"</alt>
         </imagen>
         <titulo>Museo de Historia Natural</titulo>
         <descripcion>
             El Museo de Historia Natural de la Universidad de Santiago de Compostela es un espacio dedicado a la
-            difusión del conocimiento científico y la preservación de la biodiversidad. Situado en el Parque Vista
-            Alegre, el museo cuenta con modernas instalaciones que albergan una amplia colección de especies animales,
-            vegetales y minerales, provenientes de diversas partes del mundo.
+            difusión del conocimiento científico y la preservación de la biodiversidad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/museo-de-historia-natural.html"
         </enlaceplus>
@@ -494,17 +426,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/pobo-galego/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/pobo-galego/carrusel1.png"</src>
             <alt>"Imagen de Museo do Pobo Galego"</alt>
         </imagen>
         <titulo>Museo do Pobo Galego</titulo>
         <descripcion>
             El Museo do Pobo Galego es uno de los espacios más destacados de Santiago de Compostela para explorar y
-            entender la cultura, historia y tradiciones de Galicia. Situado en el antiguo Convento de Santo Domingo de
-            Bonaval, el museo ofrece una rica colección que abarca desde la prehistoria de la región hasta sus
-            costumbres más contemporáneas. El convento, un edificio monumental que data del siglo XIII, ha sido
-            restaurado y adaptado para albergar el museo, lo que le da un carácter único, fusionando historia,
-            arquitectura y cultura en un mismo lugar.
+            entender la cultura, historia y tradiciones de Galicia.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/museo-do-pobo-galego.html"
         </enlaceplus>
@@ -513,15 +441,13 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/granell/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/granell/carrusel1.png"</src>
             <alt>"Imagen de Museo Eugenio Granell"</alt>
         </imagen>
         <titulo>Museo Eugenio Granell</titulo>
         <descripcion>
             El Museo Eugenio Granell, ubicado en la Praza do Toural en pleno corazón de Santiago de Compostela, está
-            dedicado al legado del artista surrealista Eugenio Granell. Este museo es el único en España dedicado
-            exclusivamente al arte surrealista, y su colección incluye tanto obras del propio Granell como de otros
-            artistas de renombre del movimiento, como Joan Miró y Marcel Duchamp.
+            dedicado al legado del artista surrealista Eugenio Granell.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/museo-granell.html"
         </enlaceplus>
@@ -530,17 +456,14 @@
     <TARJETA>
         <class>un-lugar</class>
         <imagen>
-            <src>"../assets/images/lugares/museos/peregrinaciones/carrusel1.webp"</src>
+            <src>"../assets/images/lugares/museos/peregrinaciones/carrusel1.png"</src>
             <alt>"Imagen de Museo de las Peregrinaciones"</alt>
         </imagen>
         <titulo>Museo de las Peregrinaciones</titulo>
         <descripcion>
             El Museo de las Peregrinaciones de Santiago de Compostela es un espacio dedicado a explorar y preservar la
             historia del Camino de Santiago y el fenómeno de las peregrinaciones, que desde la Edad Media han atraído a
-            miles de personas a la ciudad. Este museo ofrece una visión completa del impacto cultural, religioso y
-            social de las peregrinaciones a lo largo de los siglos, con una colección que abarca arte, objetos
-            litúrgicos, vestimenta tradicional, mapas y relatos históricos relacionados con el peregrinaje hacia la
-            tumba del apóstol Santiago.
+            miles de personas a la ciudad.
         </descripcion>
         <enlaceplus>"../lugares-turisticos/museos/museo-peregrinaciones.html"
         </enlaceplus>
@@ -554,7 +477,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/charca/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/charca/carrusel1.png"</src>
             <alt>"Imagen de Restaurante A Charca"</alt>
         </imagen>
         <titulo>Restaurante A Charca</titulo>
@@ -568,7 +491,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/noiesa/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/noiesa/carrusel3.png"</src>
             <alt>"Imagen de Restaurante A Noiesa"</alt>
         </imagen>
         <titulo>Restaurante A Noiesa</titulo>
@@ -582,7 +505,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/vaquinha/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/vaquinha/carrusel1.png"</src>
             <alt>"Imagen de Restaurante A Vaquiña"</alt>
         </imagen>
         <titulo>Restaurante A Vaquiña</titulo>
@@ -596,7 +519,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/bombero/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/bombero/carrusel1.png"</src>
             <alt>"Imagen de Restaurante El Bombero"</alt>
         </imagen>
         <titulo>Restaurante El Bombero</titulo>
@@ -610,7 +533,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/galiciana/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/galiciana/carrusel1.png"</src>
             <alt>"Imagen de La Galiciana"</alt>
         </imagen>
         <titulo>La Galiciana</titulo>
@@ -624,7 +547,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/tita/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/tita/carrusel2.png"</src>
             <alt>"Imagen de Restaurante La Tita"</alt>
         </imagen>
         <titulo>Restaurante La Tita</titulo>
@@ -638,7 +561,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/meson42/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/meson42/carrusel1.png"</src>
             <alt>"Imagen de Mesón 42"</alt>
         </imagen>
         <titulo>Mesón 42</titulo>
@@ -652,7 +575,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/piorno/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/piorno/piorno_tarjeta.webp"</src>
             <alt>"Imagen de Pulpería O Piorno"</alt>
         </imagen>
         <titulo>Pulpería O Piorno</titulo>
@@ -666,7 +589,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/redes/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/redes/carrusel3.png"</src>
             <alt>"Imagen de Restaurante Redes Compostela"</alt>
         </imagen>
         <titulo>Restaurante Redes Compostela</titulo>
@@ -680,7 +603,7 @@
     <TARJETA>
         <class>un-local</class>
         <imagen>
-            <src>"../assets/images/gastronomia/restaurantes/orella/carrusel1.webp"</src>
+            <src>"../assets/images/gastronomia/restaurantes/orella/orella_tarjeta.webp"</src>
             <alt>"Imagen de Restaurante Orella"</alt>
         </imagen>
         <titulo>Restaurante Orella</titulo>
@@ -810,7 +733,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festivales/cineuropa/cineuropa.png"</src>
+            <src>"../assets/images/eventos/festivales/cineuropa/cineuropa_tarjeta.webp"</src>
             <alt>"Imagen de Festival Cineuropa"</alt>
         </imagen>
         <titulo>Festival Cineuropa</titulo>
@@ -824,7 +747,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festivales/o-son-do-caminho/son.png"</src>
+            <src>"../assets/images/eventos/festivales/o-son-do-caminho/son_tarjeta.webp"</src>
             <alt>"Imagen de Festival O Son do Camiño"</alt>
         </imagen>
         <titulo>Festival O Son do Camiño</titulo>
@@ -838,7 +761,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festivales/resurrection/resurrection.png"</src>
+            <src>"../assets/images/eventos/festivales/resurrection/resurrection_tarjeta.webp"</src>
             <alt>"Imagen de Resurrection Fest"</alt>
         </imagen>
         <titulo>Resurrection Fest</titulo>
@@ -852,7 +775,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festivales/wos-x-son/wos.png"</src>
+            <src>"../assets/images/eventos/festivales/wos-x-son/wos_tarjeta.webp"</src>
             <alt>"Imagen de Festival WOS x Son Estrella Galicia"</alt>
         </imagen>
         <titulo>Festival WOS x Son Estrella Galicia</titulo>
@@ -869,7 +792,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/exposiciones/mandala.png"</src>
+            <src>"../assets/images/eventos/exposiciones/mandala_tarjeta.webp"</src>
             <alt>"Imagen de Exposición Mandala (Arc en ciel)"</alt>
         </imagen>
         <titulo>Exposición Mandala (Arc en ciel)</titulo>
@@ -883,7 +806,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/exposiciones/otras-historias.png"</src>
+            <src>"../assets/images/eventos/exposiciones/otras-historias_tarjeta.webp"</src>
             <alt>"Imagen de Exposición Otras Historias Posibles"</alt>
         </imagen>
         <titulo>Exposición Otras Historias Posibles</titulo>
@@ -897,7 +820,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/exposiciones/tattoo.png"</src>
+            <src>"../assets/images/eventos/exposiciones/tattoo_tarjeta.webp"</src>
             <alt>"Imagen de Exposición Tattoo (Arte bajo la piel)"</alt>
         </imagen>
         <titulo>Exposición Tattoo (Arte bajo la piel)</titulo>
@@ -911,7 +834,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/exposiciones/vinhetas.png"</src>
+            <src>"../assets/images/eventos/exposiciones/vinhetas_tarjeta.webp"</src>
             <alt>"Imagen de Exposición O Camiño en Viñetas"</alt>
         </imagen>
         <titulo>Exposición O Camiño en Viñetas</titulo>
@@ -926,7 +849,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festividades/apostol/carrusel1.webp"</src>
+            <src>"../assets/images/eventos/festividades/apostol/carrusel3.png"</src>
             <alt>"Imagen de Fiestas del Apóstol"</alt>
         </imagen>
         <titulo>Fiestas del Apóstol</titulo>
@@ -940,7 +863,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festividades/ascension/carrusel1.webp"</src>
+            <src>"../assets/images/eventos/festividades/ascension/carrusel1.png"</src>
             <alt>"Imagen de Fiestas de la Ascensión"</alt>
         </imagen>
         <titulo>Fiestas de la Ascensión</titulo>
@@ -954,7 +877,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festividades/entroido/carrusel1.webp"</src>
+            <src>"../assets/images/eventos/festividades/entroido/carrusel3.png"</src>
             <alt>"Imagen de Entroido"</alt>
         </imagen>
         <titulo>Entroido</titulo>
@@ -968,7 +891,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festividades/magosto/carrusel1.webp"</src>
+            <src>"../assets/images/eventos/festividades/magosto/carrusel3.png"</src>
             <alt>"Imagen de Magosto"</alt>
         </imagen>
         <titulo>Magosto</titulo>
@@ -982,7 +905,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/festividades/sanjuan/carrusel1.webp"</src>
+            <src>"../assets/images/eventos/festividades/sanjuan/carrusel1.png"</src>
             <alt>"Imagen de Noite de San Xoán"</alt>
         </imagen>
         <titulo>Noite de San Xoán</titulo>
@@ -998,7 +921,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/conciertos/calamaro.png"</src>
+            <src>"../assets/images/eventos/conciertos/calamaro_tarjeta.webp"</src>
             <alt>"Imagen de Andrés Calamaro en Santiago de Compostela"</alt>
         </imagen>
         <titulo>Andrés Calamaro en Santiago de Compostela</titulo>
@@ -1012,7 +935,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/conciertos/love-of-lesbian.png"</src>
+            <src>"../assets/images/eventos/conciertos/love-of-lesbian_tarjeta.webp"</src>
             <alt>"Imagen de Love Of Lesbian en Santiago de Compostela"</alt>
         </imagen>
         <titulo>Love Of Lesbian en Santiago de Compostela</titulo>
@@ -1026,7 +949,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/conciertos/saratoga.png"</src>
+            <src>"../assets/images/eventos/conciertos/saratoga_tarjeta.webp"</src>
             <alt>"Imagen de Saratoga en Santiago de Compostela"</alt>
         </imagen>
         <titulo>Saratoga en Santiago de Compostela</titulo>
@@ -1040,7 +963,7 @@
     <TARJETA>
         <class>un-evento</class>
         <imagen>
-            <src>"../assets/images/eventos/conciertos/xoel-lopez.png"</src>
+            <src>"../assets/images/eventos/conciertos/xoel-lopez_tarjeta.webp"</src>
             <alt>"Imagen de Xoel López en Santiago de Compostela"</alt>
         </imagen>
         <titulo>Xoel López en Santiago de Compostela</titulo>
@@ -1061,11 +984,7 @@
         <titulo>Itinerario Gastronómico: Ruta de los Sabores del Mar</titulo>
         <descripcion>
             Descubre la esencia de la cocina marina en Santiago de Compostela con este itinerario diseñado para los
-            amantes del marisco. Recorrerás locales emblemáticos donde el pulpo, los percebes y otros manjares del
-            océano se fusionan con la tradición gallega. Sumérgete en una experiencia culinaria que combina historia y
-            modernidad en cada plato. Además, disfrutarás de un ambiente acogedor, en el que los sabores del Atlántico
-            se mezclan con la hospitalidad gallega. Este recorrido no solo te llevará a probar recetas icónicas, sino
-            que también te permitirá conocer más sobre los ingredientes y técnicas de la gastronomía local.
+            amantes del marisco.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico1.html"
         </enlaceplus>
@@ -1080,9 +999,7 @@
         <titulo>Itinerario Gastronómico: Ruta de los Sabores del Campo</titulo>
         <descripcion>
             Explora la tradición rural de Santiago de Compostela a través de una ruta que celebra los sabores auténticos
-            del campo. Este itinerario te llevará a descubrir locales y mesones donde se preparan platos robustos y
-            llenos de carácter, utilizando ingredientes frescos de la tierra. Sumérgete en la cultura gastronómica local
-            y disfruta de una experiencia culinaria que une historia y autenticidad.
+            del campo.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico2.html"
         </enlaceplus>
@@ -1097,9 +1014,6 @@
         <titulo>Itinerario Gastronómico: Ruta de la Cocina de Autor</titulo>
         <descripcion>
             Explora la vanguardia culinaria en Santiago de Compostela con este itinerario que destaca la cocina de autor.
-            Descubre restaurantes y locales donde chefs innovadores reinterpretan la tradición gallega con creatividad.
-            Cada parada ofrece una experiencia única, fusionando técnicas modernas con ingredientes locales. Sumérgete
-            en una ruta exclusiva para los paladares más exigentes.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-gastronomicos/gastronomico3.html"
         </enlaceplus>
@@ -1113,11 +1027,7 @@
         </imagen>
         <titulo>Itinerario Histórico: Ruta por el Casco Antiguo</titulo>
         <descripcion>
-            Explora la historia de Santiago de Compostela a través de sus monumentos más emblemáticos. En este itinerario
-            recorrerás las calles empedradas del casco antiguo, descubriendo la arquitectura medieval y los secretos que
-            encierran sus edificios históricos. Desde la majestuosa Catedral hasta los antiguos monasterios y plazas
-            llenas de historia, sumérgete en un viaje al pasado que te transportará a la época del auge del Camino de
-            Santiago.
+            Explora la historia de Santiago de Compostela a través de sus monumentos más emblemáticos.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-historicos/historico1.html"
         </enlaceplus>
@@ -1132,9 +1042,6 @@
         <titulo>Itinerario Histórico: Ruta de los Conventos Históricos</titulo>
         <descripcion>
             Explora la historia religiosa de Santiago de Compostela a través de algunos de sus conventos más importantes.
-            Este itinerario te permitirá conocer espacios de gran valor arquitectónico y cultural, todos ellos testigos
-            de siglos de historia monástica. El recorrido incluye conventos situados en el casco antiguo y alrededores
-            de la ciudad, con opciones de transporte público entre algunos de ellos.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-historicos/historico2.html"
         </enlaceplus>
@@ -1149,8 +1056,7 @@
         <titulo>Itinerario Natural: Senderismo entre Montes y Parques</titulo>
         <descripcion>
             Este itinerario combina el disfrute de la naturaleza en dos de los parques más emblemáticos de Santiago, con
-            la energía de la subida al Monte Pedroso. Disfruta de vistas panorámicas, flora autóctona y un ambiente
-            relajante a lo largo del recorrido.
+            la energía de la subida al Monte Pedroso.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural1.html"
         </enlaceplus>
@@ -1165,8 +1071,7 @@
         <titulo>Itinerario Natural: Relajación en los Parques Urbanos</titulo>
         <descripcion>
             Si buscas una caminata tranquila, este itinerario a través de los parques urbanos de Santiago te permitirá
-            disfrutar del entorno natural sin alejarte demasiado de la ciudad. Perfecto para desconectar, respirar aire
-            fresco y admirar hermosos jardines y espacios verdes.
+            disfrutar del entorno natural sin alejarte demasiado de la ciudad.
         </descripcion>
         <enlaceplus>"../itinerarios-recomendados/itinerarios-naturales/natural2.html"
         </enlaceplus>
