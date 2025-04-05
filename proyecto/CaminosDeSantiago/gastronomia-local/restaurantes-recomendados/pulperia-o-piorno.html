@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, noarchive">
     <title>Pulpería O Piorno</title>
+    <link rel="stylesheet" href="../../assets/styles/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/styles/un-restaurante.css">
 </head>
 <body>
@@ -73,17 +74,30 @@
         </article>
     </section>
 
-    <section class="carrusel-fotos">
-        <h2>Galería</h2>
-        <div class="imagenes">
-            <figure><img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel1.webp"
-                         alt="Pulpería O Piorno 1"></figure>
-            <figure><img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel2.webp"
-                         alt="Pulpería O Piorno 2"></figure>
-            <figure><img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel3.webp"
-                         alt="Pulpería O Piorno 3"></figure>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel1.png"
+                     class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel2.png"
+                     class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/gastronomia/restaurantes/piorno/carrusel3.png"
+                     class="d-block w-100" alt="...">
+            </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <section class="comentarios">
         <h2>Comentarios y Valoraciones</h2>
@@ -139,6 +153,6 @@
 <script src="../../assets/javascript/jquery/jquery-3.7.1.min.js"></script>
 <script src="../../assets/javascript/jquery/hamburger.js"></script>
 <script src="../../assets/javascript/boton_like.js"></script>
-
+<script src="../../assets/javascript/bootstrap.bundle.min.js"></script>
 </body>
 </html>

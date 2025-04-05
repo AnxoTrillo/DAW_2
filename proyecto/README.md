@@ -1,7 +1,6 @@
 ## CSS:
-    Un-Lugar turistico
-    Un-restaurante -> poner carrusel y corregir css con bootstrap puesto
-    Pasar fotos de lugar y restaurante carrusel a PNG
+    Pasar fotos de lugar a PNG
+    Lugares turísticos -> responsividad: poner cada elemento del grid en una fila distina y quitar el párrafo de sugerencias
 
 * Calendario en las páginas de eventos (conciertos, festivales, festividades y exposiciones)
 * Mapas en páginas de itinerarios gastronómicos, históricos, naturales ????????

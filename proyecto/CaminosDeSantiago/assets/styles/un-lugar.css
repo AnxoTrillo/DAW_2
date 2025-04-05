@@ -1,28 +1,40 @@
 @import "styles.css";
-
-
 .imagen-principal {
+    box-sizing: border-box;
+    width: 100%;
     padding: 0;
     margin: 0;
+    display: flex;
     position: relative;
-    figure, img {
-        margin: 0;
-        padding: 0;
-        width: 100%;
+
+    figure {
+        box-sizing: border-box;
         overflow: hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
         filter: brightness(70%);
-        height: 200px;
         object-fit: cover;
         object-position: center;
         max-height: 250px;
+
+        img{
+            width:100%;
+            object-fit: cover;
+            object-position: center;
+            max-height: 250px;
+            filter: brightness(80%);
+        }
     }
 
-    h1 {
+    h1{
+        display: flex;
         position: absolute;
         width: 100%;
+        bottom: 30px;
+        justify-content: center;
         text-align: center;
         color: azure;
-        top: 58%;
     }
 
     button {
@@ -32,7 +44,7 @@
         cursor: pointer;
         border: none;
         border-radius: 100%;
-        bottom: 20px;
+        bottom: 25px;
         right: 5%;
         font-size: 24px;
         background: rgba(200, 200, 200, 80%);
@@ -53,7 +65,7 @@
         background-color: var(--beige);
         grid-column: span 12;
     }
-    .historia{
+    .historia, .curiosidades{
         box-shadow: var(--sombra);
         border-radius: var(--radius);
         padding: 20px;
@@ -75,13 +87,15 @@
 .media{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    .carrusel{
+    margin-bottom: 30px;
+    gap: 20px;
+    .carousel{
         box-shadow: var(--sombra);
         h2{
             display: none;
         }
         border-radius: var(--radius);
-        grid-column: span 4;
+        grid-column: span 5;
         background-color: var(--grisclaro);
     }
     .mapa{
@@ -96,4 +110,215 @@
             height: 100%;
         }
     }
+}
+
+#carouselExample{
+    align-items: center;
+    .carousel-inner{
+        box-shadow: var(--sombra);
+        border-radius: var(--radius);
+    }
+
+    img{
+        width: 100%;
+        height: 30vw;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        border:2px solid grey;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 20px;
+        box-shadow: 0 5px 10px #696D7D;
+
+    }
+
+}
+
+p{
+    font-size: 16px;
+}
+
+.sugerencias p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.comentarios{
+    box-sizing: border-box;
+    background: var(--gris);
+    margin: 3% var(--paddings);
+    padding: 0 0 2% 0;
+    border-radius: var(--radius);
+    height: auto;
+    box-shadow: var(--sombra);
+    align-content: center;
+
+    h2{
+        margin-left: 30px;
+    }
+    p{
+        margin: 15px 15px 15px 30px;
+        font-size: var(--16);
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        gap: 10px;
+        max-width: 700px;
+        margin: auto;
+        align-items: center;
+    }
+
+    label {
+        font-weight: 600;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    input, textarea, button {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 15px;
+    }
+
+    textarea {
+        height: 90px;
+        resize: vertical;
+    }
+
+    label[for="nombre"] {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    input {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    button {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        background-color: var(--grisclaro);
+        color: black;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    label[for="comentario"] {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    textarea {
+        grid-column: 2 / 5;
+        grid-row: 2 / 5;
+    }
+}
+
+@media (max-width: 670px) {
+    .comentarios form {
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+
+        input#nombre, textarea{
+            margin-left: 30px;
+        }
+
+        label[for="nombre"] {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+
+        input {
+            grid-column: 1 / 4;
+            grid-row: 2;
+        }
+
+        label[for="comentario"] {
+            grid-column: 1 / 2;
+            grid-row: 3;
+        }
+
+        textarea {
+            grid-column: 1 / 5;
+            grid-row: 4 / 6;
+        }
+
+        button {
+            grid-column: 4 / 5;
+            grid-row: 2;
+            background-color: var(--grisclaro);
+            color: black;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    }
+}
+
+
+*{
+    font-family: "Instrument Sans", sans-serif;
+}
+.imagen-principal {
+    h1{
+        font-weight: 600;
+        padding: 0;
+    }
+    p{
+        margin: 0 30px 15px 30px;
+    }
+    margin-bottom: 30px;
+}
+
+header{
+    line-height: 1.15;
+}
+footer{
+    height: 140px;
+    ul li{
+        line-height: 1;
+    }
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.comentarios h2{
+    margin-top: 15px;
 }
