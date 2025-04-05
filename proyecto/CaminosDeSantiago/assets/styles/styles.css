@@ -190,9 +190,9 @@ header{
             }
         }
     }
-    @media (min-width: 800px) and (max-width:1000px){
-        background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 15% bottom;
-        background-size: 3.5em;
+    @media (min-width: 798px) and (max-width:1000px){
+        background: var(--russian) url('../../assets/images/general/catedralpng-b 1.svg') no-repeat 10% bottom;
+        background-size: 3em;
         ul{
             padding: 0 30px;
             grid-template-columns: repeat(9,1fr);

@@ -14,7 +14,5 @@
     Fase 3: json y xml
 
 
-* comprobar y espachurrar todas las páginas:
-  * hechas las de mapas, favs, extras, conciertos, fests, festivales
-  * hechas las de platos, index
-* ASEGURARSE DE ARREGLAR EL CSS DE ITINERARIOS
+
+* ASEGURARSE DE ARREGLAR EL CSS DE unos ITINERARIOS y de lugares
