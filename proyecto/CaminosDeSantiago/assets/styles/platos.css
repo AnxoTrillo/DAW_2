@@ -212,25 +212,22 @@ footer{
 
     .concierto {
         background: linear-gradient(to bottom, #846E31, #E6D585);
-        box-shadow: var(--sombra);
+        box-shadow: 0 5px 20px #191D2D;
     }
 
     .expo {
         background: linear-gradient(to bottom, rgb(105,99,68), var(--beige));
-        box-shadow: var(--sombra);
-
+        box-shadow: 0 5px 10px #191D2D;
     }
 
     .fest {
         background: linear-gradient(to bottom, #8E6A4F , #BC9F79);
-        box-shadow: var(--sombra);
-
+        box-shadow: 0 5px 10px #191D2D;
     }
 
     .fiestas {
         background: linear-gradient(to bottom, #4F4028 , #6f5735);
-        box-shadow: var(--sombra);
-
+        box-shadow: 0 5px 10px #191D2D;
     }
 }
 

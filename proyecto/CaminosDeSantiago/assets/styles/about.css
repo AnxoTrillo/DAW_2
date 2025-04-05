@@ -189,8 +189,15 @@ section:not(.titulo-principal, .botones, .preguntas, .contactar),.pregunta,.cont
 }
 
 .preguntas {
+    h2{
+        margin:0;
+    }
+    h2:not(:first-child){
+        margin: 60px 0 0 0;
+        padding-bottom: 0;
+    }
     article:not(:first-child) {
-        margin: 30px 0;
+        margin: 15px 0;
     }
     article:last-child{
         margin-bottom: 0;
@@ -281,5 +288,6 @@ section:not(.titulo-principal, .botones, .preguntas, .contactar),.pregunta,.cont
         padding: 0;
     }
 }
+
 
 
