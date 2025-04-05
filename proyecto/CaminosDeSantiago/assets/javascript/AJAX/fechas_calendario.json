@@ -4,103 +4,103 @@
       "nombre": "Xoel López en Santiago de Compostela",
       "tipo": "concierto",
       "fecha": "2025-04-12",
-      "enlace": "link"
+      "enlace": "../conciertos/xoel.html"
     },
     {
       "nombre": "Saratoga en Santiago de Compostela",
       "tipo": "concierto",
       "fecha": "2025-05-24",
-      "enlace": "link"
+      "enlace": "../conciertos/saratoga.html"
     },
     {
       "nombre": "Love Of lesbian en Santiago de Compostela",
       "tipo": "concierto",
       "fecha": "2025-02-28",
-      "enlace": "link"
+      "enlace": "../conciertos/love-of-lesbian.html"
     },
     {
       "nombre": "Andrés Calamaro en Santiago de Compostela",
       "tipo": "concierto",
       "fecha": "2025-06-25",
-      "enlace": "link"
+      "enlace": "../conciertos/calamaro.html"
     },
     {
       "nombre": "Exposición O Camiño en Viñetas",
       "tipo": "expo",
       "fecha": "2025-11-8",
-      "enlace": "link"
+      "enlace": "../exposiciones/vinhetas.html"
     },
     {
       "nombre": "Exposición Mandala (Arc en ciel)",
       "tipo": "expo",
       "fecha": "2025-9-07",
-      "enlace": "link"
+      "enlace": "../exposiciones/mandala.html"
     },
     {
       "nombre": "Exposición Tattoo (Arte bajo la piel)",
       "tipo": "expo",
       "fecha": "2025-04-20",
-      "enlace": "link"
+      "enlace": "../exposiciones/tattoo.html"
     },
     {
       "nombre": "Exposición Otras Historias Posibles",
       "tipo": "expo",
       "fecha": "2025-05-28",
-      "enlace": "link"
+      "enlace": "../exposiciones/otras-historias.html"
     },
     {
       "nombre": "Festival O Son do Camiño",
       "tipo": "fest",
       "fecha": "2025-06-13",
-      "enlace": "https://example.com/o-son-do-camino"
+      "enlace": "../festivales/o-son-do-caminho.html"
     },
     {
       "nombre": "Resurrection Fest",
       "tipo": "fest",
       "fecha": "2025-07-02",
-      "enlace": "https://example.com/resurrection-fest"
+      "enlace": "../festivales/resurrection.html"
     },
     {
       "nombre": "Festival WOS x Son Estrella Galicia",
       "tipo": "fest",
       "fecha": "2025-09-11",
-      "enlace": "https://example.com/wos"
+      "enlace": "../festivales/wos-x-son.html"
     },
     {
       "nombre": "Festival Cineuropa",
       "tipo": "fest",
       "fecha": "2025-11-07",
-      "enlace": "https://example.com/cineuropa"
+      "enlace": "../festivales/cineuropa.html"
     },
     {
       "nombre": "Entroido",
       "tipo": "fiestas",
       "fecha": "2025-02-25",
-      "enlace": "https://example.com/entroido"
+      "enlace": "../festividades/entroido.html"
     },
     {
       "nombre": "Magosto",
       "tipo": "fiestas",
       "fecha": "2025-11-11",
-      "enlace": "https://example.com/magosto"
+      "enlace": "../festividades/magosto"
     },
     {
       "nombre": "Fiestas de la Ascensión",
       "tipo": "fiestas",
       "fecha": "2025-05-29",
-      "enlace": "https://example.com/ascension"
+      "enlace": "../festividades/ascension.html"
     },
     {
       "nombre": "Fiestas del Apóstol",
       "tipo": "fiestas",
       "fecha": "2025-07-25",
-      "enlace": "https://example.com/apostol"
+      "enlace": "../festividades/apostol.html"
     },
     {
       "nombre": "Noche de San Juan",
       "tipo": "fiestas",
       "fecha": "2025-06-23",
-      "enlace": "https://example.com/sanjuan"
+      "enlace": "../festividades/san-juan.html"
     }
   ]
 }

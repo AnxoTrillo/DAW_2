@@ -20,7 +20,7 @@ function verlista(jsonObj) {
 
     for (const evento of primerosEventos) {
         let li=`<li class=\"${evento.tipo}\"><h2>${evento.nombre}</h2>`+
-            `<p>Fecha: ${evento.fecha}</p><p><a href=\"${evento.fecha}\">Visitar</a></p>`+
+            `<p>Fecha: ${evento.fecha}</p><p><a href=\"${evento.enlace}\">Visitar</a></p>`+
     `</li>`;
         lis+=li;
     }
