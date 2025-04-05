@@ -65,7 +65,7 @@
         background-color: var(--beige);
         grid-column: span 12;
     }
-    .historia, .curiosidades{
+    .historia, .curiosidades, .about{
         box-shadow: var(--sombra);
         border-radius: var(--radius);
         padding: 20px;
